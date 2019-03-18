@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Artur L Gower</title>
+    <link>https://arturgower.github.io/project/</link>
+    <description>Recent content in Projects on Artur L Gower</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2017 Artur L Gower</copyright>
+    <lastBuildDate>Wed, 28 Feb 2018 10:01:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://arturgower.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wave Software</title>
+      <link>https://arturgower.github.io/project/wave-software/</link>
+      <pubDate>Wed, 28 Feb 2018 10:01:38 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/project/wave-software/</guid>
+      <description>I write software to efficiently calculate wave scattering between particles, and to calculate effective waves from homogenisation methods.</description>
+    </item>
+    
+    <item>
+      <title>Surface waves and instabilities</title>
+      <link>https://arturgower.github.io/project/surface-solid/</link>
+      <pubDate>Tue, 27 Feb 2018 14:28:52 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/project/surface-solid/</guid>
+      <description>a surface wave or wrinkle.   -- Summary Most biological materials (and industrial) are reinforced with stiff fibres or are under tension. I figure out how these mechanisms influence elastic surface waves and the formation of surface wrinkles. The main reasons to do this are
+ will give us greater control over surface waves or forming textured surfaces (using surface wrinkles). use these surface waves and surface wrinkles to measure biological materials.</description>
+    </item>
+    
+    <item>
+      <title>Entropy GO</title>
+      <link>https://arturgower.github.io/project/entropy_go/</link>
+      <pubDate>Mon, 26 Feb 2018 21:47:27 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/project/entropy_go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple Scattering</title>
+      <link>https://arturgower.github.io/project/multiple-scattering/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/project/multiple-scattering/</guid>
+      <description>I am currently working on multiply scattering in random media. See example video below! I develop methods to calculate the ensemble average of the wave, which I compare with numerical benchmarks based on the multipole method.
+  Back-scattering from a random arrangement of particles.   </description>
+    </item>
+    
+    <item>
+      <title>Industrial Mathematics</title>
+      <link>https://arturgower.github.io/project/industry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/project/industry/</guid>
+      <description>img { float: right; }  -- Examples The projects below come from commercial and industrial challenges.
+  Tracking train tracks How to track a train using only a camera? We designed a method that extracts the curvature of the tracks and removes errors caused by the train jiggling.    The blue is captured from a camera on-board a train. To eliminate the shaking, we formulated an optimization method that recovers the real position of the tracks, in red.</description>
+    </item>
+    
+    <item>
+      <title>The mechanics of soft solids</title>
+      <link>https://arturgower.github.io/project/initial-stress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/project/initial-stress/</guid>
+      <description>Most of my work on elastic solids has been on constitutive equations, that is, mathematically describing the different components of a solid, and how these effect the forces and deformations. With the two main themes being stressed solids and fibre-reinforced solids. I have also explored how to use waves and instabilities to characterise solids.
+Initially stressed solids The driving question is how to mathematically describe the mechanical response of residually stressed solids?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Artur L Gower</title>
+    <link>https://arturgower.github.io/publication/</link>
+    <description>Recent content in Publications on Artur L Gower</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2017 Artur L Gower</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://arturgower.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Multiple Waves Propagate in Random Particulate Materials</title>
+      <link>https://arturgower.github.io/publication/multiple-waves/</link>
+      <pubDate>Thu, 31 Jan 2019 11:59:32 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/multiple-waves/</guid>
+      <description>To the right of the dashed line are particles, whose position has been numerically ensemble averaged. To the left is just a homogenious medium. What is shown here (though faintly) is that more than one transmitted wave exists in an ensemble averaged medium. The paper shows this with much more clarity!</description>
+    </item>
+    
+    <item>
+      <title>MultipleScattering.jl</title>
+      <link>https://arturgower.github.io/publication/scattering-software/</link>
+      <pubDate>Sun, 28 Jan 2018 09:56:28 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/scattering-software/</guid>
+      <description>placing impenetrable particles side-by-side creates the same effect as a solid wall. In this case I left two gaps in the wall, so that as this wave squeezes through two gaps, it interacts with itself, creating a unique diffraction pattern on the right. This figure is a snapshot of this wave for a fixed time.        Similar to the figure above, here we show the absolute magnitude of the wave.</description>
+    </item>
+    
+    <item>
+      <title>Characterising particulate random media from near-surface backscattering: A machine learning approach to predict particle size and concentration</title>
+      <link>https://arturgower.github.io/publication/learning_backscattering/</link>
+      <pubDate>Sat, 13 Jan 2018 20:08:40 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/learning_backscattering/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Reflection from a multi-species material and its transmitted effective wavenumber</title>
+      <link>https://arturgower.github.io/publication/multi-species/</link>
+      <pubDate>Sat, 13 Jan 2018 19:53:40 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/multi-species/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>The constitutive relations of initially stressed incompressible Mooney-Rivlin materials</title>
+      <link>https://arturgower.github.io/publication/initial-mooney/</link>
+      <pubDate>Mon, 27 Nov 2017 15:02:35 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/initial-mooney/</guid>
+      <description>   Illustrates how the virtual stress-free state relates to a formulation purely in terms of stress tensors. B0 is virtual stress-free state, B1 is the initially stressed configuration with internal stress τ, and B2 is the current configuration with Cauchy stress σ.   </description>
+    </item>
+    
+    <item>
+      <title>EffectiveWaves.jl</title>
+      <link>https://arturgower.github.io/publication/effective-wave-software/</link>
+      <pubDate>Sat, 28 Oct 2017 10:29:53 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/effective-wave-software/</guid>
+      <description>The software is designed to calculate effective waves propagating, and scattering from, random materials filled with particles.
+  </description>
+    </item>
+    
+    <item>
+      <title>A new restriction for initially stressed elastic solids</title>
+      <link>https://arturgower.github.io/publication/stress-objectivity/</link>
+      <pubDate>Tue, 27 Jun 2017 10:23:51 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/stress-objectivity/</guid>
+      <description>    This is from an example that illustrates that even uniaxial deformations lead to unphysical results, if our restriction is not satisfied.   </description>
+    </item>
+    
+    <item>
+      <title>Oblique Wrinkles</title>
+      <link>https://arturgower.github.io/publication/oblique-wrinkles/</link>
+      <pubDate>Mon, 27 Feb 2017 14:41:12 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/oblique-wrinkles/</guid>
+      <description>   The wrinkles do not always align in the direction of greatest stress or aligned with the fibres.   </description>
+    </item>
+    
+    <item>
+      <title>Morphology of residually stressed tubular tissues: Beyond the elastic multiplicative decomposition</title>
+      <link>https://arturgower.github.io/publication/tube-morphology/</link>
+      <pubDate>Fri, 27 May 2016 15:10:20 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/tube-morphology/</guid>
+      <description>   Illustrates the kind of wrinkling instabilities that appear for different distributions of residual stress. These studies can help explain the morphology of tubular structures. For a growing tissue, like our intestine, to form a specific type of wrinkle, it need only generate the right kind of stress, then the tube will spontaneously wrinkle.   </description>
+    </item>
+    
+    <item>
+      <title>Optimal Cable Positioning</title>
+      <link>https://arturgower.github.io/publication/umbilical/</link>
+      <pubDate>Wed, 13 Apr 2016 20:25:45 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/umbilical/</guid>
+      <description>Summary A subsea control umbilical is a collection of electrical, fibre optic cables, and fluid conduits bound together. In offshore oil and gas field developments, umbilicals are critical so they need to be robust and flexible.
+There is not limit to the number of possible designs that the cables can occupy, so it is not possible to just check them all. Instead, we need to allow, mathematically, these cables to be placed any where as long as they do not overlap or break any other given restriction.</description>
+    </item>
+    
+    <item>
+      <title>On residual stresses and homeostasis: an elastic theory of functional adaptation in living matter</title>
+      <link>https://arturgower.github.io/publication/homeostasis-stress/</link>
+      <pubDate>Sun, 27 Mar 2016 15:56:01 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/homeostasis-stress/</guid>
+      <description>   Illustrates a Wapa tree that explodes when cut, because it is releasing a tremendous amount of residual stress.   </description>
+    </item>
+    
+    <item>
+      <title>Higher-order reverse automatic differentiation with emphasis on the third-order</title>
+      <link>https://arturgower.github.io/publication/third-order-ad/</link>
+      <pubDate>Wed, 27 Jan 2016 16:14:45 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/third-order-ad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Initial stress symmetry and its applications in elasticity</title>
+      <link>https://arturgower.github.io/publication/stress-symmetry-2015/</link>
+      <pubDate>Wed, 07 Oct 2015 21:04:51 +0100</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/stress-symmetry-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Connecting the material parameters of soft fibre-reinforced solids with the formation of surface wrinkles</title>
+      <link>https://arturgower.github.io/publication/fibre-wrinkle/</link>
+      <pubDate>Thu, 27 Nov 2014 19:21:07 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/fibre-wrinkle/</guid>
+      <description>Summary When we compress a soft solid enough, it will form wrinkles on its surface, as shown by the figure below.   When a soft solid is sheared enough, it will form wrinkles on its surface. The black lines show the directions of reinforcing fibres.   Most biological materials (and industrial) are reinforced with stiff fibres. Knowing how these wrinkles form
+ will give us greater control when creating textured surfaces.</description>
+    </item>
+    
+    <item>
+      <title>A robust anisotropic hyperelastic formulation for the modelling of soft tissue</title>
+      <link>https://arturgower.github.io/publication/robust-anisotropy/</link>
+      <pubDate>Thu, 27 Nov 2014 16:34:46 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/robust-anisotropy/</guid>
+      <description>   Contour plots illustrating the stresses computed for the standard arterial wall model (HGO-C) and our modified model (MA) after stent deployment. A) von Mises stress q, B) pressure stress -σ hyd, C) triaxiality, D) ratio of axial stress to the circumferential stress σ_zz /σ_θθ.   </description>
+    </item>
+    
+    <item>
+      <title>Elimination of errors from track line detection, In: Train Positioning Using Video Odometry</title>
+      <link>https://arturgower.github.io/publication/train/</link>
+      <pubDate>Sun, 13 Apr 2014 20:40:02 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/train/</guid>
+      <description>Summary    Estimated track in red compared with the camera image in blue. As the train shakes, so does the camera.   --  To increase the number of trains running on each track we have to be able to accurately locate every train, at each moment. GPS can be unreliable because of the multitude of tunnels, so we looked at using a camera mounted on top of the train pointed down at the tracks.</description>
+    </item>
+    
+    <item>
+      <title>Counter-intuitive results in acousto-elasticity</title>
+      <link>https://arturgower.github.io/publication/acousto-elasticity/</link>
+      <pubDate>Fri, 27 Dec 2013 19:51:12 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/acousto-elasticity/</guid>
+      <description>A plane surface wave travelling on the top of a deformed soft solid.   Highlights:
+ We revisit the theory of acousto-elasticity in deformed isotropic solids. Intuition suggests that slowest and the fastest waves should travel along the directions of least and greatest stretch. We find examples where this is not the case, for body and for surface waves. These results complicate accepted protocols for finding the directions of greatest strains.</description>
+    </item>
+    
+    <item>
+      <title>Shear instability in skin tissue</title>
+      <link>https://arturgower.github.io/publication/skin-shear/</link>
+      <pubDate>Mon, 27 May 2013 20:00:17 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/skin-shear/</guid>
+      <description>On the left the skin at rest, on the right we shear the skin until wrinkles form. What can these wrinkles tell us about the skin?   We explore how the alignment of surface wrinkles relate to the directions of the reinforcing fibres in the skin. This technique is used to estimate the Langer lines (directions of greatest tension), which then indicates where incisions are best made for surgery.</description>
+    </item>
+    
+    <item>
+      <title>Detecting Geometric Faults from Measured Data</title>
+      <link>https://arturgower.github.io/publication/geometric-faults/</link>
+      <pubDate>Fri, 27 Apr 2012 12:14:41 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/geometric-faults/</guid>
+      <description>Summary Below is the outline of a wing with a bolt and two plates (green) that were not fitted together correctly (may require zooming in). The method we devised takes an imprecise measurement of this wing (blue) and returns an approximation of the wing (red), see Figure 1. The method also identifies the location and type of features (i.e. the bolt and misaligned plates).
+  The figures bellow (The spiky light blue image) illustrates how the method decomposes the measured data into a feature basis, much like a frequency decomposition.</description>
+    </item>
+    
+    <item>
+      <title>Modelling of abrasive waterjet etching</title>
+      <link>https://arturgower.github.io/publication/waterjet/</link>
+      <pubDate>Tue, 27 Mar 2012 12:49:42 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/waterjet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonlinear Elastodynamics with Radial Symmetry (Elasticidade nao linear com simetria radial)</title>
+      <link>https://arturgower.github.io/publication/radial-elasticity/</link>
+      <pubDate>Sun, 27 Feb 2011 13:01:01 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/radial-elasticity/</guid>
+      <description>Summary The image above shows the story of a wave propagating in a sphere, like a planet, travelling through both time t and space R (distance from origin).
+The wave is an elastic wave with radial symmetry, so we can imagine this as a wave created from the centre of the earth. The colour indicates the amplitude of the wave, with yellow-ish corresponding to no wave. In this image the wave begins at 1km from the centre of the earth, R=1, at time t=0.</description>
+    </item>
+    
+  </channel>
+</rss>

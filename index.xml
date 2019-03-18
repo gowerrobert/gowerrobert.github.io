@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artur L Gower on Artur L Gower</title>
+    <link>https://arturgower.github.io/</link>
+    <description>Recent content in Artur L Gower on Artur L Gower</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2017 Artur L Gower</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Multiple Waves Propagate in Random Particulate Materials</title>
+      <link>https://arturgower.github.io/publication/multiple-waves/</link>
+      <pubDate>Thu, 31 Jan 2019 11:59:32 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/multiple-waves/</guid>
+      <description>
+&lt;figure class=&#34;alignright&#34;&gt;
+    &lt;a href=&#34;https://github.com/jondea/MultipleScattering.jl&#34;&gt;
+        &lt;img src=&#34;./img/gifs/average_scat_harmonic.gif&#34; width=&#34;70%&#34; /&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;To the right of the dashed line are particles, whose position has been numerically ensemble averaged. To the left is just a homogenious medium. What is shown here (though faintly) is that more than one transmitted wave exists in an ensemble averaged medium. The paper shows this with much more clarity!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wave Software</title>
+      <link>https://arturgower.github.io/project/wave-software/</link>
+      <pubDate>Wed, 28 Feb 2018 10:01:38 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/project/wave-software/</guid>
+      <description>&lt;p&gt;I write software to efficiently calculate &lt;a href=&#34;../../publication/scattering-software&#34;&gt;wave scattering between particles&lt;/a&gt;, and to calculate &lt;a href=&#34;../../publication/effective-wave-software&#34;&gt;effective waves&lt;/a&gt; from homogenisation methods.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Surface waves and instabilities</title>
+      <link>https://arturgower.github.io/project/surface-solid/</link>
+      <pubDate>Tue, 27 Feb 2018 14:28:52 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/project/surface-solid/</guid>
+      <description>
+
+&lt;!-- 
+&lt;figure class=&#34;alignright&#34;&gt;
+    
+        &lt;img src=&#34;./img/surface-wave.jpeg&#34; alt=&#34;a surface wave or wrinkle.&#34; width=&#34;50%&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        a surface wave or wrinkle.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+ --&gt;
+
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;Most biological materials (and industrial) are reinforced with stiff fibres or are under tension. I figure out how these mechanisms influence elastic surface waves and the formation of surface wrinkles. The main reasons to do this are&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;will give us greater control over surface waves or forming textured surfaces (using surface wrinkles).&lt;/li&gt;
+&lt;li&gt;use these surface waves and surface wrinkles to measure biological materials.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;point-impact-on-a-surface&#34;&gt;Point impact on a surface&lt;/h2&gt;
+
+&lt;p&gt;When an anisotropic solid is hit at one point, the solid will react by sending waves out in all directions. Because the solid is anisotropic, these waves travel at different speeds in different directions, which creates unique patterns.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure class=&#34;alignright&#34;&gt;
+    
+        &lt;img src=&#34;./img/WaveFront.jpeg&#34; alt=&#34;illustrates how to calculate the surface wave front (red), after one second, from the surface wave speed (green). That is, the length of v is equal to the speed of the surface wave travelling in the v direction. The blue shading shows how overlapping plane waves form the wave front.&#34; width=&#34;70%&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        illustrates how to calculate the surface wave front (red), after one second, from the surface wave speed (green). That is, the length of v is equal to the speed of the surface wave travelling in the v direction. The blue shading shows how overlapping plane waves form the wave front.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;figure class=&#34;alignright&#34;&gt;
+    
+        &lt;img src=&#34;./img/gifs/BodyWaveFrontTrack.gif&#34; alt=&#34;illustrates how overlapping body waves (blue) creates the resulting wave front (red).&#34; width=&#34;70%&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        illustrates how overlapping body waves (blue) creates the resulting wave front (red).
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The work I have done on plane surface waves can be used to predict the result of these point impacts, among other applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Entropy GO</title>
+      <link>https://arturgower.github.io/project/entropy_go/</link>
+      <pubDate>Mon, 26 Feb 2018 21:47:27 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/project/entropy_go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MultipleScattering.jl</title>
+      <link>https://arturgower.github.io/publication/scattering-software/</link>
+      <pubDate>Sun, 28 Jan 2018 09:56:28 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/scattering-software/</guid>
+      <description>
+&lt;figure&gt;
+    &lt;a href=&#34;https://github.com/arturgower/EffectiveWaves.jl/tree/master/examples/concrete&#34;&gt;
+        &lt;img src=&#34;./img/diffraction-slit-re.jpeg&#34; alt=&#34;placing impenetrable particles side-by-side creates the same effect as a solid wall. In this case I left two gaps in the wall, so that as this wave squeezes through two gaps, it interacts with itself, creating a unique diffraction pattern on the right. This figure is a snapshot of this wave for a fixed time.&#34; width=&#34;70%&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        placing impenetrable particles side-by-side creates the same effect as a solid wall. In this case I left two gaps in the wall, so that as this wave squeezes through two gaps, it interacts with itself, creating a unique diffraction pattern on the right. This figure is a snapshot of this wave for a fixed time.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;a href=&#34;https://github.com/arturgower/EffectiveWaves.jl/tree/master/examples/concrete&#34;&gt;
+        &lt;img src=&#34;./img/diffraction-slit-abs.jpeg&#34; alt=&#34;Similar to the figure above, here we show the absolute magnitude of the wave.&#34; width=&#34;70%&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Similar to the figure above, here we show the absolute magnitude of the wave.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Characterising particulate random media from near-surface backscattering: A machine learning approach to predict particle size and concentration</title>
+      <link>https://arturgower.github.io/publication/learning_backscattering/</link>
+      <pubDate>Sat, 13 Jan 2018 20:08:40 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/learning_backscattering/</guid>
+      <description>
+&lt;figure class=&#34;alignright&#34;&gt;
+    &lt;a href=&#34;https://github.com/jondea/MultipleScattering.jl&#34;&gt;
+        &lt;img src=&#34;./img/backscatter.jpg&#34; width=&#34;70%&#34; /&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Reflection from a multi-species material and its transmitted effective wavenumber</title>
+      <link>https://arturgower.github.io/publication/multi-species/</link>
+      <pubDate>Sat, 13 Jan 2018 19:53:40 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/multi-species/</guid>
+      <description>
+&lt;figure class=&#34;alignright&#34;&gt;
+    &lt;a href=&#34;https://arxiv.org/abs/1712.05427&#34;&gt;
+        &lt;img src=&#34;./img/multispecies.jpg&#34; width=&#34;80%&#34; /&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>The constitutive relations of initially stressed incompressible Mooney-Rivlin materials</title>
+      <link>https://arturgower.github.io/publication/initial-mooney/</link>
+      <pubDate>Mon, 27 Nov 2017 15:02:35 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/initial-mooney/</guid>
+      <description>
+&lt;figure class=&#34;alignright&#34;&gt;
+    
+        &lt;img src=&#34;./img/virtual.jpg&#34; alt=&#34;Illustrates how the virtual stress-free state relates to a formulation purely in terms of stress tensors. B0 is virtual stress-free state, B1 is the initially stressed configuration with internal stress τ, and  B2 is the current configuration with Cauchy stress σ.&#34; width=&#34;80%&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Illustrates how the virtual stress-free state relates to a formulation purely in terms of stress tensors. B0 is virtual stress-free state, B1 is the initially stressed configuration with internal stress τ, and  B2 is the current configuration with Cauchy stress σ.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>EffectiveWaves.jl</title>
+      <link>https://arturgower.github.io/publication/effective-wave-software/</link>
+      <pubDate>Sat, 28 Oct 2017 10:29:53 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/effective-wave-software/</guid>
+      <description>&lt;p&gt;The software is designed to calculate effective waves propagating, and scattering from, random materials filled with particles.&lt;/p&gt;
+
+
+&lt;figure class=&#34;alignright&#34;&gt;
+    &lt;a href=&#34;https://github.com/arturgower/EffectiveWaves.jl/tree/master/examples/concrete&#34;&gt;
+        &lt;img src=&#34;./img/compare_concrete.png&#34; width=&#34;100%&#34; /&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>A new restriction for initially stressed elastic solids</title>
+      <link>https://arturgower.github.io/publication/stress-objectivity/</link>
+      <pubDate>Tue, 27 Jun 2017 10:23:51 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/stress-objectivity/</guid>
+      <description>
+&lt;figure class=&#34;alignright&#34;&gt;
+    &lt;a href=&#34;https://arxiv.org/abs/1608.05828&#34;&gt;
+        &lt;img src=&#34;./img/uniaxial.png&#34; alt=&#34;This is from an example that illustrates that even uniaxial deformations lead to unphysical results, if our restriction is not satisfied.&#34; width=&#34;70%&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        This is from an example that illustrates that even uniaxial deformations lead to unphysical results, if our restriction is not satisfied.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Oblique Wrinkles</title>
+      <link>https://arturgower.github.io/publication/oblique-wrinkles/</link>
+      <pubDate>Mon, 27 Feb 2017 14:41:12 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/oblique-wrinkles/</guid>
+      <description>
+&lt;figure class=&#34;alignright&#34;&gt;
+    
+        &lt;img src=&#34;./img/FiberBucklingSolution.jpeg&#34; alt=&#34;The wrinkles do not always align in the direction of greatest stress or aligned with the fibres.&#34; width=&#34;70%&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        The wrinkles do not always align in the direction of greatest stress or aligned with the fibres.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://arturgower.github.io/talk/example-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/talk/example-talk/</guid>
+      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Morphology of residually stressed tubular tissues: Beyond the elastic multiplicative decomposition</title>
+      <link>https://arturgower.github.io/publication/tube-morphology/</link>
+      <pubDate>Fri, 27 May 2016 15:10:20 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/tube-morphology/</guid>
+      <description>
+&lt;figure class=&#34;alignright&#34;&gt;
+    
+        &lt;img src=&#34;./img/tube-table.png&#34; alt=&#34;Illustrates the kind of wrinkling instabilities that appear for different distributions of residual stress. These studies can help explain the morphology of tubular structures. For a growing tissue, like our intestine, to form a specific type of wrinkle, it need only generate the right kind of stress, then the tube will spontaneously wrinkle.&#34; width=&#34;100%&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Illustrates the kind of wrinkling instabilities that appear for different distributions of residual stress. These studies can help explain the morphology of tubular structures. For a growing tissue, like our intestine, to form a specific type of wrinkle, it need only generate the right kind of stress, then the tube will spontaneously wrinkle.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Multiple Scattering</title>
+      <link>https://arturgower.github.io/project/multiple-scattering/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/project/multiple-scattering/</guid>
+      <description>&lt;!-- [header] --&gt;
+
+&lt;!-- image = &#34;headers/wave90.png&#34;
+caption = &#34;My caption 😄&#34; --&gt;
+
+&lt;p&gt;I am currently working on multiply scattering in random media. See example video below! I develop methods to calculate the
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Ensemble_average_(statistical_mechanics)&#34;&gt;ensemble average&lt;/a&gt; of the wave, which I compare with numerical benchmarks based on the multipole method.&lt;/p&gt;
+
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;./img/gifs/backscatter_time2.gif&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Back-scattering from a random arrangement of particles.&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Optimal Cable Positioning</title>
+      <link>https://arturgower.github.io/publication/umbilical/</link>
+      <pubDate>Wed, 13 Apr 2016 20:25:45 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/umbilical/</guid>
+      <description>
+
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;A subsea control umbilical is a collection of electrical, fibre optic cables, and fluid conduits bound together.  In offshore oil and gas field developments, umbilicals are critical so they need to be robust and flexible.&lt;/p&gt;
+
+&lt;p&gt;There is not limit to the number of possible designs that the cables can occupy, so it is not possible to just check them all. Instead, we need to allow, mathematically, these cables to be
+placed any where as long as they do not overlap or break any other given restriction. Naturally this leads us to formulate the problem as an optimisation problem with continuous variables.&lt;/p&gt;
+
+&lt;!-- 
+&lt;figure&gt;
+    
+        &lt;img src=&#34;./img/cables/OptimalCables2Are=Ste=4Stif1.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+ --&gt;
+
+&lt;p&gt;&lt;img style=&#34;width: 350px; float: right;&#34; alt=&#34;&#34; src=&#34;./img/cables/OptimalCables2Are=Ste=4Stif1.png&#34;/&gt;
+&lt;img style=&#34;width: 350px; float: right;&#34; alt=&#34;&#34; src=&#34;./img/cables/OptimalCables2Are=Ste=4Stif4.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;figure-1&#34;&gt;Figure 1:&lt;/h4&gt;
+
+&lt;p&gt;The light green cables are heavy steel cables, darker green are quad cables and the small purple one are fibre optical.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width: 350px; float: right;&#34; alt=&#34;&#34; src=&#34;./img/cables/OptimalCables2Are=Ste=4Stif3.png&#34;/&gt;
+&lt;img style=&#34;width: 350px; float: right;&#34; alt=&#34;&#34; src=&#34;./img/cables/OptimalCables2Are=Ste=4Stif2.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;figure-2&#34;&gt;Figure 2:&lt;/h4&gt;
+
+&lt;p&gt;On the left we see a design which penalised steel cables touching (as it leads to greater wear and tear).
+&lt;!--
+\includegraphics[width=0.42\textwidth]{OptimalCables2Are=Ste=4Stif1}
+\includegraphics[width=0.42\textwidth]{OptimalCables2Are=Ste=4Stif4}\\
+$\mathbf{(1)}$ One layer and cost: 11.9 $C_{area}^{-1}$ \hspace{.2cm} $\mathbf{(2)}$ Two layer and cost: 12.9 $C_{area}^{-1}$
+\includegraphics[width=0.42\textwidth]{OptimalCables2Are=Ste=4Stif3}
+\includegraphics[width=0.42\textwidth]{OptimalCables2Are=Ste=4Stif2} \\
+$\mathbf{(3)}$ Two layer and cost: 13.1 $C_{area}^{-1}$ \hspace{.2cm} $\mathbf{(4)}$ Two layer and cost: 13.1 $C_{area}^{-1}$
+} --&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

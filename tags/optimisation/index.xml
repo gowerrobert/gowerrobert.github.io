@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optimisation on Artur L Gower</title>
+    <link>https://arturgower.github.io/tags/optimisation/</link>
+    <description>Recent content in Optimisation on Artur L Gower</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2017 Artur L Gower</copyright>
+    <lastBuildDate>Sun, 13 Apr 2014 20:40:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://arturgower.github.io/tags/optimisation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Elimination of errors from track line detection, In: Train Positioning Using Video Odometry</title>
+      <link>https://arturgower.github.io/publication/train/</link>
+      <pubDate>Sun, 13 Apr 2014 20:40:02 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/train/</guid>
+      <description>Summary    Estimated track in red compared with the camera image in blue. As the train shakes, so does the camera.   --  To increase the number of trains running on each track we have to be able to accurately locate every train, at each moment. GPS can be unreliable because of the multitude of tunnels, so we looked at using a camera mounted on top of the train pointed down at the tracks.</description>
+    </item>
+    
+    <item>
+      <title>Detecting Geometric Faults from Measured Data</title>
+      <link>https://arturgower.github.io/publication/geometric-faults/</link>
+      <pubDate>Fri, 27 Apr 2012 12:14:41 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/geometric-faults/</guid>
+      <description>Summary Below is the outline of a wing with a bolt and two plates (green) that were not fitted together correctly (may require zooming in). The method we devised takes an imprecise measurement of this wing (blue) and returns an approximation of the wing (red), see Figure 1. The method also identifies the location and type of features (i.e. the bolt and misaligned plates).
+  The figures bellow (The spiky light blue image) illustrates how the method decomposes the measured data into a feature basis, much like a frequency decomposition.</description>
+    </item>
+    
+    <item>
+      <title>Industrial Mathematics</title>
+      <link>https://arturgower.github.io/project/industry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/project/industry/</guid>
+      <description>img { float: right; }  -- Examples The projects below come from commercial and industrial challenges.
+  Tracking train tracks How to track a train using only a camera? We designed a method that extracts the curvature of the tracks and removes errors caused by the train jiggling.    The blue is captured from a camera on-board a train. To eliminate the shaking, we formulated an optimization method that recovers the real position of the tracks, in red.</description>
+    </item>
+    
+  </channel>
+</rss>

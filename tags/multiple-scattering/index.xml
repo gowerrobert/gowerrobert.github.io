@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multiple-scattering on Artur L Gower</title>
+    <link>https://arturgower.github.io/tags/multiple-scattering/</link>
+    <description>Recent content in Multiple-scattering on Artur L Gower</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2017 Artur L Gower</copyright>
+    <lastBuildDate>Sat, 13 Jan 2018 20:08:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://arturgower.github.io/tags/multiple-scattering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Characterising particulate random media from near-surface backscattering: A machine learning approach to predict particle size and concentration</title>
+      <link>https://arturgower.github.io/publication/learning_backscattering/</link>
+      <pubDate>Sat, 13 Jan 2018 20:08:40 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/learning_backscattering/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Multiple Scattering</title>
+      <link>https://arturgower.github.io/project/multiple-scattering/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/project/multiple-scattering/</guid>
+      <description>I am currently working on multiply scattering in random media. See example video below! I develop methods to calculate the ensemble average of the wave, which I compare with numerical benchmarks based on the multipole method.
+  Back-scattering from a random arrangement of particles.   </description>
+    </item>
+    
+  </channel>
+</rss> as this wave squeezes through two gaps, it interacts with itself, creating a unique diffraction pattern on the right. This figure is a snapshot of this wave for a fixed time.        Similar to the figure above, here we show the absolute magnitude of the wave.</description>
+    </item>
+    
+    <item>
+      <title>Reflection from a multi-species material and its transmitted effective wavenumber</title>
+      <link>https://arturgower.github.io/publication/multi-species/</link>
+      <pubDate>Sat, 13 Jan 2018 19:53:40 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/multi-species/</guid>
+      <description>   </description>
+    </item>
+    
+  </channel>
+</rss>

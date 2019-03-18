@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Surface waves on Artur L Gower</title>
+    <link>https://arturgower.github.io/tags/surface-waves/</link>
+    <description>Recent content in Surface waves on Artur L Gower</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2017 Artur L Gower</copyright>
+    <lastBuildDate>Fri, 27 Dec 2013 19:51:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://arturgower.github.io/tags/surface-waves/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Counter-intuitive results in acousto-elasticity</title>
+      <link>https://arturgower.github.io/publication/acousto-elasticity/</link>
+      <pubDate>Fri, 27 Dec 2013 19:51:12 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/acousto-elasticity/</guid>
+      <description>A plane surface wave travelling on the top of a deformed soft solid.   Highlights:
+ We revisit the theory of acousto-elasticity in deformed isotropic solids. Intuition suggests that slowest and the fastest waves should travel along the directions of least and greatest stretch. We find examples where this is not the case, for body and for surface waves. These results complicate accepted protocols for finding the directions of greatest strains.</description>
+    </item>
+    
+  </channel>
+</rss>

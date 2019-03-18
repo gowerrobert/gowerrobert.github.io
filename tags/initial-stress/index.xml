@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Initial-stress on Artur L Gower</title>
+    <link>https://arturgower.github.io/tags/initial-stress/</link>
+    <description>Recent content in Initial-stress on Artur L Gower</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2017 Artur L Gower</copyright>
+    
+	<atom:link href="https://arturgower.github.io/tags/initial-stress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The mechanics of soft solids</title>
+      <link>https://arturgower.github.io/project/initial-stress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/project/initial-stress/</guid>
+      <description>Most of my work on elastic solids has been on constitutive equations, that is, mathematically describing the different components of a solid, and how these effect the forces and deformations. With the two main themes being stressed solids and fibre-reinforced solids. I have also explored how to use waves and instabilities to characterise solids.
+Initially stressed solids The driving question is how to mathematically describe the mechanical response of residually stressed solids?</description>
+    </item>
+    
+  </channel>
+</rss>

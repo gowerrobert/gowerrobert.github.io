@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Effective waves on Artur L Gower</title>
+    <link>https://arturgower.github.io/tags/effective-waves/</link>
+    <description>Recent content in Effective waves on Artur L Gower</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2017 Artur L Gower</copyright>
+    <lastBuildDate>Sat, 28 Oct 2017 10:29:53 +0000</lastBuildDate>
+    
+	<atom:link href="https://arturgower.github.io/tags/effective-waves/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EffectiveWaves.jl</title>
+      <link>https://arturgower.github.io/publication/effective-wave-software/</link>
+      <pubDate>Sat, 28 Oct 2017 10:29:53 +0000</pubDate>
+      
+      <guid>https://arturgower.github.io/publication/effective-wave-software/</guid>
+      <description>The software is designed to calculate effective waves propagating, and scattering from, random materials filled with particles.
+  </description>
+    </item>
+    
+  </channel>
+</rss>
