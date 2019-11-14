@@ -1,0 +1,20 @@
+
+The prerequisite for the course is 
+
+=> linear algebra: singular value decomposition, positive (semi) definite matrices, vector norms, matrix norms
+=> vector calculus: gradient, multivariate chain rule, Jacobians, Hessian matrices
+=> probability: Discrete distributions, random variables, expectation, conditional expectation, convergence in L2
+
+Some books that cover these pre-requisites are
+
+
+=> Here is a quick revision of linear algebra:
+	http://sigproc.eng.cam.ac.uk/foswiki/pub/Main/PB404/linear_algebra.pdf
+
+=> Multivariable Calculus, Applications and Theory by Kenneth Kuttler
+	Section 13 (within chapter IV) 
+ 	http://www.math.nagoya-u.ac.jp/~richard/teaching/s2016/Ref0.pdf
+
+=> Probability and Statistics: The Science of Uncertainty. Second Edition, Michael J. Evans and Jeffrey S. Rosenthal
+	chapters 1, 2 and 3
+	http://www.utstat.toronto.edu/mikevans/jeffrosenthal/book.pdf
