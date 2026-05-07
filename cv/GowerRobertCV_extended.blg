@@ -1,15 +1,15 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'GowerRobertCV_extended.blg'
-[74] biber-darwin:340> INFO - === Thu May  7, 2026, 12:14:36
-[89] Biber.pm:415> INFO - Reading 'GowerRobertCV_extended.bcf'
-[181] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[194] Biber.pm:4340> INFO - Processing section 0
-[204] Biber.pm:4531> INFO - Looking for bibtex format file '../rob_papers.bib' for section 0
-[208] bibtex.pm:1689> INFO - LaTeX decoding ...
-[282] bibtex.pm:1494> INFO - Found BibTeX data source '../rob_papers.bib'
-[704] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[704] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[704] Biber.pm:4168> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[704] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[773] bbl.pm:654> INFO - Writing 'GowerRobertCV_extended.bbl' with encoding 'UTF-8'
-[812] bbl.pm:757> INFO - Output to GowerRobertCV_extended.bbl
+[75] biber-darwin:340> INFO - === Thu May  7, 2026, 14:32:03
+[92] Biber.pm:415> INFO - Reading 'GowerRobertCV_extended.bcf'
+[183] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[198] Biber.pm:4340> INFO - Processing section 0
+[209] Biber.pm:4531> INFO - Looking for bibtex format file '../rob_papers.bib' for section 0
+[214] bibtex.pm:1689> INFO - LaTeX decoding ...
+[301] bibtex.pm:1494> INFO - Found BibTeX data source '../rob_papers.bib'
+[728] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[728] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[728] Biber.pm:4168> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[728] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[797] bbl.pm:654> INFO - Writing 'GowerRobertCV_extended.bbl' with encoding 'UTF-8'
+[840] bbl.pm:757> INFO - Output to GowerRobertCV_extended.bbl

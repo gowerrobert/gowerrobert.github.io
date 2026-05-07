@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.3)  7 MAY 2026 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.3)  7 MAY 2026 14:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/rgower/Documents/new-webpage/cv/GowerRobertCV_extended.tex
-(/Users/rgower/Documents/new-webpage/cv/GowerRobertCV_extended.tex
+**/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.tex
+(/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -485,7 +485,7 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count399
 \l__pdf_internal_box=\box51
-) (/Users/rgower/Documents/new-webpage/cv/GowerRobertCV_extended.aux)
+) (/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.aux)
 \openout1 = `GowerRobertCV_extended.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
@@ -581,7 +581,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 78.
 LaTeX Info: Redefining \pageref on input line 78.
 LaTeX Info: Redefining \nameref on input line 78.
- (/Users/rgower/Documents/new-webpage/cv/GowerRobertCV_extended.out) (/Users/rgower/Documents/new-webpage/cv/GowerRobertCV_extended.out)
+ (/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.out) (/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.out)
 \@outlinefile=\write4
 \openout4 = `GowerRobertCV_extended.out'.
 
@@ -608,7 +608,7 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'GowerRobertCV_extended.bbl' found.
- (/Users/rgower/Documents/new-webpage/cv/GowerRobertCV_extended.bbl)
+ (/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.bbl)
 Package biblatex Info: Reference section=0 on input line 78.
 Package biblatex Info: Reference segment=0 on input line 78.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd) (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd) (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd) (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omxlmex.fd)
@@ -636,7 +636,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--154
 
  []
 
-(/Users/rgower/Documents/new-webpage/cv/talk_posters.tex [2]) [3] (/Users/rgower/Documents/new-webpage/cv/reviewer.tex)
+(/Users/rgower/Documents/gowerrobert.github.io/cv/talk_posters.tex [2]) [3] (/Users/rgower/Documents/gowerrobert.github.io/cv/reviewer.tex)
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 174.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -648,7 +648,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
- [4] [5] [6] [7] [8] (/Users/rgower/Documents/new-webpage/cv/GowerRobertCV_extended.aux)
+ [4] [5] [6] [7] [8] (/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.aux)
 Package rerunfilecheck Info: File `GowerRobertCV_extended.out' has not changed.
 (rerunfilecheck)             Checksum: BB64E48EF8BE299E3DBF26A11FB60D85;1283.
 Package logreq Info: Writing requests to 'GowerRobertCV_extended.run.xml'.
@@ -656,15 +656,15 @@ Package logreq Info: Writing requests to 'GowerRobertCV_extended.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18827 strings out of 478994
- 328810 string characters out of 5858184
- 1093413 words of memory out of 5000000
- 35834 multiletter control sequences out of 15000+600000
- 463206 words of font info for 144 fonts, out of 8000000 for 9000
+ 18835 strings out of 478994
+ 329134 string characters out of 5858184
+ 1094413 words of memory out of 5000000
+ 35838 multiletter control sequences out of 15000+600000
+ 463390 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,9n,74p,1186b,1336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,9n,74p,1196b,1340s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on /Users/rgower/Documents/new-webpage/cv/GowerRobertCV_extended.pdf (8 pages, 300205 bytes).
+Output written on /Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.pdf (8 pages, 300713 bytes).
 PDF statistics:
  416 PDF objects out of 1000 (max. 8388607)
  370 compressed objects within 4 object streams

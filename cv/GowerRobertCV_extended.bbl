@@ -1145,13 +1145,18 @@
       \verb https://proceedings.mlr.press/v202/meng23a.html
       \endverb
     \endentry
-    \entry{modi2023gaussianscorematching}{misc}{}
+    \entry{modi2023gaussianscorematching}{inproceedings}{}
       \name{author}{6}{}{%
         {{hash=23fb086c0ff0864be8e2b9d582315aa8}{%
            family={Modi},
            familyi={M\bibinitperiod},
            given={Chirag},
            giveni={C\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
         {{hash=f7b1201d8dbb17276041ba494d6c33be}{%
            family={Margossian},
            familyi={M\bibinitperiod},
@@ -1162,45 +1167,77 @@
            familyi={Y\bibinitperiod},
            given={Yuling},
            giveni={Y\bibinitperiod}}}%
-        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
-           family={Gower},
-           familyi={G\bibinitperiod},
-           given={Robert\bibnamedelima M.},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=108998f0d44d4dce8ccb93e4d78cd5c6}{%
+        {{hash=df034c01f40f9863f7986f0670e3f863}{%
            family={Blei},
            familyi={B\bibinitperiod},
-           given={David\bibnamedelima M.},
-           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=cd2d8ad2373696effc18491288917dd1}{%
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b4b914bc0b7ce87893ad1306ee6be5ba}{%
            family={Saul},
            familyi={S\bibinitperiod},
-           given={Lawrence\bibnamedelima K.},
-           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+      }
+      \name{editor}{6}{}{%
+        {{hash=6d9c5f3daf57997af27b3617ec7d1fe9}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=85bc7cefdd5554b76135cee4b8e4ce02}{%
+           family={Naumann},
+           familyi={N\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=fbc410321d4ef88338a144a263d84a52}{%
+           family={Globerson},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b4c13335066154b96f9f6b69c52f1c34}{%
+           family={Saenko},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d5244a9be1ca0eac9110d23de0146408}{%
+           family={Hardt},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3cd8fe4b36223cabb80a65d5bca613b3}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
       }
       \strng{namehash}{b96050999bf550cf6969d050fd6f15a5}
-      \strng{fullhash}{20ec2d6ad7d4716eb727cb79f99c527c}
-      \strng{bibnamehash}{20ec2d6ad7d4716eb727cb79f99c527c}
-      \strng{authorbibnamehash}{20ec2d6ad7d4716eb727cb79f99c527c}
+      \strng{fullhash}{7b2af213de8d73f4792b653eead813f3}
+      \strng{bibnamehash}{7b2af213de8d73f4792b653eead813f3}
+      \strng{authorbibnamehash}{7b2af213de8d73f4792b653eead813f3}
       \strng{authornamehash}{b96050999bf550cf6969d050fd6f15a5}
-      \strng{authorfullhash}{20ec2d6ad7d4716eb727cb79f99c527c}
+      \strng{authorfullhash}{7b2af213de8d73f4792b653eead813f3}
+      \strng{editorbibnamehash}{c4805185ea5603cbf8bdc85fe57d1ec3}
+      \strng{editornamehash}{cdfb36351492c4e843cfb87a8549b3ef}
+      \strng{editorfullhash}{c4805185ea5603cbf8bdc85fe57d1ec3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprintclass}{stat.ML}
-      \field{eprinttype}{arXiv}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
       \field{title}{Variational Inference with Gaussian Score Matching}
+      \field{volume}{36}
       \field{year}{2023}
       \true{nocite}
-      \verb{eprint}
-      \verb 2307.07849
-      \endverb
+      \field{pages}{29935\bibrangedash 29950}
+      \range{pages}{16}
       \verb{urlraw}
-      \verb https://arxiv.org/abs/2307.07849
+      \verb https://proceedings.neurips.cc/paper_files/paper/2023/file/5f9453c4848b89d4d8c5d6041f5fb9ec-Paper-Conference.pdf
       \endverb
       \verb{url}
-      \verb https://arxiv.org/abs/2307.07849
+      \verb https://proceedings.neurips.cc/paper_files/paper/2023/file/5f9453c4848b89d4d8c5d6041f5fb9ec-Paper-Conference.pdf
       \endverb
     \endentry
     \entry{schaipp2023spps}{article}{}
