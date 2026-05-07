@@ -1,0 +1,178 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[letterpaper,margin=0.72in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage[backend=biber,style=numeric,sorting=ydnt,maxbibnames=99,giveninits=true,defernumbers=true]{biblatex}
+
+\addbibresource{../rob_papers.bib}
+
+\definecolor{ink}{HTML}{24211D}
+\definecolor{muted}{HTML}{6B6259}
+\definecolor{accent}{HTML}{176B7A}
+\definecolor{rule}{HTML}{D8D0C5}
+\definecolor{soft}{HTML}{F5F1EA}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent,
+  citecolor=accent,
+  pdfauthor={Robert M. Gower},
+  pdftitle={Robert M. Gower -- Curriculum Vitae}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=1.15em,itemsep=0.18em,topsep=0.18em}
+\setlist[enumerate]{leftmargin=1.4em,itemsep=0.18em,topsep=0.18em}
+\renewcommand{\arraystretch}{1.08}
+
+\titleformat{\section}
+  {\Large\bfseries\color{ink}}
+  {}
+  {0pt}
+  {}
+  [\vspace{0.25em}{\color{rule}\titlerule}]
+\titlespacing*{\section}{0pt}{1.25em}{0.55em}
+
+\newcommand{\cvtag}[1]{%
+  \begingroup
+  \setlength{\fboxsep}{3pt}%
+  \colorbox{soft}{\textcolor{accent}{\footnotesize\bfseries #1}}%
+  \endgroup
+}
+
+\newcommand{\entry}[4]{%
+  \begin{tabularx}{\textwidth}{@{}p{0.19\textwidth}X@{}}
+    \textcolor{muted}{#1} & \textbf{#2} #3\\
+    & {\small\textcolor{muted}{#4}}
+  \end{tabularx}\vspace{0.35em}
+}
+
+\newcommand{\simpleentry}[2]{%
+  \begin{tabularx}{\textwidth}{@{}p{0.19\textwidth}X@{}}
+    \textcolor{muted}{#1} & #2
+  \end{tabularx}\vspace{0.28em}
+}
+
+\newcommand{\talkentry}[4]{%
+  \simpleentry{#1}{\textbf{#2}. #3\if\relax\detokenize{#4}\relax\else\hfill \href{#4}{recording/link}\fi}
+}
+
+% Compatibility for the older included CV fragments.
+\newenvironment{bibsection}
+  {\begin{description}[leftmargin=0.19\textwidth,style=nextline,itemsep=0.28em,topsep=0.2em]}
+  {\end{description}}
+\newenvironment{innerlist}
+  {\begin{itemize}[leftmargin=1.15em,itemsep=0.12em,topsep=0.12em]}
+  {\end{itemize}}
+
+\begin{document}
+
+{\Huge\bfseries Robert M. Gower}\\[-0.15em]
+{\Large\color{muted}Research Scientist, Flatiron Institute}\\[0.65em]
+{\color{rule}\hrule}
+\vspace{0.7em}
+
+\begin{tabularx}{\textwidth}{@{}Xr@{}}
+\href{mailto:gowerrobert@gmail.com}{gowerrobert@gmail.com} \quad
+\href{https://gowerrobert.github.io}{gowerrobert.github.io} \quad
+\href{https://scholar.google.com/citations?user=okKw87MAAAAJ\&hl=en}{Google Scholar} \quad
+\href{https://github.com/gowerrobert}{GitHub} \quad
+\href{https://www.linkedin.com/in/robert-mansel-gower-a27bba23}{LinkedIn}
+&
+Updated \today
+\end{tabularx}
+
+\vspace{0.8em}
+\cvtag{modern optimization}
+\cvtag{adaptive methods}
+\cvtag{stochastic optimization}
+\cvtag{machine learning}
+\cvtag{randomized numerical linear algebra}
+
+\section{Profile}
+I work on the mathematics of modern optimization: why methods such as Adam, Muon, Polyak step-sizes, and non-Euclidean gradient descent work, fail, and sometimes come up with new methods. My current research sits between optimization theory and machine-learning practice, with a focus on simple algorithms that exploit structure. Previously, I worked on randomized numerical linear algebra, automatic differentiation, and quasi-Newton methods.
+
+\section{Appointments and Education}
+\entry{11/2021--present}{Research Scientist}{, Center for Computational Mathematics, Flatiron Institute}{New York, NY}
+\entry{06/2021--11/2021}{Visiting Scientist}{, Google Research}{New York, NY}
+\entry{09/2017--06/2021}{Assistant Professor in Machine Learning}{, Telecom Paris, Institut Polytechnique de Paris}{Paris, France}
+\entry{01/2020--08/2020}{Visiting Scientist}{, Facebook Research}{New York, NY}
+\entry{08/2016--09/2017}{Laureate Fellow}{, Fondation Sciences Mathematiques de Paris, ENS and Inria}{Paris, France}
+\entry{09/2012--06/2016}{Ph.D.}{, Optimization and Operations Research, University of Edinburgh}{Thesis: \emph{Sketch and Project: Randomized Iterative Methods for Linear Systems and Inverting Matrices}}
+\entry{03/2009--04/2011}{M.Sc.}{, Applied Mathematics, University of Campinas}{Thesis: \emph{Hessian Matrices via Automatic Differentiation}}
+\entry{03/2005--03/2009}{B.Sc.}{, Applied and Computational Mathematics, University of Campinas}{Brazil}
+
+\section{Selected Recent News}
+\simpleentry{2026}{\href{https://blog.iclr.cc/2026/04/23/announcing-the-iclr-2026-outstanding-papers/}{\textbf{The Polar Express}} received the ICLR 2026 Outstanding Paper Honorable Mention and was presented as an oral.}
+\simpleentry{2026}{Upcoming talk at the \href{https://www.siam.org/conferences-events/siam-conferences/op26/}{SIAM Conference on Optimization (OP26)}, June 2--5, 2026.}
+\simpleentry{2025}{\href{https://neurips.cc/virtual/2025/loc/mexico-city/oral/130313}{\textbf{In Search of Adam's Secret Sauce}} was an oral presentation at NeurIPS 2025.}
+
+\section{Prizes, Honors, and Funding}
+\begin{itemize}
+\item ICLR 2026 Outstanding Paper Honorable Mention for \emph{The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm}.
+\item NeurIPS 2025 Top Reviewer.
+\item ICML 2021 Best Reviewer, Top 10\%.
+\item NeurIPS 2020 Top 10\% reviewer.
+\item Thomas Jefferson Fund grant, ``Matrix equations for big data compression'', \$20k, 2019.
+\item CIFRE Facebook Research funding, \$72k, 2019.
+\item ICML 2019 Top 5\% reviewer.
+\item LabEx Mathematique Hadamard funding, ``Scalable stochastic variance reduced gradient methods'', 8k EUR, 2018.
+\item Leslie Fox Prize for Numerical Analysis, 2nd place, 2017.
+\item Fondation Sciences Mathematiques de Paris Fellowship at Inria/ENS, 122k EUR, 2016.
+\item Best Talk Prize, Irish SIAM student meeting, 2014.
+\item University of Edinburgh Ph.D. scholarship, 85.1k GBP, 2012.
+\end{itemize}
+
+\section{People and Mentoring}
+\begin{itemize}
+\item \href{https://ngazagna.github.io/}{Nidham Gazagnadou}, Ph.D. student, 2018--2021; now Research Scientist at Sony AI.
+\item \href{https://rui-yuan91.github.io/}{Rui Yuan}, Ph.D. student, 2019--2023; now AI Research Scientist at Stellantis.
+\item \href{https://sjelassi.github.io/}{Samy Jelassi}, intern, 2017; Ph.D. at Princeton.
+\item \href{https://www.cs.cornell.edu/~siyimeng/}{Si Yi Meng (Cathy)}, intern, 2022 and 2023.
+\item \href{https://fabian-sp.github.io/}{Fabian Schaipp}, guest researcher, 2022 and 2023.
+\item \href{https://cispa.de/en/people/c01slha}{Slavomir Hanzely}, intern, 2022; now Researcher at CISPA.
+\item \href{https://cs.stanford.edu/~amishkin/}{Aaron Mishkin}, intern, 2023; now Postdoc at EPFL.
+\item \href{https://davpersson.github.io/}{David Persson}, Flatiron Fellow, 2024--present.
+\item \href{https://mtcrawshaw.github.io/}{Michael Crawshaw}, intern, 2025; joining Flatiron as a Fellow in 2026.
+\item \href{https://parshakova.github.io/}{Tetiana Parshakova}, Flatiron Fellow, 2025--present.
+\end{itemize}
+
+\section{Recorded Talks}
+\talkentry{2026}{The Polar Express}{Instituto de Matematica Pura e Aplicada}{https://www.youtube.com/live/phM8GzT7ZV4}
+\talkentry{2024}{New viewpoints, variants and convergence theory for stochastic Polyak step-sizes}{MTL MLOpt}{https://www.youtube.com/watch?v=7lY-SQKslwk}
+\talkentry{2019}{SGD: General Analysis and Improved Rates}{ICML oral presentation}{https://icml.cc/virtual/2019/oral/4669}
+
+\section{Selected Invited Talks}
+\input{talk_posters.tex}
+
+\section{Teaching}
+I have given over 360 hours of lectures on optimization, numerical analysis, and machine learning. Prior to that, as a graduate student at the University of Edinburgh, I gave over 350 hours of tutorials and lectures.
+\begin{itemize}
+\item 2019--2020: \emph{Machine Learning in High Dimensions}, graduate course, Telecom Paris.
+\item 2017--2020: \emph{Optimization and Numerical Analysis}, undergraduate course, Telecom Paris.
+\item 2017--2020: \emph{Optimization for Data Science}, Data Science Master's, Institut Polytechnique de Paris.
+\item 2019: \emph{Stochastic Optimization for Machine Learning}, African Master's of Machine Intelligence at AIMS, Rwanda.
+\item 2017--2019: Summer school lectures on stochastic optimization for machine learning at Yerevan State University and the University of Novi Sad.
+\item 2010--2015: Over 350 hours of tutorials and lectures at the University of Edinburgh, including linear algebra, calculus, financial mathematics, operations research, optimization theory, proofs, and problem solving.
+\end{itemize}
+
+\section{Service}
+Editorial work and reviewing for:
+\input{reviewer.tex}
+
+\section{Publications}
+All entries below are generated directly from \texttt{../rob\_papers.bib}.
+\nocite{*}
+\printbibliography[heading=none]
+
+\end{document}

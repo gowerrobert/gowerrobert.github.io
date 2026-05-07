@@ -1,0 +1,3052 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{amsel2026polarexpress}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=005f44a22b1005dd7829923150ef12e1}{%
+           family={Amsel},
+           familyi={A\bibinitperiod},
+           given={Noah},
+           giveni={N\bibinitperiod}}}%
+        {{hash=2bd41149688b48179afa54865a14e29a}{%
+           family={Persson},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9b13abfbab0577842dff6c7f6b610873}{%
+           family={Musco},
+           familyi={M\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7865f6fe0ab535c9179182ae459c457}
+      \strng{fullhash}{271990c1f653bba925fedbd222d9a597}
+      \strng{bibnamehash}{271990c1f653bba925fedbd222d9a597}
+      \strng{authorbibnamehash}{271990c1f653bba925fedbd222d9a597}
+      \strng{authornamehash}{d7865f6fe0ab535c9179182ae459c457}
+      \strng{authorfullhash}{271990c1f653bba925fedbd222d9a597}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Learning Representations}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{note}{Oral presentation}
+      \field{title}{The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2505.16932
+      \endverb
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=yRtgZ1K8hO
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=yRtgZ1K8hO
+      \endverb
+    \endentry
+    \entry{crawshaw2025muonvariants}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=d2f59d71533b4402d867c0e65d97171f}{%
+           family={Crawshaw},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=23fb086c0ff0864be8e2b9d582315aa8}{%
+           family={Modi},
+           familyi={M\bibinitperiod},
+           given={Chirag},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f23c900692970b1ba581ea5714c68316}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Mingrui},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b65b6e2cb1179573652f9f4e2f11c20}
+      \strng{fullhash}{30836850b630a264878eb49e6efd0632}
+      \strng{bibnamehash}{30836850b630a264878eb49e6efd0632}
+      \strng{authorbibnamehash}{30836850b630a264878eb49e6efd0632}
+      \strng{authornamehash}{1b65b6e2cb1179573652f9f4e2f11c20}
+      \strng{authorfullhash}{30836850b630a264878eb49e6efd0632}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Machine Learning}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{An Exploration of Non-Euclidean Gradient Descent: Muon and its Many Variants}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2510.09827
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2510.09827
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2510.09827
+      \endverb
+    \endentry
+    \entry{islamov2026edgeofstability}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=78bf2c91643ed6b7628b8e883c1791ae}{%
+           family={Islamov},
+           familyi={I\bibinitperiod},
+           given={Rustem},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d2f59d71533b4402d867c0e65d97171f}{%
+           family={Crawshaw},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c2b9197f1055a9926fd793d0c95bab3}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e7ba4ccb391f8e90b8748d2c084ebfa}
+      \strng{fullhash}{35051c9ec87222eb985ba6df7d34bd9d}
+      \strng{bibnamehash}{35051c9ec87222eb985ba6df7d34bd9d}
+      \strng{authorbibnamehash}{35051c9ec87222eb985ba6df7d34bd9d}
+      \strng{authornamehash}{2e7ba4ccb391f8e90b8748d2c084ebfa}
+      \strng{authorfullhash}{35051c9ec87222eb985ba6df7d34bd9d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Machine Learning}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{note}{Spotlight presentation}
+      \field{title}{Non-Euclidean Gradient Descent Operates at the Edge of Stability}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2603.05002
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2603.05002
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2603.05002
+      \endverb
+    \endentry
+    \entry{schaipp2026stepsizestability}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=b2809282e8effe7219cfd96104f22db7}{%
+           family={Schaipp},
+           familyi={S\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4345ec53e162e16e520e5c4b5607da43}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Adrien\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d98d45cb8c491f979af9c45e5351712c}
+      \strng{fullhash}{d98d45cb8c491f979af9c45e5351712c}
+      \strng{bibnamehash}{d98d45cb8c491f979af9c45e5351712c}
+      \strng{authorbibnamehash}{d98d45cb8c491f979af9c45e5351712c}
+      \strng{authornamehash}{d98d45cb8c491f979af9c45e5351712c}
+      \strng{authorfullhash}{d98d45cb8c491f979af9c45e5351712c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Machine Learning}
+      \field{eprintclass}{math.OC}
+      \field{eprinttype}{arXiv}
+      \field{title}{Step-Size Stability in Stochastic Optimization: A Theoretical Perspective}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2602.09842
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2602.09842
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2602.09842
+      \endverb
+    \endentry
+    \entry{cai2025fisherfeynman}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=740c8df27d4ff0b004a6b4ab5fd29707}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Diana},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=108998f0d44d4dce8ccb93e4d78cd5c6}{%
+           family={Blei},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=cd2d8ad2373696effc18491288917dd1}{%
+           family={Saul},
+           familyi={S\bibinitperiod},
+           given={Lawrence\bibnamedelima K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd5716052a3b1fb7c195e4f644c7633f}
+      \strng{fullhash}{4e183e6d6eb985dd98ef16f4eea7dc36}
+      \strng{bibnamehash}{4e183e6d6eb985dd98ef16f4eea7dc36}
+      \strng{authorbibnamehash}{4e183e6d6eb985dd98ef16f4eea7dc36}
+      \strng{authornamehash}{dd5716052a3b1fb7c195e4f644c7633f}
+      \strng{authorfullhash}{4e183e6d6eb985dd98ef16f4eea7dc36}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{eprintclass}{stat.ML}
+      \field{eprinttype}{arXiv}
+      \field{note}{Spotlight presentation}
+      \field{title}{Fisher Meets Feynman: Score-Based Variational Inference with a Product of Experts}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2510.21598
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2510.21598
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2510.21598
+      \endverb
+    \endentry
+    \entry{gower2025idealizedsps}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ff14600907cfc90cbd0b1d13ad91c45f}{%
+           family={Garrigos},
+           familyi={G\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=086c9622489669fe60b7a4364d1e8a7c}{%
+           family={Loizou},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6f31d35c2fe951c8424aa57730c2f0d6}{%
+           family={Oikonomou},
+           familyi={O\bibinitperiod},
+           given={Dimitris},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dbe35b250bff9f2ca1bdf7d01177b0d9}{%
+           family={Mishchenko},
+           familyi={M\bibinitperiod},
+           given={Konstantin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b2809282e8effe7219cfd96104f22db7}{%
+           family={Schaipp},
+           familyi={S\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{fullhash}{dedc9dfff74ac6fc7777e52da045adfa}
+      \strng{bibnamehash}{dedc9dfff74ac6fc7777e52da045adfa}
+      \strng{authorbibnamehash}{dedc9dfff74ac6fc7777e52da045adfa}
+      \strng{authornamehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{authorfullhash}{dedc9dfff74ac6fc7777e52da045adfa}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Analysis of an Idealized Stochastic Polyak Method and its Application to Black-Box Model Distillation}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2504.01898
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2504.01898
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2504.01898
+      \endverb
+    \endentry
+    \entry{mishkin2025teleportation}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=1aa95c31f528fc007e7b0e789363afe3}{%
+           family={Mishkin},
+           familyi={M\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=145b14bfe7b7dd9401fb0d722840ca5d}{%
+           family={Bietti},
+           familyi={B\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{f38a2e3eb3d54b7d215c591094a9aad3}
+      \strng{fullhash}{f38a2e3eb3d54b7d215c591094a9aad3}
+      \strng{bibnamehash}{f38a2e3eb3d54b7d215c591094a9aad3}
+      \strng{authorbibnamehash}{f38a2e3eb3d54b7d215c591094a9aad3}
+      \strng{authornamehash}{f38a2e3eb3d54b7d215c591094a9aad3}
+      \strng{authorfullhash}{f38a2e3eb3d54b7d215c591094a9aad3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of The 28th International Conference on Artificial Intelligence and Statistics}
+      \field{eprinttype}{arXiv}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{Level Set Teleportation: An Optimization Perspective}
+      \field{volume}{258}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{5059\bibrangedash 5067}
+      \range{pages}{9}
+      \verb{eprint}
+      \verb 2403.03362
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v258/mishkin25a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v258/mishkin25a.html
+      \endverb
+    \endentry
+    \entry{orvieto2025adamsecretsauce}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=2f21353bc83b17d4a8d8a69c17d06fe2}{%
+           family={Orvieto},
+           familyi={O\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{212c0b6e6a5e97b84db8bf3659dc3711}
+      \strng{fullhash}{212c0b6e6a5e97b84db8bf3659dc3711}
+      \strng{bibnamehash}{212c0b6e6a5e97b84db8bf3659dc3711}
+      \strng{authorbibnamehash}{212c0b6e6a5e97b84db8bf3659dc3711}
+      \strng{authornamehash}{212c0b6e6a5e97b84db8bf3659dc3711}
+      \strng{authorfullhash}{212c0b6e6a5e97b84db8bf3659dc3711}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{note}{Oral presentation}
+      \field{title}{In Search of Adam's Secret Sauce}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2505.21829
+      \endverb
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=CH72XyZs4y
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=CH72XyZs4y
+      \endverb
+    \endentry
+    \entry{pun2025schedulefree}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=11da1dacf32ad78ede51b5f06f59a7c0}{%
+           family={Pun},
+           familyi={P\bibinitperiod},
+           given={Yuen-Man},
+           giveni={Y\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=0f7cdb20f1f6aa2b59537e241b96b178}{%
+           family={Buchholz},
+           familyi={B\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6bd41355630217cbd6e506c8863a9158}
+      \strng{fullhash}{6bd41355630217cbd6e506c8863a9158}
+      \strng{bibnamehash}{6bd41355630217cbd6e506c8863a9158}
+      \strng{authorbibnamehash}{6bd41355630217cbd6e506c8863a9158}
+      \strng{authornamehash}{6bd41355630217cbd6e506c8863a9158}
+      \strng{authorfullhash}{6bd41355630217cbd6e506c8863a9158}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Schedulers for Schedule-free: Theoretically Inspired Hyperparameters}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2511.07767
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2511.07767
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2511.07767
+      \endverb
+    \endentry
+    \entry{schaipp2025median}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b2809282e8effe7219cfd96104f22db7}{%
+           family={Schaipp},
+           familyi={S\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ff14600907cfc90cbd0b1d13ad91c45f}{%
+           family={Garrigos},
+           familyi={G\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=820792a832c4df0979e3c3aec0f24a71}{%
+           family={Şimşekli},
+           familyi={Ş\bibinitperiod},
+           given={Umut},
+           giveni={U\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a90ec88b74057f068244a94f4d8669e}
+      \strng{fullhash}{9737afbcc4767012828114480705dd4f}
+      \strng{bibnamehash}{9737afbcc4767012828114480705dd4f}
+      \strng{authorbibnamehash}{9737afbcc4767012828114480705dd4f}
+      \strng{authornamehash}{6a90ec88b74057f068244a94f4d8669e}
+      \strng{authorfullhash}{9737afbcc4767012828114480705dd4f}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Transactions on Machine Learning Research}
+      \field{title}{Tracking the Median of Gradients with a Stochastic Proximal Point Method}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2402.12828
+      \endverb
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=WMxLEgYGxu
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=WMxLEgYGxu
+      \endverb
+    \endentry
+    \entry{cai2024eigenvi}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=740c8df27d4ff0b004a6b4ab5fd29707}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Diana},
+           giveni={D\bibinitperiod}}}%
+        {{hash=23fb086c0ff0864be8e2b9d582315aa8}{%
+           family={Modi},
+           familyi={M\bibinitperiod},
+           given={Chirag},
+           giveni={C\bibinitperiod}}}%
+        {{hash=349f7e565b19452ba4b48c1444dd0784}{%
+           family={Margossian},
+           familyi={M\bibinitperiod},
+           given={Charles\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=108998f0d44d4dce8ccb93e4d78cd5c6}{%
+           family={Blei},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=cd2d8ad2373696effc18491288917dd1}{%
+           family={Saul},
+           familyi={S\bibinitperiod},
+           given={Lawrence\bibnamedelima K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd5716052a3b1fb7c195e4f644c7633f}
+      \strng{fullhash}{e086fcb1887e0acce3a14dc4a24fdd1e}
+      \strng{bibnamehash}{e086fcb1887e0acce3a14dc4a24fdd1e}
+      \strng{authorbibnamehash}{e086fcb1887e0acce3a14dc4a24fdd1e}
+      \strng{authornamehash}{dd5716052a3b1fb7c195e4f644c7633f}
+      \strng{authorfullhash}{e086fcb1887e0acce3a14dc4a24fdd1e}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{eprinttype}{arXiv}
+      \field{note}{Spotlight presentation}
+      \field{title}{EigenVI: Score-Based Variational Inference with Orthogonal Function Expansions}
+      \field{volume}{37}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2410.24054
+      \endverb
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=thUf6ZBlPp
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=thUf6ZBlPp
+      \endverb
+    \endentry
+    \entry{cai2024batchmatch}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=740c8df27d4ff0b004a6b4ab5fd29707}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Diana},
+           giveni={D\bibinitperiod}}}%
+        {{hash=23fb086c0ff0864be8e2b9d582315aa8}{%
+           family={Modi},
+           familyi={M\bibinitperiod},
+           given={Chirag},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e7abbaf3659900c715981a63c38087a0}{%
+           family={Pillaud-Vivien},
+           familyi={P\bibinithyphendelim V\bibinitperiod},
+           given={Loucas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f7b1201d8dbb17276041ba494d6c33be}{%
+           family={Margossian},
+           familyi={M\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=108998f0d44d4dce8ccb93e4d78cd5c6}{%
+           family={Blei},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=cd2d8ad2373696effc18491288917dd1}{%
+           family={Saul},
+           familyi={S\bibinitperiod},
+           given={Lawrence\bibnamedelima K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{dd5716052a3b1fb7c195e4f644c7633f}
+      \strng{fullhash}{35016a7dd8645d47a847ebf73cd7bc83}
+      \strng{bibnamehash}{35016a7dd8645d47a847ebf73cd7bc83}
+      \strng{authorbibnamehash}{35016a7dd8645d47a847ebf73cd7bc83}
+      \strng{authornamehash}{dd5716052a3b1fb7c195e4f644c7633f}
+      \strng{authorfullhash}{35016a7dd8645d47a847ebf73cd7bc83}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 41st International Conference on Machine Learning}
+      \field{eprinttype}{arXiv}
+      \field{note}{Spotlight presentation}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{Batch and Match: Black-Box Variational Inference with a Score-Based Divergence}
+      \field{volume}{235}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{5258\bibrangedash 5297}
+      \range{pages}{40}
+      \verb{eprint}
+      \verb 2402.14758
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v235/cai24b.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v235/cai24b.html
+      \endverb
+    \endentry
+    \entry{gower2024bregmankaczmarz}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ca2001a98e7f389e31150bb90990455d}{%
+           family={Lorenz},
+           familyi={L\bibinitperiod},
+           given={Dirk\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4445f924c1b4d9678787382954cacb57}{%
+           family={Winkler},
+           familyi={W\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d4a5694f2e8ba3bbf5240bf41580443}
+      \strng{fullhash}{1d4a5694f2e8ba3bbf5240bf41580443}
+      \strng{bibnamehash}{1d4a5694f2e8ba3bbf5240bf41580443}
+      \strng{authorbibnamehash}{1d4a5694f2e8ba3bbf5240bf41580443}
+      \strng{authornamehash}{1d4a5694f2e8ba3bbf5240bf41580443}
+      \strng{authorfullhash}{1d4a5694f2e8ba3bbf5240bf41580443}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Computational Optimization and Applications}
+      \field{number}{3}
+      \field{title}{A Bregman-Kaczmarz Method for Nonlinear Systems of Equations}
+      \field{volume}{87}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{1059\bibrangedash 1098}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1007/s10589-023-00541-9
+      \endverb
+      \verb{eprint}
+      \verb 2303.08549
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10589-023-00541-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10589-023-00541-9
+      \endverb
+    \endentry
+    \entry{li2024policygradientpolyak}{misc}{}
+      \name{author}{7}{}{%
+        {{hash=b1ad8ccb5b8002e42640ee6c238b98cd}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yunxiang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=063f122615156cb6eedd354b541c3d6a}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=90b5e8578ef22c5aae16a1bf5e3dac17}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6ec4971d3a33801f19547675e0e66e5e}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e5161090884f0b715e0e77d9ca691f44}{%
+           family={Horváth},
+           familyi={H\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=eb83c47cdd9a6edbbd392a27fc868d9a}{%
+           family={Takáč},
+           familyi={T\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e5dd93406b08b6d87ca04cc33fdda21e}
+      \strng{fullhash}{f5593b013f3ccb7fff3a901740bd63f4}
+      \strng{bibnamehash}{f5593b013f3ccb7fff3a901740bd63f4}
+      \strng{authorbibnamehash}{f5593b013f3ccb7fff3a901740bd63f4}
+      \strng{authornamehash}{e5dd93406b08b6d87ca04cc33fdda21e}
+      \strng{authorfullhash}{f5593b013f3ccb7fff3a901740bd63f4}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Enhancing Policy Gradient with the Polyak Step-Size Adaptation}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2404.07525
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2404.07525
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2404.07525
+      \endverb
+    \endentry
+    \entry{mishkin2024directional}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=1aa95c31f528fc007e7b0e789363afe3}{%
+           family={Mishkin},
+           familyi={M\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7ad80c3c71f267c65e1ffc105a5b4cc4}{%
+           family={Khaled},
+           familyi={K\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bbf0000c770f658b79af201d3f1664f1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuanhao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a5551dfae979b8c2befb546fac59ffee}{%
+           family={Defazio},
+           familyi={D\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b15d64b5c6efd418f387981aa4ce98b9}
+      \strng{fullhash}{79bbcb535397eea8dd17f7dc260bd0bc}
+      \strng{bibnamehash}{79bbcb535397eea8dd17f7dc260bd0bc}
+      \strng{authorbibnamehash}{79bbcb535397eea8dd17f7dc260bd0bc}
+      \strng{authornamehash}{b15d64b5c6efd418f387981aa4ce98b9}
+      \strng{authorfullhash}{79bbcb535397eea8dd17f7dc260bd0bc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{eprinttype}{arXiv}
+      \field{title}{Directional Smoothness and Gradient Methods: Convergence and Adaptivity}
+      \field{volume}{37}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2403.04081
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2024/hash/1ac83203e88eb6cf6b30642f0239b932-Abstract-Conference.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2024/hash/1ac83203e88eb6cf6b30642f0239b932-Abstract-Conference.html
+      \endverb
+    \endentry
+    \entry{schaipp2024momo}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=b2809282e8effe7219cfd96104f22db7}{%
+           family={Schaipp},
+           familyi={S\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4053c08486bd9fc4811a681a91931ce5}{%
+           family={Ohana},
+           familyi={O\bibinitperiod},
+           given={Ruben},
+           giveni={R\bibinitperiod}}}%
+        {{hash=734f71a3322ced31caaa7b4d91d9f4f2}{%
+           family={Eickenberg},
+           familyi={E\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a5551dfae979b8c2befb546fac59ffee}{%
+           family={Defazio},
+           familyi={D\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{6a90ec88b74057f068244a94f4d8669e}
+      \strng{fullhash}{bd77da53911b273893961fb03a1efed7}
+      \strng{bibnamehash}{bd77da53911b273893961fb03a1efed7}
+      \strng{authorbibnamehash}{bd77da53911b273893961fb03a1efed7}
+      \strng{authornamehash}{6a90ec88b74057f068244a94f4d8669e}
+      \strng{authorfullhash}{bd77da53911b273893961fb03a1efed7}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 41st International Conference on Machine Learning}
+      \field{eprinttype}{arXiv}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{MoMo: Momentum Models for Adaptive Learning Rates}
+      \field{volume}{235}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{43542\bibrangedash 43570}
+      \range{pages}{29}
+      \verb{eprint}
+      \verb 2305.07583
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v235/schaipp24a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v235/schaipp24a.html
+      \endverb
+    \endentry
+    \entry{zhao2024symmetries}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=bc23eb566ce30e1c86e358a959a9d6e7}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=429e9c05adea048aba72ca53a56fd25a}{%
+           family={Walters},
+           familyi={W\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=97101a5c27b13abad23d655d9b094d22}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Rose},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdafe6ec81ded9b9e09d22452f2d4d5e}
+      \strng{fullhash}{fd316b39830347e264323d051e37f378}
+      \strng{bibnamehash}{fd316b39830347e264323d051e37f378}
+      \strng{authorbibnamehash}{fd316b39830347e264323d051e37f378}
+      \strng{authornamehash}{bdafe6ec81ded9b9e09d22452f2d4d5e}
+      \strng{authorfullhash}{fd316b39830347e264323d051e37f378}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Learning Representations}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Improving Convergence and Generalization Using Parameter Symmetries}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2305.13404
+      \endverb
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=qXe7dE7Fq8M
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=qXe7dE7Fq8M
+      \endverb
+    \endentry
+    \entry{domke2023bbvi}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=7aa5d4ea0c2fcbd04b65e567f81428a1}{%
+           family={Domke},
+           familyi={D\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ff14600907cfc90cbd0b1d13ad91c45f}{%
+           family={Garrigos},
+           familyi={G\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2211efb8fcf503a6ddee32afb388e8ce}
+      \strng{fullhash}{2211efb8fcf503a6ddee32afb388e8ce}
+      \strng{bibnamehash}{2211efb8fcf503a6ddee32afb388e8ce}
+      \strng{authorbibnamehash}{2211efb8fcf503a6ddee32afb388e8ce}
+      \strng{authornamehash}{2211efb8fcf503a6ddee32afb388e8ce}
+      \strng{authorfullhash}{2211efb8fcf503a6ddee32afb388e8ce}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Provable Convergence Guarantees for Black-Box Variational Inference}
+      \field{volume}{36}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2023/hash/d0bcff6425bbf850ec87d5327a965db9-Abstract-Conference.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2023/hash/d0bcff6425bbf850ec87d5327a965db9-Abstract-Conference.html
+      \endverb
+    \endentry
+    \entry{garrigos2023handbook}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=ff14600907cfc90cbd0b1d13ad91c45f}{%
+           family={Garrigos},
+           familyi={G\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a7c8da8095a599dd8c6691900ecc1ac}
+      \strng{fullhash}{4a7c8da8095a599dd8c6691900ecc1ac}
+      \strng{bibnamehash}{4a7c8da8095a599dd8c6691900ecc1ac}
+      \strng{authorbibnamehash}{4a7c8da8095a599dd8c6691900ecc1ac}
+      \strng{authornamehash}{4a7c8da8095a599dd8c6691900ecc1ac}
+      \strng{authorfullhash}{4a7c8da8095a599dd8c6691900ecc1ac}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.OC}
+      \field{eprinttype}{arXiv}
+      \field{title}{Handbook of Convergence Theorems for (Stochastic) Gradient Methods}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2301.11235
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2301.11235
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2301.11235
+      \endverb
+    \endentry
+    \entry{khaled2023composite}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7ad80c3c71f267c65e1ffc105a5b4cc4}{%
+           family={Khaled},
+           familyi={K\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f945ea2364f348a67141fc274a4a4a0c}{%
+           family={Sebbouh},
+           familyi={S\bibinitperiod},
+           given={Othmane},
+           giveni={O\bibinitperiod}}}%
+        {{hash=086c9622489669fe60b7a4364d1e8a7c}{%
+           family={Loizou},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=972f2a6c228c82719a54368d49838fd7}{%
+           family={Richtárik},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5de161e4610d5b7d4e5afab320ea8f8a}
+      \strng{fullhash}{7247c959d34f45ea8da9d4acf58c0cc6}
+      \strng{bibnamehash}{7247c959d34f45ea8da9d4acf58c0cc6}
+      \strng{authorbibnamehash}{7247c959d34f45ea8da9d4acf58c0cc6}
+      \strng{authornamehash}{5de161e4610d5b7d4e5afab320ea8f8a}
+      \strng{authorfullhash}{7247c959d34f45ea8da9d4acf58c0cc6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Journal of Optimization Theory and Applications}
+      \field{number}{2}
+      \field{title}{Unified Analysis of Stochastic Gradient Methods for Composite Convex and Smooth Optimization}
+      \field{volume}{199}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{499\bibrangedash 540}
+      \range{pages}{42}
+      \verb{doi}
+      \verb 10.1007/s10957-023-02297-y
+      \endverb
+      \verb{eprint}
+      \verb 2006.11573
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10957-023-02297-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10957-023-02297-y
+      \endverb
+    \endentry
+    \entry{li2023sp2}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=361de3730283fb08fe548e787e97a83c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shuang},
+           giveni={S\bibinitperiod}}}%
+        {{hash=17aab9521260a9373cb77568e1bfeb49}{%
+           family={Swartworth},
+           familyi={S\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=eb83c47cdd9a6edbbd392a27fc868d9a}{%
+           family={Takáč},
+           familyi={T\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7f9efc0021c2436b8cfcb33e1aabea17}{%
+           family={Needell},
+           familyi={N\bibinitperiod},
+           given={Deanna},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c069e84f074efbcc3a779ec1637631b1}
+      \strng{fullhash}{8ddd19d6885ad5d386c172be1da316c9}
+      \strng{bibnamehash}{8ddd19d6885ad5d386c172be1da316c9}
+      \strng{authorbibnamehash}{8ddd19d6885ad5d386c172be1da316c9}
+      \strng{authornamehash}{c069e84f074efbcc3a779ec1637631b1}
+      \strng{authorfullhash}{8ddd19d6885ad5d386c172be1da316c9}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Learning Representations}
+      \field{title}{{SP2}: A Second Order Stochastic Polyak Method}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=QvhadUDB53
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=QvhadUDB53
+      \endverb
+    \endentry
+    \entry{meng2023cvar}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=1cb5b4f6ea89301539a28bc2e731d57d}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Si\bibnamedelima Yi},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{3ee7cab4c82e10ac569cca0c316008c0}
+      \strng{fullhash}{3ee7cab4c82e10ac569cca0c316008c0}
+      \strng{bibnamehash}{3ee7cab4c82e10ac569cca0c316008c0}
+      \strng{authorbibnamehash}{3ee7cab4c82e10ac569cca0c316008c0}
+      \strng{authornamehash}{3ee7cab4c82e10ac569cca0c316008c0}
+      \strng{authorfullhash}{3ee7cab4c82e10ac569cca0c316008c0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 40th International Conference on Machine Learning}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{A Model-Based Method for Minimizing {CVaR} and Beyond}
+      \field{volume}{202}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{24436\bibrangedash 24456}
+      \range{pages}{21}
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v202/meng23a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v202/meng23a.html
+      \endverb
+    \endentry
+    \entry{modi2023gaussianscorematching}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=23fb086c0ff0864be8e2b9d582315aa8}{%
+           family={Modi},
+           familyi={M\bibinitperiod},
+           given={Chirag},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f7b1201d8dbb17276041ba494d6c33be}{%
+           family={Margossian},
+           familyi={M\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d99a582e1b92c4dfd1fc834e146596ba}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Yuling},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=108998f0d44d4dce8ccb93e4d78cd5c6}{%
+           family={Blei},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=cd2d8ad2373696effc18491288917dd1}{%
+           family={Saul},
+           familyi={S\bibinitperiod},
+           given={Lawrence\bibnamedelima K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b96050999bf550cf6969d050fd6f15a5}
+      \strng{fullhash}{20ec2d6ad7d4716eb727cb79f99c527c}
+      \strng{bibnamehash}{20ec2d6ad7d4716eb727cb79f99c527c}
+      \strng{authorbibnamehash}{20ec2d6ad7d4716eb727cb79f99c527c}
+      \strng{authornamehash}{b96050999bf550cf6969d050fd6f15a5}
+      \strng{authorfullhash}{20ec2d6ad7d4716eb727cb79f99c527c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{stat.ML}
+      \field{eprinttype}{arXiv}
+      \field{title}{Variational Inference with Gaussian Score Matching}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2307.07849
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2307.07849
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2307.07849
+      \endverb
+    \endentry
+    \entry{schaipp2023spps}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b2809282e8effe7219cfd96104f22db7}{%
+           family={Schaipp},
+           familyi={S\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9e85c152bee37e4e47581f9992ee8379}{%
+           family={Ulbrich},
+           familyi={U\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb710b4af33643bf3482948eab025992}
+      \strng{fullhash}{bb710b4af33643bf3482948eab025992}
+      \strng{bibnamehash}{bb710b4af33643bf3482948eab025992}
+      \strng{authorbibnamehash}{bb710b4af33643bf3482948eab025992}
+      \strng{authornamehash}{bb710b4af33643bf3482948eab025992}
+      \strng{authorfullhash}{bb710b4af33643bf3482948eab025992}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Transactions on Machine Learning Research}
+      \field{title}{A Stochastic Proximal Polyak Step Size}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2301.04935
+      \endverb
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=jxu6rTn8lS
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=jxu6rTn8lS
+      \endverb
+    \endentry
+    \entry{yuan2023npg}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=063f122615156cb6eedd354b541c3d6a}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=39c1bd467c08d4147d6865b5f9b46731}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Simon\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c0edda5e676d227fa203a6350888089e}{%
+           family={Lazaric},
+           familyi={L\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2719c25efa416f0f6bcb63e9336c4a29}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad391f9e15d3c4e1f578865a4995796b}
+      \strng{fullhash}{d38577eabb7dacedd046a3935e9a35c2}
+      \strng{bibnamehash}{d38577eabb7dacedd046a3935e9a35c2}
+      \strng{authorbibnamehash}{d38577eabb7dacedd046a3935e9a35c2}
+      \strng{authornamehash}{ad391f9e15d3c4e1f578865a4995796b}
+      \strng{authorfullhash}{d38577eabb7dacedd046a3935e9a35c2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Learning Representations}
+      \field{title}{Linear Convergence of Natural Policy Gradient Methods with Log-Linear Policies}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=gu6dfY3L6J
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=gu6dfY3L6J
+      \endverb
+    \endentry
+    \entry{chen2022san}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=483637c2327e123cef5f60b17d688f53}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jiabin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=063f122615156cb6eedd354b541c3d6a}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ff14600907cfc90cbd0b1d13ad91c45f}{%
+           family={Garrigos},
+           familyi={G\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{5f33bf9dca128c4a1e71122e8688f814}
+      \strng{fullhash}{918eb4d4fb53bb040f7cae7f53db6ad4}
+      \strng{bibnamehash}{918eb4d4fb53bb040f7cae7f53db6ad4}
+      \strng{authorbibnamehash}{918eb4d4fb53bb040f7cae7f53db6ad4}
+      \strng{authornamehash}{5f33bf9dca128c4a1e71122e8688f814}
+      \strng{authorfullhash}{918eb4d4fb53bb040f7cae7f53db6ad4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of The 25th International Conference on Artificial Intelligence and Statistics}
+      \field{eprinttype}{arXiv}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{{SAN}: Stochastic Average Newton Algorithm for Minimizing Finite Sums}
+      \field{volume}{151}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{279\bibrangedash 318}
+      \range{pages}{40}
+      \verb{eprint}
+      \verb 2106.10520
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v151/chen22b.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v151/chen22b.html
+      \endverb
+    \endentry
+    \entry{gazagnadou2022ridgesketch}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c15b89efe2a748cbc3f6bd7562c4210c}{%
+           family={Gazagnadou},
+           familyi={G\bibinitperiod},
+           given={Nidham},
+           giveni={N\bibinitperiod}}}%
+        {{hash=127c3f046d43d93821dc0356b158d1a8}{%
+           family={Ibrahim},
+           familyi={I\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a620eeb8c21e6fbc708c9b29ffb2587e}
+      \strng{fullhash}{a620eeb8c21e6fbc708c9b29ffb2587e}
+      \strng{bibnamehash}{a620eeb8c21e6fbc708c9b29ffb2587e}
+      \strng{authorbibnamehash}{a620eeb8c21e6fbc708c9b29ffb2587e}
+      \strng{authornamehash}{a620eeb8c21e6fbc708c9b29ffb2587e}
+      \strng{authorfullhash}{a620eeb8c21e6fbc708c9b29ffb2587e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{SIAM Journal on Matrix Analysis and Applications}
+      \field{number}{3}
+      \field{title}{RidgeSketch: A Fast Sketching Based Solver for Large Scale Ridge Regression}
+      \field{volume}{43}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{1440\bibrangedash 1468}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1137/21M1422963
+      \endverb
+      \verb{eprint}
+      \verb 2001.01274
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1137/21M1422963
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1137/21M1422963
+      \endverb
+    \endentry
+    \entry{gower2022slacksgd}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d3b6c8582cea4e8b6576137b6a72cadc}{%
+           family={Blondel},
+           familyi={B\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c15b89efe2a748cbc3f6bd7562c4210c}{%
+           family={Gazagnadou},
+           familyi={G\bibinitperiod},
+           given={Nidham},
+           giveni={N\bibinitperiod}}}%
+        {{hash=bab4e5caee2d67831e464ce575022b37}{%
+           family={Pedregosa},
+           familyi={P\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{fullhash}{426ee9d72a85c06e21c7e5e0ee04564a}
+      \strng{bibnamehash}{426ee9d72a85c06e21c7e5e0ee04564a}
+      \strng{authorbibnamehash}{426ee9d72a85c06e21c7e5e0ee04564a}
+      \strng{authornamehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{authorfullhash}{426ee9d72a85c06e21c7e5e0ee04564a}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Cutting Some Slack for SGD with Adaptive Polyak Stepsizes}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2202.12328
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2202.12328
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2202.12328
+      \endverb
+    \endentry
+    \entry{wang2022mimodetection}{article}{}
+      \name{author}{5}{}{%
+        {{hash=c92fb4d761d5c067a9eb42b2a2cf1521}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=07cbd31c588b35f5eaf06485d12879fc}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yili},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=921c30fdb6783af78c541275f3a54ca1}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Lanxin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0e7318a7a8b3d99df6a44765147523fb}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yongming},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{da6d2d6dde6f939106e6d4e3b3c0940b}
+      \strng{fullhash}{bb790513603f64a4cbb07865fb615011}
+      \strng{bibnamehash}{bb790513603f64a4cbb07865fb615011}
+      \strng{authorbibnamehash}{bb790513603f64a4cbb07865fb615011}
+      \strng{authornamehash}{da6d2d6dde6f939106e6d4e3b3c0940b}
+      \strng{authorfullhash}{bb790513603f64a4cbb07865fb615011}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Signal Processing}
+      \field{title}{Randomized Iterative Methods for Low-Complexity Large-Scale {MIMO} Detection}
+      \field{volume}{70}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{2934\bibrangedash 2949}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/TSP.2022.3180552
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/TSP.2022.3180552
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/TSP.2022.3180552
+      \endverb
+    \endentry
+    \entry{wang2022linearprecoding}{article}{}
+      \name{author}{6}{}{%
+        {{hash=c92fb4d761d5c067a9eb42b2a2cf1521}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=57f7f0240f141850db99567185d1a24c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=56c3bb2b51158455a564792a63221ee0}{%
+           family={Lyu},
+           familyi={L\bibinitperiod},
+           given={Shanxiang},
+           giveni={S\bibinitperiod}}}%
+        {{hash=07cbd31c588b35f5eaf06485d12879fc}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yili},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0e7318a7a8b3d99df6a44765147523fb}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yongming},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{da6d2d6dde6f939106e6d4e3b3c0940b}
+      \strng{fullhash}{518682c34da1f496cadf3e3378e5294b}
+      \strng{bibnamehash}{518682c34da1f496cadf3e3378e5294b}
+      \strng{authorbibnamehash}{518682c34da1f496cadf3e3378e5294b}
+      \strng{authornamehash}{da6d2d6dde6f939106e6d4e3b3c0940b}
+      \strng{authorfullhash}{518682c34da1f496cadf3e3378e5294b}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Wireless Communications}
+      \field{number}{12}
+      \field{title}{A Statistical Linear Precoding Scheme Based on Random Iterative Method for Massive {MIMO} Systems}
+      \field{volume}{21}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{10115\bibrangedash 10129}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/TWC.2022.3182407
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/TWC.2022.3182407
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/TWC.2022.3182407
+      \endverb
+    \endentry
+    \entry{yuan2022policygradient}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=063f122615156cb6eedd354b541c3d6a}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c0edda5e676d227fa203a6350888089e}{%
+           family={Lazaric},
+           familyi={L\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{8634ad079fac2f5adf08bcc3646c7581}
+      \strng{fullhash}{8634ad079fac2f5adf08bcc3646c7581}
+      \strng{bibnamehash}{8634ad079fac2f5adf08bcc3646c7581}
+      \strng{authorbibnamehash}{8634ad079fac2f5adf08bcc3646c7581}
+      \strng{authornamehash}{8634ad079fac2f5adf08bcc3646c7581}
+      \strng{authorfullhash}{8634ad079fac2f5adf08bcc3646c7581}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of The 25th International Conference on Artificial Intelligence and Statistics}
+      \field{eprinttype}{arXiv}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{A General Sample Complexity Analysis of Vanilla Policy Gradient}
+      \field{volume}{151}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{3332\bibrangedash 3380}
+      \range{pages}{49}
+      \verb{eprint}
+      \verb 2107.11433
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v151/yuan22a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v151/yuan22a.html
+      \endverb
+    \endentry
+    \entry{yuan2022sketchednewton}{article}{}
+      \name{author}{3}{}{%
+        {{hash=063f122615156cb6eedd354b541c3d6a}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c0edda5e676d227fa203a6350888089e}{%
+           family={Lazaric},
+           familyi={L\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{330de0aa0393f219293e42693786ca01}
+      \strng{fullhash}{330de0aa0393f219293e42693786ca01}
+      \strng{bibnamehash}{330de0aa0393f219293e42693786ca01}
+      \strng{authorbibnamehash}{330de0aa0393f219293e42693786ca01}
+      \strng{authornamehash}{330de0aa0393f219293e42693786ca01}
+      \strng{authorfullhash}{330de0aa0393f219293e42693786ca01}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{SIAM Journal on Optimization}
+      \field{number}{3}
+      \field{title}{Sketched Newton-Raphson}
+      \field{volume}{32}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{1555\bibrangedash 1583}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1137/21M139788X
+      \endverb
+      \verb{eprint}
+      \verb 2006.12120
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1137/21M139788X
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1137/21M139788X
+      \endverb
+    \endentry
+    \entry{defazio2021factorialpowers}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=a5551dfae979b8c2befb546fac59ffee}{%
+           family={Defazio},
+           familyi={D\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{6ff9c1a07ad69dfdb0aa3756aa837ae3}
+      \strng{fullhash}{6ff9c1a07ad69dfdb0aa3756aa837ae3}
+      \strng{bibnamehash}{6ff9c1a07ad69dfdb0aa3756aa837ae3}
+      \strng{authorbibnamehash}{6ff9c1a07ad69dfdb0aa3756aa837ae3}
+      \strng{authornamehash}{6ff9c1a07ad69dfdb0aa3756aa837ae3}
+      \strng{authorfullhash}{6ff9c1a07ad69dfdb0aa3756aa837ae3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of The 13th Asian Conference on Machine Learning}
+      \field{eprinttype}{arXiv}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{The Power of Factorial Powers: New Parameter Settings for (Stochastic) Optimization}
+      \field{volume}{157}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{49\bibrangedash 64}
+      \range{pages}{16}
+      \verb{eprint}
+      \verb 2006.01244
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v157/defazio21a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v157/defazio21a.html
+      \endverb
+    \endentry
+    \entry{gower2021movingtarget}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a5551dfae979b8c2befb546fac59ffee}{%
+           family={Defazio},
+           familyi={D\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=16922b89cdf492fe3becb64ab59c075a}{%
+           family={Rabbat},
+           familyi={R\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{50cc39b795abf53d90d281fa69ca80f0}
+      \strng{fullhash}{50cc39b795abf53d90d281fa69ca80f0}
+      \strng{bibnamehash}{50cc39b795abf53d90d281fa69ca80f0}
+      \strng{authorbibnamehash}{50cc39b795abf53d90d281fa69ca80f0}
+      \strng{authornamehash}{50cc39b795abf53d90d281fa69ca80f0}
+      \strng{authorfullhash}{50cc39b795abf53d90d281fa69ca80f0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Stochastic Polyak Stepsize with a Moving Target}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2106.11851
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2106.11851
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2106.11851
+      \endverb
+    \endentry
+    \entry{gower2021jacsketch}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=972f2a6c228c82719a54368d49838fd7}{%
+           family={Richtárik},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=93da2819ab01d8a5e7bae39ce6f17c1f}{%
+           family={Bach},
+           familyi={B\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ca04c76f1dadab0e1a48695b0bfc818}
+      \strng{fullhash}{9ca04c76f1dadab0e1a48695b0bfc818}
+      \strng{bibnamehash}{9ca04c76f1dadab0e1a48695b0bfc818}
+      \strng{authorbibnamehash}{9ca04c76f1dadab0e1a48695b0bfc818}
+      \strng{authornamehash}{9ca04c76f1dadab0e1a48695b0bfc818}
+      \strng{authorfullhash}{9ca04c76f1dadab0e1a48695b0bfc818}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Mathematical Programming}
+      \field{number}{1}
+      \field{title}{Stochastic Quasi-Gradient Methods: Variance Reduction via Jacobian Sketching}
+      \field{volume}{188}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{135\bibrangedash 192}
+      \range{pages}{58}
+      \verb{doi}
+      \verb 10.1007/s10107-020-01506-0
+      \endverb
+      \verb{eprint}
+      \verb 1805.02632
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10107-020-01506-0
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10107-020-01506-0
+      \endverb
+    \endentry
+    \entry{gower2021structurednonconvex}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f945ea2364f348a67141fc274a4a4a0c}{%
+           family={Sebbouh},
+           familyi={S\bibinitperiod},
+           given={Othmane},
+           giveni={O\bibinitperiod}}}%
+        {{hash=086c9622489669fe60b7a4364d1e8a7c}{%
+           family={Loizou},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{0b1369cd0ddefd209e62efa8d24e7bd9}
+      \strng{fullhash}{0b1369cd0ddefd209e62efa8d24e7bd9}
+      \strng{bibnamehash}{0b1369cd0ddefd209e62efa8d24e7bd9}
+      \strng{authorbibnamehash}{0b1369cd0ddefd209e62efa8d24e7bd9}
+      \strng{authornamehash}{0b1369cd0ddefd209e62efa8d24e7bd9}
+      \strng{authorfullhash}{0b1369cd0ddefd209e62efa8d24e7bd9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of The 24th International Conference on Artificial Intelligence and Statistics}
+      \field{eprinttype}{arXiv}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{{SGD} for Structured Nonconvex Functions: Learning Rates, Minibatching and Interpolation}
+      \field{volume}{130}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{1315\bibrangedash 1323}
+      \range{pages}{9}
+      \verb{eprint}
+      \verb 2006.10311
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v130/gower21a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v130/gower21a.html
+      \endverb
+    \endentry
+    \entry{sebbouh2021almostsure}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f945ea2364f348a67141fc274a4a4a0c}{%
+           family={Sebbouh},
+           familyi={S\bibinitperiod},
+           given={Othmane},
+           giveni={O\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a5551dfae979b8c2befb546fac59ffee}{%
+           family={Defazio},
+           familyi={D\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{4a9548a46c2451d899c3abf7f2cd4c1c}
+      \strng{fullhash}{4a9548a46c2451d899c3abf7f2cd4c1c}
+      \strng{bibnamehash}{4a9548a46c2451d899c3abf7f2cd4c1c}
+      \strng{authorbibnamehash}{4a9548a46c2451d899c3abf7f2cd4c1c}
+      \strng{authornamehash}{4a9548a46c2451d899c3abf7f2cd4c1c}
+      \strng{authorfullhash}{4a9548a46c2451d899c3abf7f2cd4c1c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of Thirty Fourth Conference on Learning Theory}
+      \field{eprinttype}{arXiv}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{Almost Sure Convergence Rates for Stochastic Gradient Descent and Stochastic Heavy Ball}
+      \field{volume}{134}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{3935\bibrangedash 3971}
+      \range{pages}{37}
+      \verb{eprint}
+      \verb 2006.07867
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v134/sebbouh21a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v134/sebbouh21a.html
+      \endverb
+    \endentry
+    \entry{gower2020varred}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6ec4971d3a33801f19547675e0e66e5e}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=93da2819ab01d8a5e7bae39ce6f17c1f}{%
+           family={Bach},
+           familyi={B\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+        {{hash=972f2a6c228c82719a54368d49838fd7}{%
+           family={Richtárik},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{fullhash}{3eaf6cb4b62fe15bbe32ec5d56a73be6}
+      \strng{bibnamehash}{3eaf6cb4b62fe15bbe32ec5d56a73be6}
+      \strng{authorbibnamehash}{3eaf6cb4b62fe15bbe32ec5d56a73be6}
+      \strng{authornamehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{authorfullhash}{3eaf6cb4b62fe15bbe32ec5d56a73be6}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{number}{11}
+      \field{title}{Variance-Reduced Methods for Machine Learning}
+      \field{volume}{108}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1968\bibrangedash 1983}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/JPROC.2020.3028013
+      \endverb
+      \verb{eprint}
+      \verb 2010.00892
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/JPROC.2020.3028013
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/JPROC.2020.3028013
+      \endverb
+    \endentry
+    \entry{kovalev2020randomizedbfgs}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=7c8b6b2fa840a2ce8abfb55f0f3a9311}{%
+           family={Kovalev},
+           familyi={K\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=972f2a6c228c82719a54368d49838fd7}{%
+           family={Richtárik},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8a4e3ffb85ad8dcead401c9cf6dd88f9}{%
+           family={Rogozin},
+           familyi={R\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4afac3057d08cd6f3cbea70d2dda7e16}
+      \strng{fullhash}{f8986231b0e28ca042315eb509c3e945}
+      \strng{bibnamehash}{f8986231b0e28ca042315eb509c3e945}
+      \strng{authorbibnamehash}{f8986231b0e28ca042315eb509c3e945}
+      \strng{authornamehash}{4afac3057d08cd6f3cbea70d2dda7e16}
+      \strng{authorfullhash}{f8986231b0e28ca042315eb509c3e945}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.OC}
+      \field{eprinttype}{arXiv}
+      \field{title}{Fast Linear Convergence of Randomized {BFGS}}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2002.11337
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2002.11337
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2002.11337
+      \endverb
+    \endentry
+    \entry{gazagnadou2019saga}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=c15b89efe2a748cbc3f6bd7562c4210c}{%
+           family={Gazagnadou},
+           familyi={G\bibinitperiod},
+           given={Nidham},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ddc399ed9cad4f1e27a8896fadcc345c}{%
+           family={Salmon},
+           familyi={S\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{586d6ed56e4d79541153cff84eda1146}
+      \strng{fullhash}{586d6ed56e4d79541153cff84eda1146}
+      \strng{bibnamehash}{586d6ed56e4d79541153cff84eda1146}
+      \strng{authorbibnamehash}{586d6ed56e4d79541153cff84eda1146}
+      \strng{authornamehash}{586d6ed56e4d79541153cff84eda1146}
+      \strng{authorfullhash}{586d6ed56e4d79541153cff84eda1146}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 36th International Conference on Machine Learning}
+      \field{eprinttype}{arXiv}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{Optimal Mini-Batch and Step Sizes for {SAGA}}
+      \field{volume}{97}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{2142\bibrangedash 2150}
+      \range{pages}{9}
+      \verb{eprint}
+      \verb 1902.00071
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v97/gazagnadou19a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v97/gazagnadou19a.html
+      \endverb
+    \endentry
+    \entry{gower2019rsn}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7c8b6b2fa840a2ce8abfb55f0f3a9311}{%
+           family={Kovalev},
+           familyi={K\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d590bbaf02f5c348e873937356ddcc8f}{%
+           family={Lieder},
+           familyi={L\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=972f2a6c228c82719a54368d49838fd7}{%
+           family={Richtárik},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{fullhash}{90d0fa49df6c211ef9336ddc05aca5bc}
+      \strng{bibnamehash}{90d0fa49df6c211ef9336ddc05aca5bc}
+      \strng{authorbibnamehash}{90d0fa49df6c211ef9336ddc05aca5bc}
+      \strng{authornamehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{authorfullhash}{90d0fa49df6c211ef9336ddc05aca5bc}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{eprinttype}{arXiv}
+      \field{title}{{RSN}: Randomized Subspace Newton}
+      \field{volume}{32}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{614\bibrangedash 623}
+      \range{pages}{10}
+      \verb{eprint}
+      \verb 1905.10874
+      \endverb
+      \verb{urlraw}
+      \verb https://papers.nips.cc/paper/8351-rsn-randomized-subspace-newton
+      \endverb
+      \verb{url}
+      \verb https://papers.nips.cc/paper/8351-rsn-randomized-subspace-newton
+      \endverb
+    \endentry
+    \entry{gower2019adaptivesketch}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=28be27426f9c7e79e10156b43d3eb831}{%
+           family={Molitor},
+           familyi={M\bibinitperiod},
+           given={Denali},
+           giveni={D\bibinitperiod}}}%
+        {{hash=28473dd07b79deda330f7c41bf8894dd}{%
+           family={Moorman},
+           familyi={M\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7f9efc0021c2436b8cfcb33e1aabea17}{%
+           family={Needell},
+           familyi={N\bibinitperiod},
+           given={Deanna},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{fullhash}{83c4405721e0801d24143ab254fd0b13}
+      \strng{bibnamehash}{83c4405721e0801d24143ab254fd0b13}
+      \strng{authorbibnamehash}{83c4405721e0801d24143ab254fd0b13}
+      \strng{authornamehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{authorfullhash}{83c4405721e0801d24143ab254fd0b13}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{SIAM Journal on Matrix Analysis and Applications}
+      \field{number}{3}
+      \field{title}{On Adaptive Sketch-and-Project for Solving Linear Systems}
+      \field{volume}{40}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{954\bibrangedash 989}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1137/19M1285846
+      \endverb
+      \verb{eprint}
+      \verb 1811.02620
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1137/19M1285846
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1137/19M1285846
+      \endverb
+    \endentry
+    \entry{qian2019sgd}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=ef0d49292bf94cd9765f8db932e59522}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Xun},
+           giveni={X\bibinitperiod}}}%
+        {{hash=972f2a6c228c82719a54368d49838fd7}{%
+           family={Richtárik},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b8083cc5779ee9892f1e8bb6d7c37f07}{%
+           family={Sailanbayev},
+           familyi={S\bibinitperiod},
+           given={Alibek},
+           giveni={A\bibinitperiod}}}%
+        {{hash=db2bb4d75c559da2eb3acb8f376d94b8}{%
+           family={Shulgin},
+           familyi={S\bibinitperiod},
+           given={Egor},
+           giveni={E\bibinitperiod}}}%
+        {{hash=086c9622489669fe60b7a4364d1e8a7c}{%
+           family={Loizou},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{638401d24c55ea542938ede1e58e6bea}
+      \strng{fullhash}{76a44ef7d58704ddcd7d38d42f66c089}
+      \strng{bibnamehash}{76a44ef7d58704ddcd7d38d42f66c089}
+      \strng{authorbibnamehash}{76a44ef7d58704ddcd7d38d42f66c089}
+      \strng{authornamehash}{638401d24c55ea542938ede1e58e6bea}
+      \strng{authorfullhash}{76a44ef7d58704ddcd7d38d42f66c089}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 36th International Conference on Machine Learning}
+      \field{eprinttype}{arXiv}
+      \field{note}{Oral presentation}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{{SGD}: General Analysis and Improved Rates}
+      \field{volume}{97}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{5200\bibrangedash 5209}
+      \range{pages}{10}
+      \verb{eprint}
+      \verb 1901.09401
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v97/qian19b.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v97/qian19b.html
+      \endverb
+    \endentry
+    \entry{sebbouh2019svrg}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=f945ea2364f348a67141fc274a4a4a0c}{%
+           family={Sebbouh},
+           familyi={S\bibinitperiod},
+           given={Othmane},
+           giveni={O\bibinitperiod}}}%
+        {{hash=c15b89efe2a748cbc3f6bd7562c4210c}{%
+           family={Gazagnadou},
+           familyi={G\bibinitperiod},
+           given={Nidham},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4df2f4506e680393b19a4c3d783b235c}{%
+           family={Jelassi},
+           familyi={J\bibinitperiod},
+           given={Samy},
+           giveni={S\bibinitperiod}}}%
+        {{hash=93da2819ab01d8a5e7bae39ce6f17c1f}{%
+           family={Bach},
+           familyi={B\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{baaae8b89aa7878599a12964b2afcfa0}
+      \strng{fullhash}{dd367c4b43f173ff14c066b3f2639942}
+      \strng{bibnamehash}{dd367c4b43f173ff14c066b3f2639942}
+      \strng{authorbibnamehash}{dd367c4b43f173ff14c066b3f2639942}
+      \strng{authornamehash}{baaae8b89aa7878599a12964b2afcfa0}
+      \strng{authorfullhash}{dd367c4b43f173ff14c066b3f2639942}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{eprinttype}{arXiv}
+      \field{title}{Towards Closing the Gap Between the Theory and Practice of {SVRG}}
+      \field{volume}{32}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{eprint}
+      \verb 1909.03604
+      \endverb
+      \verb{urlraw}
+      \verb https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html
+      \endverb
+      \verb{url}
+      \verb https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html
+      \endverb
+    \endentry
+    \entry{abid2018ot}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=9762367c9950c5eab88456370f989f6b}{%
+           family={Abid},
+           familyi={A\bibinitperiod},
+           given={Brahim\bibnamedelima Khalil},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{9645d54230857afb6942240f886d167a}
+      \strng{fullhash}{9645d54230857afb6942240f886d167a}
+      \strng{bibnamehash}{9645d54230857afb6942240f886d167a}
+      \strng{authorbibnamehash}{9645d54230857afb6942240f886d167a}
+      \strng{authornamehash}{9645d54230857afb6942240f886d167a}
+      \strng{authorfullhash}{9645d54230857afb6942240f886d167a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 21st International Conference on Artificial Intelligence and Statistics}
+      \field{eprinttype}{arXiv}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{Stochastic Algorithms for Entropy-Regularized Optimal Transport Problems}
+      \field{volume}{84}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{1505\bibrangedash 1512}
+      \range{pages}{8}
+      \verb{eprint}
+      \verb 1803.08278
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v84/abid18a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v84/abid18a.html
+      \endverb
+    \endentry
+    \entry{bibi2018saga}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=e9df4b5b6bc751adb560ba523da0d06a}{%
+           family={Bibi},
+           familyi={B\bibinitperiod},
+           given={Adel},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b8083cc5779ee9892f1e8bb6d7c37f07}{%
+           family={Sailanbayev},
+           familyi={S\bibinitperiod},
+           given={Alibek},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6e340bd126f740dfedce8191fbd2eb36}{%
+           family={Ghanem},
+           familyi={G\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=972f2a6c228c82719a54368d49838fd7}{%
+           family={Richtárik},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{02521644ae2c3eba22492041d12fa236}
+      \strng{fullhash}{c493d03d8991c6b90e7e226f95b1f95e}
+      \strng{bibnamehash}{c493d03d8991c6b90e7e226f95b1f95e}
+      \strng{authorbibnamehash}{c493d03d8991c6b90e7e226f95b1f95e}
+      \strng{authornamehash}{02521644ae2c3eba22492041d12fa236}
+      \strng{authorfullhash}{c493d03d8991c6b90e7e226f95b1f95e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Improving {SAGA} via a Probabilistic Interpolation with Gradient Descent}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{eprint}
+      \verb 1806.05652
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1806.05652
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1806.05652
+      \endverb
+    \endentry
+    \entry{gower2018randommedia}{article}{}
+      \name{author}{5}{}{%
+        {{hash=16f4a2113f837da6d8ddc07f3e20ceee}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Artur\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=05bc745c2a08d23a8dbfaa8765365568}{%
+           family={Deakin},
+           familyi={D\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=970e0d5f3b559be3e9168fb82d67e596}{%
+           family={Parnell},
+           familyi={P\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=039f9142f47f92c3f55b82ec74878ae9}{%
+           family={Abrahams},
+           familyi={A\bibinitperiod},
+           given={Ian\bibnamedelima D.},
+           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc54cd4ff26be75d2395afefc1e30ea2}
+      \strng{fullhash}{ae2adf0b71450a7c1ca5e9c9c98f80d5}
+      \strng{bibnamehash}{ae2adf0b71450a7c1ca5e9c9c98f80d5}
+      \strng{authorbibnamehash}{ae2adf0b71450a7c1ca5e9c9c98f80d5}
+      \strng{authornamehash}{bc54cd4ff26be75d2395afefc1e30ea2}
+      \strng{authorfullhash}{ae2adf0b71450a7c1ca5e9c9c98f80d5}
+      \field{extraname}{6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{EPL (Europhysics Letters)}
+      \field{number}{5}
+      \field{title}{Characterising Particulate Random Media from Near-Surface Backscattering: A Machine Learning Approach to Predict Particle Size and Concentration}
+      \field{volume}{124}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{54001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1209/0295-5075/124/54001
+      \endverb
+      \verb{eprint}
+      \verb 1801.09437
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1209/0295-5075/124/54001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1209/0295-5075/124/54001
+      \endverb
+    \endentry
+    \entry{gower2018asmi}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9afcfad85529fbeea5426832f3b6fcf3}{%
+           family={Hanzely},
+           familyi={H\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod}}}%
+        {{hash=972f2a6c228c82719a54368d49838fd7}{%
+           family={Richtárik},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=676899385eb3226a6df8fd47634d1127}{%
+           family={Stich},
+           familyi={S\bibinitperiod},
+           given={Sebastian\bibnamedelima U.},
+           giveni={S\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \strng{namehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{fullhash}{8e89b2d6a36b55aa394205fea0e582fa}
+      \strng{bibnamehash}{8e89b2d6a36b55aa394205fea0e582fa}
+      \strng{authorbibnamehash}{8e89b2d6a36b55aa394205fea0e582fa}
+      \strng{authornamehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{authorfullhash}{8e89b2d6a36b55aa394205fea0e582fa}
+      \field{extraname}{7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{eprinttype}{arXiv}
+      \field{title}{Accelerated Stochastic Matrix Inversion: General Theory and Speeding up {BFGS} Rules for Faster Second-Order Optimization}
+      \field{volume}{31}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{1626\bibrangedash 1636}
+      \range{pages}{11}
+      \verb{eprint}
+      \verb 1802.04079
+      \endverb
+      \verb{urlraw}
+      \verb https://papers.nips.cc/paper/7434-accelerated-stochastic-matrix-inversion-general-theory-and-speeding-up-bfgs-rules-for-faster-second-order-optimization
+      \endverb
+      \verb{url}
+      \verb https://papers.nips.cc/paper/7434-accelerated-stochastic-matrix-inversion-general-theory-and-speeding-up-bfgs-rules-for-faster-second-order-optimization
+      \endverb
+    \endentry
+    \entry{gower2018hessiantracking}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3964ce330d01a458d517a6c52d105f5e}{%
+           family={Roux},
+           familyi={R\bibinitperiod},
+           given={Nicolas\bibnamedelima Le},
+           giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=93da2819ab01d8a5e7bae39ce6f17c1f}{%
+           family={Bach},
+           familyi={B\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{42e477ab991ef3f5f96f284a8db61a91}
+      \strng{fullhash}{42e477ab991ef3f5f96f284a8db61a91}
+      \strng{bibnamehash}{42e477ab991ef3f5f96f284a8db61a91}
+      \strng{authorbibnamehash}{42e477ab991ef3f5f96f284a8db61a91}
+      \strng{authornamehash}{42e477ab991ef3f5f96f284a8db61a91}
+      \strng{authorfullhash}{42e477ab991ef3f5f96f284a8db61a91}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 21st International Conference on Artificial Intelligence and Statistics}
+      \field{eprinttype}{arXiv}
+      \field{note}{Oral presentation}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{Tracking the Gradients Using the Hessian: A New Look at Variance Reducing Stochastic Methods}
+      \field{volume}{84}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{707\bibrangedash 715}
+      \range{pages}{9}
+      \verb{eprint}
+      \verb 1802.06079
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v84/gower18a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v84/gower18a.html
+      \endverb
+    \endentry
+    \entry{gower2017randomizedqn}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=972f2a6c228c82719a54368d49838fd7}{%
+           family={Richtárik},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{fullhash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{bibnamehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{authorbibnamehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{authornamehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{authorfullhash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{SIAM Journal on Matrix Analysis and Applications}
+      \field{number}{4}
+      \field{title}{Randomized Quasi-Newton Updates Are Linearly Convergent Matrix Inversion Algorithms}
+      \field{volume}{38}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{1380\bibrangedash 1409}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1137/16M1062053
+      \endverb
+      \verb{eprint}
+      \verb 1602.01768
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1137/16M1062053
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1137/16M1062053
+      \endverb
+    \endentry
+    \entry{gower2016phd}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {School of Mathematics, The University of Edinburgh}%
+      }
+      \strng{namehash}{d740b920ee7b92aaa73e3450f6a6e085}
+      \strng{fullhash}{d740b920ee7b92aaa73e3450f6a6e085}
+      \strng{bibnamehash}{d740b920ee7b92aaa73e3450f6a6e085}
+      \strng{authorbibnamehash}{d740b920ee7b92aaa73e3450f6a6e085}
+      \strng{authornamehash}{d740b920ee7b92aaa73e3450f6a6e085}
+      \strng{authorfullhash}{d740b920ee7b92aaa73e3450f6a6e085}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sketch and Project: Randomized Iterative Methods for Linear Systems and Inverting Matrices}
+      \field{type}{phdthesis}
+      \field{year}{2016}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1612.06013
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1612.06013
+      \endverb
+    \endentry
+    \entry{gower2016blockbfgs}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5bf0f5ae463d891111f759554ade71fa}{%
+           family={Goldfarb},
+           familyi={G\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod}}}%
+        {{hash=972f2a6c228c82719a54368d49838fd7}{%
+           family={Richtárik},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{00e7f62fb3789c49dffecc0ccb896d69}
+      \strng{fullhash}{00e7f62fb3789c49dffecc0ccb896d69}
+      \strng{bibnamehash}{00e7f62fb3789c49dffecc0ccb896d69}
+      \strng{authorbibnamehash}{00e7f62fb3789c49dffecc0ccb896d69}
+      \strng{authornamehash}{00e7f62fb3789c49dffecc0ccb896d69}
+      \strng{authorfullhash}{00e7f62fb3789c49dffecc0ccb896d69}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 33rd International Conference on Machine Learning}
+      \field{eprinttype}{arXiv}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{Stochastic Block {BFGS}: Squeezing More Curvature out of Data}
+      \field{volume}{48}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{1869\bibrangedash 1878}
+      \range{pages}{10}
+      \verb{eprint}
+      \verb 1603.09649
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v48/gower16.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v48/gower16.html
+      \endverb
+    \endentry
+    \entry{gower2016pseudoinverse}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=972f2a6c228c82719a54368d49838fd7}{%
+           family={Richtárik},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{fullhash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{bibnamehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{authorbibnamehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{authornamehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{authorfullhash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.NA}
+      \field{eprinttype}{arXiv}
+      \field{title}{Linearly Convergent Randomized Iterative Methods for Computing the Pseudoinverse}
+      \field{year}{2016}
+      \true{nocite}
+      \verb{eprint}
+      \verb 1612.06255
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1612.06255
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1612.06255
+      \endverb
+    \endentry
+    \entry{gower2016higherorderad}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b8950914a990e888e3eb856ff4edf20b}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima Mansel},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=16f4a2113f837da6d8ddc07f3e20ceee}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Artur\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{c256603d2d692c214c6a0fd4b48ad2d6}
+      \strng{fullhash}{c256603d2d692c214c6a0fd4b48ad2d6}
+      \strng{bibnamehash}{c256603d2d692c214c6a0fd4b48ad2d6}
+      \strng{authorbibnamehash}{c256603d2d692c214c6a0fd4b48ad2d6}
+      \strng{authornamehash}{c256603d2d692c214c6a0fd4b48ad2d6}
+      \strng{authorfullhash}{c256603d2d692c214c6a0fd4b48ad2d6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Mathematical Programming}
+      \field{number}{1--2}
+      \field{title}{Higher-Order Reverse Automatic Differentiation with Emphasis on the Third-Order}
+      \field{volume}{155}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{81\bibrangedash 103}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/s10107-014-0827-4
+      \endverb
+      \verb{eprint}
+      \verb 1410.3321
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10107-014-0827-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10107-014-0827-4
+      \endverb
+    \endentry
+    \entry{gower2015linear}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=972f2a6c228c82719a54368d49838fd7}{%
+           family={Richtárik},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{fullhash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{bibnamehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{authorbibnamehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{authornamehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{authorfullhash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{SIAM Journal on Matrix Analysis and Applications (SIMAX)}
+      \field{note}{1st Most downloaded paper SIMAX 2017, 2019, 2020 and 18th Leslie Fox Prize (2nd Prize)}
+      \field{number}{4}
+      \field{title}{Randomized Iterative Methods for Linear Systems}
+      \field{volume}{36}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{1660\bibrangedash 1690}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1137/15M1025487
+      \endverb
+      \verb{eprint}
+      \verb 1506.03296
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1137/15M1025487
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1137/15M1025487
+      \endverb
+    \endentry
+    \entry{gower2015stochasticdual}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=972f2a6c228c82719a54368d49838fd7}{%
+           family={Richtárik},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{fullhash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{bibnamehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{authorbibnamehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{authornamehash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \strng{authorfullhash}{d4e5a2b3c7cfeb3bfa8eb32d94ea6676}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.OC}
+      \field{eprinttype}{arXiv}
+      \field{title}{Stochastic Dual Ascent for Solving Linear Systems}
+      \field{year}{2015}
+      \true{nocite}
+      \verb{eprint}
+      \verb 1512.06890
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1512.06890
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1512.06890
+      \endverb
+    \endentry
+    \entry{gower2014actionconstrained}{report}{}
+      \name{author}{2}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=789d42c6b10119b392bd4beb625b25a6}{%
+           family={Gondzio},
+           familyi={G\bibinitperiod},
+           given={Jacek},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {ERGO, University of Edinburgh}%
+      }
+      \strng{namehash}{8c168db46c590fd058e8d5405e3f4435}
+      \strng{fullhash}{8c168db46c590fd058e8d5405e3f4435}
+      \strng{bibnamehash}{8c168db46c590fd058e8d5405e3f4435}
+      \strng{authorbibnamehash}{8c168db46c590fd058e8d5405e3f4435}
+      \strng{authornamehash}{8c168db46c590fd058e8d5405e3f4435}
+      \strng{authorfullhash}{8c168db46c590fd058e8d5405e3f4435}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.OC}
+      \field{eprinttype}{arXiv}
+      \field{number}{ERGO-14-020}
+      \field{title}{Action Constrained Quasi-Newton Methods}
+      \field{type}{techreport}
+      \field{year}{2014}
+      \true{nocite}
+      \verb{eprint}
+      \verb 1410.8801
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1410.8801
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1410.8801
+      \endverb
+    \endentry
+    \entry{gower2014hessiansparsity}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=fa34d19f211691b4ba52594a07d2b976}{%
+           family={Mello},
+           familyi={M\bibinitperiod},
+           given={Margarida\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cd161fde732e2ff9505feea1571a216}
+      \strng{fullhash}{1cd161fde732e2ff9505feea1571a216}
+      \strng{bibnamehash}{1cd161fde732e2ff9505feea1571a216}
+      \strng{authorbibnamehash}{1cd161fde732e2ff9505feea1571a216}
+      \strng{authornamehash}{1cd161fde732e2ff9505feea1571a216}
+      \strng{authorfullhash}{1cd161fde732e2ff9505feea1571a216}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Transactions on Mathematical Software}
+      \field{number}{2}
+      \field{title}{Computing the Sparsity Pattern of Hessians Using Automatic Differentiation}
+      \field{volume}{40}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{10:1\bibrangedash 10:22}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1145/2490254
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2490254
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2490254
+      \endverb
+    \endentry
+    \entry{gower2014trainpositioning}{report}{}
+      \name{author}{8}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=280911d60b469d5d5c8424c719c5934b}{%
+           family={Whittaker},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8ad9525f27a30e6d72accb8fd7e55dfc}{%
+           family={Wykes},
+           familyi={W\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=36d86c7ed59fa8532e7e0ea619dfa245}{%
+           family={Christmas},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=98eada49c444b305b5357ae56ffa5806}{%
+           family={Browne},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d0656f01da294ee760af4033dc923b21}{%
+           family={Lent},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi Van},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=16f4a2113f837da6d8ddc07f3e20ceee}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Artur\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=e32a27498cd9effd591b2f249394d8b2}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Mathematics in Industry}%
+      }
+      \strng{namehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{fullhash}{f7f73fb8f1b2f3b2bb809bd4d5ca9ed6}
+      \strng{bibnamehash}{f7f73fb8f1b2f3b2bb809bd4d5ca9ed6}
+      \strng{authorbibnamehash}{f7f73fb8f1b2f3b2bb809bd4d5ca9ed6}
+      \strng{authornamehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{authorfullhash}{f7f73fb8f1b2f3b2bb809bd4d5ca9ed6}
+      \field{extraname}{8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Train Positioning Using Video Odometry}
+      \field{type}{techreport}
+      \field{year}{2014}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://miis.maths.ox.ac.uk/miis/672/
+      \endverb
+      \verb{url}
+      \verb https://miis.maths.ox.ac.uk/miis/672/
+      \endverb
+    \endentry
+    \entry{gower2012hessianframework}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=fa34d19f211691b4ba52594a07d2b976}{%
+           family={Mello},
+           familyi={M\bibinitperiod},
+           given={Margarida\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cd161fde732e2ff9505feea1571a216}
+      \strng{fullhash}{1cd161fde732e2ff9505feea1571a216}
+      \strng{bibnamehash}{1cd161fde732e2ff9505feea1571a216}
+      \strng{authorbibnamehash}{1cd161fde732e2ff9505feea1571a216}
+      \strng{authornamehash}{1cd161fde732e2ff9505feea1571a216}
+      \strng{authorfullhash}{1cd161fde732e2ff9505feea1571a216}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Optimization Methods and Software}
+      \field{number}{2}
+      \field{title}{A New Framework for the Computation of Hessians}
+      \field{volume}{27}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{251\bibrangedash 273}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1080/10556788.2011.580098
+      \endverb
+      \verb{eprint}
+      \verb 2007.15040
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/10556788.2011.580098
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/10556788.2011.580098
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

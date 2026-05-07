@@ -1,1547 +1,215 @@
-<!DOCTYPE html>
-<html lang="en-gb">
+<!doctype html>
+<html lang="en">
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.40.1" />
   <meta name="author" content="Robert M. Gower">
-  <meta name="description" content="Research Scientist in Machine Learning">
-
-
-  <link rel="alternate" hreflang="en-gb" href="https://gowerrobert.github.io/">
-
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-
-
-
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
-
-
-
-
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
-
-  <link rel="stylesheet" href="./styles.css">
-
-
-
-  <script>
-  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-  ga('create', 'UA-51196017-2', 'auto');
-  ga('require', 'eventTracker');
-  ga('require', 'outboundLinkTracker');
-  ga('require', 'urlChangeTracker');
-  ga('send', 'pageview');
-  </script>
-  <script async src="//www.google-analytics.com/analytics.js"></script>
-
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-
-
-
-
-  <link rel="alternate" href="https://gowerrobert.github.io/index.xml" type="application/rss+xml" title="Robert M. Gower">
-  <link rel="feed" href="https://gowerrobert.github.io/index.xml" type="application/rss+xml" title="Robert M. Gower">
-
-
-  <link rel="manifest" href="./site.webmanifest">
-  <link rel="icon" type="image/png" href="./img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="./img/icon-192.png">
-
-  <link rel="canonical" href="https://gowerrobert.github.io/">
-
-  <meta property="twitter:card" content="summary_large_image">
-
-  <meta property="twitter:site" content="@https://twitter.com/gowerrobert">
-  <meta property="twitter:creator" content="@https://twitter.com/gowerrobert">
-
-  <meta property="og:site_name" content="Robert M. Gower">
-  <meta property="og:url" content="https://gowerrobert.github.io/">
+  <meta name="description" content="Robert M. Gower, research scientist in machine learning and optimization at the Flatiron Institute.">
   <meta property="og:title" content="Robert M. Gower">
-  <meta property="og:description" content="Optimizer in Machine Learning">
-  <meta property="og:locale" content="en-gb">
-
-  <meta property="og:updated_time" content="2016-04-20T00:00:00&#43;00:00">
-
-
-
-
+  <meta property="og:description" content="Research, papers, mentoring, notes, and a little just-for-fun miscellany.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gowerrobert.github.io/">
+  <meta property="og:image" content="https://gowerrobert.github.io/img/pics/gitface.png">
   <title>Robert M. Gower</title>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750&family=Source+Serif+4:wght@500;650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
 </head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Robert M. Gower home">Robert M. Gower</a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#news">News</a>
+      <a href="#mentoring">People</a>
+      <a href="#papers">Papers</a>
+      <a href="#talks">Talks</a>
+      <a href="#notes">Notes</a>
+      <a href="just_for_fun.html">Fun</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">Dark Mode</button>
+    </nav>
+  </header>
 
-  <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
-    <div class="container">
-
-
-      <div class="navbar-header">
-
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-        data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-
-      <a class="navbar-brand" href="./">Robert M. Gower</a>
-    </div>
-
-
-    <div class="collapse navbar-collapse">
-
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item">
-          <a href="./#about" data-target="#about">
-            <span>Home</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="./#papers" data-target="#papers">
-            <span>Papers</span>
-          </a>
-        </li>
-
-
-        <li class="nav-item">
-          <a href="./#teaching" data-target="#teaching">
-            <span>Teaching</span>
-          </a>
-        </li>
-
-
-        <li class="nav-item">
-          <a href="./#contact" data-target="#contact">
-            <span>Contact</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="./just_for_fun.html">
-            <span>Just for fun</span>
-          </a>
-        </li>
-      </ul>
-
-    </div> <!-- end of navigation bar -->
-  </div> <!-- end of navigation bar header-->
-</nav>
-
-
-
-<span id="homepage" style="display: none"></span>
-
-
-
-
-<section id="about" class="home-section">
-  <div class="container">
-
-
-
-
-    <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
-      <div class="col-xs-12 col-md-4">
-        <div id="profile">
-
-
-          <!-- <div class="portrait"></div> -->
-          <!-- <meta itemprop="image" content="./img/pics/face_close.jpg"> -->
-          <div class="portrait" style="background-image: url('./img/pics/gitface.png');"></div>
-          <meta itemprop="image" content="./img/pics/gitface.png">
-
-
-          <div class="portrait-title">
-            <h2 itemprop="name">Robert M. Gower</h2>
-            <h3 itemprop="jobTitle">Research Scientist in Machine Learning and Optimization</h3>
-
-
-            <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-              <a href="https://www.simonsfoundation.org/flatiron/" target="_blank" itemprop="url" rel="noopener">
-              </a>
-            </h3>
-
-          </div>
-
-          <link itemprop="url" href="https://gowerrobert.github.io/">
-
-          <ul class="network-icon" aria-hidden="true">
-
-
-            <li>
-              <a itemprop="sameAs" href="mailto:gowerrobert@gmail.com" target="_blank" rel="noopener">
-                <i class="fa fa-envelope big-icon"></i>
-              </a>
-            </li>
-
-
-            <li>
-              <a itemprop="sameAs" href="https://twitter.com/gowerrobert" target="_blank" rel="noopener">
-                <i class="fa fa-twitter big-icon"></i>
-              </a>
-            </li>
-
-
-            <li>
-              <a itemprop="sameAs" href="https://scholar.google.com/citations?user=okKw87MAAAAJ&hl=en" target="_blank" rel="noopener">
-                <i class="ai ai-google-scholar big-icon"></i>
-              </a>
-            </li>
-
-
-            <li>
-              <a itemprop="sameAs" href="https://www.researchgate.net/profile/Robert_Gower" target="_blank" rel="noopener">
-                <i class="ai ai-researchgate big-icon"></i>
-              </a>
-            </li>
-
-
-            <li>
-              <a itemprop="sameAs" href="https://github.com/gowerrobert/" target="_blank" rel="noopener">
-                <i class="fa fa-github big-icon"></i>
-              </a>
-            </li>
-            <li>
-              <a itemprop="sameAs" href="/pdf/GowerRobertCV_extended.pdf" >
-		<i class="ai ai-cv big-icon"></i>
-              </a>
-            </li>
-
-          </ul>
-
+  <main id="top">
+    <section class="hero" id="about">
+      <div class="profile-column">
+        <img class="portrait" src="img/pics/gitface.png" alt="Robert M. Gower">
+        <div class="identity">
+          <h1>Robert M. Gower</h1>
+          <p>Research Scientist, Flatiron Institute</p>
+        </div>
+        <div class="link-grid" aria-label="Profile links">
+          <a href="mailto:gowerrobert@gmail.com">Email</a>
+          <a href="https://github.com/gowerrobert/" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=okKw87MAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a>
+          <a href="https://www.linkedin.com/in/robert-mansel-gower-a27bba23" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://twitter.com/gowerrobert" target="_blank" rel="noopener">Twitter</a>
+          <a href="https://www.researchgate.net/profile/Robert-Gower-2" target="_blank" rel="noopener">ResearchGate</a>
+          <a href="pdf/GowerRobertCV_extended.pdf">CV</a>
         </div>
       </div>
-      <div class="col-xs-12 col-md-8" itemprop="description">
 
-
-
-        <!-- <h1 id="intro">Intro</h1> -->
-
-        <p>Welcome! I am a Research Scientist at the Flatiron Institute in the Center for Computational Mathematics, in Manhattan in the center of New York City.
-		I develop, analyse and code randomized methods for solving large scale
-		optimization and numerical analysis problems. 
-		
-		<!-- The problems that get me excited are ones where I can develop some new beautiful mathematics, 
-		or code a solution that   -->
-		
-		Previously I was an Assistant Professor at <a href="https://www.telecom-paristech.fr">Télécom Paris</a>.
-          For more details see my
-<a href="./pdf/GowerRobertCV_extended.pdf">CV</a>.</p>
-
-	<!--	an assistant professor in machine learning at  <a href="https://www.telecom-paristech.fr">Télécom Paris</a> where I am part of
-          the Signal, Statistics and Machine Learning group (<i>S<sup>2</sup>A</i>) and the
-          <a href="https://ltci.telecom-paristech.fr/">LTCI lab</a>. My interestes revolve around large scale optimization and numerical analysis problems that come from machine learning applications.
-          For more details see my <a href="./pdf/GowerRobertCV_extended.pdf">CV</a>.</p>
- -->
- <!-- <a href="publication"><strong>papers</strong></a> and -->
-
-          <!-- <p>For links to my work and social media, click on the blue logos below my picture.<br />
-        </p></p> -->
-
-
-        <div class="row">
-
-
-          <div class="col-sm-5">
-            <h3>Interests</h3>
-            <ul class="ul-interests">
-
-              <li>Stochastic optimization</li>
-
-              <li>Randomized numerical linear algebra</li>
-
-              <li>Quasi-Newton methods</li>
-
-              <li>Automatic differentiation</li>
-
-            </ul>
-          </div>
-
-
-
-          <div class="col-sm-7">
-            <h3>Education</h3>
-            <ul class="ul-edu fa-ul">
-
-              <li>
-                <i class="fa-li fa fa-graduation-cap"></i>
-                <div class="description">
-                  <p class="course">PhD in applied mathematics, 2016</p>
-                  <p class="institution">University of Edinburgh</p>
-                </div>
-              </li>
-
-              <li>
-                <i class="fa-li fa fa-graduation-cap"></i>
-                <div class="description">
-                  <p class="course">MSc in applied mathematics, 2011</p>
-                  <p class="institution">State University of Campinas (Unicamp)</p>
-                </div>
-              </li>
-
-              <li>
-                <i class="fa-li fa fa-graduation-cap"></i>
-                <div class="description">
-                  <p class="course">BSc in applied mathematics, 2009</p>
-                  <p class="institution">State University of Campinas (Unicamp)</p>
-                </div>
-              </li>
-
-            </ul>
-          </div>
-
-
-          <div class="col-xs-12 col-md-8">
-            <h3>Students</h3>
-            <ul class="ul-interests">
-
-              <li>Nidham Gazagnadou <a class="btn btn-primary btn-outline btn-xs" href="https://ngazagna.github.io/" target="_blank" rel="noopener">
-            hompage </a>, graduated 2021   </li>
-
-              <li>Rui Yuan <a class="btn btn-primary btn-outline btn-xs" href="https://rui-yuan91.github.io/" target="_blank" rel="noopener">
-            hompage </a>, graduated 2023   </li>
-
-            </ul>
-          </div>
-        </div>
+      <div class="intro">
+        <p>I am a Research Scientist in the Center for Computational Mathematics at the Flatiron Institute in New York City. </p>
+        <p class="eyebrow">Optimization /Machine learning </p>
+        <p class="muted">My current work sits between optimization theory and machine-learning practice, with a particular taste for simple algorithms that exploit some structure. In order, I have been obsessed with Adam,  Polyak stepsizes, Muon and non-Euclidean gradient descent work.</p>
+  
+        <p class="muted">Previously, I worked on <a href="#papers" data-paper-search="sketch">randomized numerical linear algebra</a>, <a href="#papers" data-paper-search="automatic differentiation">automatic differentiation</a>, and <a href="#papers" data-paper-search="quasi-newton">quasi-Newton methods</a>.</p>
       </div>
-    </div>
+    </section>
 
-  </div>
-</section>
-
-
-
-
-<section id="papers" class="home-section">
-  <div class="container">
-
-
-    <div class="row">
-      <div class="col-xs-12 col-md-4 section-heading">
-        <h1>Papers</h1>  <br> (Order of completion)
-        <!-- <p class="view-all">
-        <a href="./publication/">
-        More Papers
-        <i class="fa fa-angle-double-right"></i>
-      </a>
-    </p> -->
-<!--
--->
-  </div>
-  <div class="col-xs-12 col-md-8"> <!--- BEGIN LSIT OF PAPERS -->
-  <!-- NEW PAPER BELOW THIS -->
-
-
-  	
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-    <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-    <span itemprop="author">
-     R. M. G., Dirk A. Lorenz, Maximilian Winkler </span> <br>
-      <em>A Bregman-Kaczmarz method for nonlinear systems of equations</em>, arXiv 2303.08549, 2023
-      <p>
-        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/2210.01400.pdf" target="_blank" rel="noopener">
-          Preprint </a>
-  <!--  <a class="btn btn-primary btn-outline btn-xs" href="https://openreview.net/forum?id=-z9hdsyUwVQ" target="_blank" rel="noopener">
-            Proceedings 
-   </a> -->
-   <!--   <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/nathansiae/Stochastic-Average-Newton" target="_blank" rel="noopener">
-          Code
-        </a>  -->
-      </p>
-    </div>	 
-
-	  
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-    <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-    <span itemprop="author">
-     Guillaume Garrigos, Robert M. Gower </span> <br>
-      <em>Handbook of Convergence Theorems for (Stochastic) Gradient Methods</em>, arXiv:2301.11235   2023.
-      <p>
-        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/2301.11235.pdf" target="_blank" rel="noopener">
-          Preprint </a>
-  <!-- <a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9226504" target="_blank" rel="noopener">
-            Journal 
-         </a>	 --> 
-   <!--   <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/nathansiae/Stochastic-Average-Newton" target="_blank" rel="noopener">
-          Code
-        </a>  -->
-      </p>
-    </div>		  
-	  
-
-	  
-	  
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-    <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-    <span itemprop="author">
-     Rui Yuan, Simon S. Du, R. M. G.
-Alessandro Lazaric, Lin Xiao </span> <br>
-      <em>Linear Convergence of Natural Policy Gradient Methods
-with Log-Linear Policies</em>,  ICLR   2023.
-      <p>
-        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/2210.01400.pdf" target="_blank" rel="noopener">
-          Preprint </a>
-   <a class="btn btn-primary btn-outline btn-xs" href="https://openreview.net/forum?id=-z9hdsyUwVQ" target="_blank" rel="noopener">
-            Proceedings 
-   </a>
-   <!--   <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/nathansiae/Stochastic-Average-Newton" target="_blank" rel="noopener">
-          Code
-        </a>  -->
-      </p>
-    </div>	  
-	  
-	  
-	  
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-    <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-    <span itemprop="author">
-      Shuang Li, William J. Swartworth, Martin Takáč, Deanna Needell, R. M. G. </span> <br>
-      <em>SP2 : A Second Order Stochastic Polyak Method</em>,  ICLR   2023.
-      <p>
-        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2207.08171" target="_blank" rel="noopener">
-          Preprint </a>
-   <a class="btn btn-primary btn-outline btn-xs" href="https://openreview.net/forum?id=5mqFra2ZSuf" target="_blank" rel="noopener">
-            Proceedings 
-   </a>
-   <!--   <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/nathansiae/Stochastic-Average-Newton" target="_blank" rel="noopener">
-          Code
-        </a>  -->
-      </p>
-    </div>	
-	  
-	  
- <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-    <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-    <span itemprop="author">
-      R. M. G. , Mathieu Blondel, Nidham Gazagnadou, Fabian Pedregosa. </span> <br>
-      <em>Cutting Some Slack for SGD with Adaptive Polyak Stepsizes</em>,    2022.
-      <p>
-        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2202.12328" target="_blank" rel="noopener">
-          Preprint </a>
-  <!-- <a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9226504" target="_blank" rel="noopener">
-            Journal 
-         </a>	 --> 
-   <!--   <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/nathansiae/Stochastic-Average-Newton" target="_blank" rel="noopener">
-          Code
-        </a>  -->
-      </p>
-    </div>	
-
-	  
-  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-    <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-    <span itemprop="author">
-      R. M. G. , Aaron Defazio, Michael Rabbat. </span> <br>
-      <em>Stochastic Polyak Stepsize with a Moving Target</em>,    2021.
-      <p>
-        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2106.11851" target="_blank" rel="noopener">
-          Preprint </a>
-  <!-- <a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9226504" target="_blank" rel="noopener">
-            Journal 
-         </a>	 --> 
-   <!--   <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/nathansiae/Stochastic-Average-Newton" target="_blank" rel="noopener">
-          Code
-        </a>  -->
-      </p>
-    </div>	
-
-
-  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-    <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-    <span itemprop="author">
-      Rui Yuan, R. M. G., Alessandro Lazaric. </span> <br>
-      <em>A general sample complexity analysis of vanilla policy gradient</em>,  AISTATS  2022.
-      <p>
-        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2107.11433" target="_blank" rel="noopener">
-          Preprint </a>
-  <!-- <a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9226504" target="_blank" rel="noopener">
-            Journal -->
-         </a>	
-	 <a class="btn btn-primary btn-outline btn-xs" href="https://proceedings.mlr.press/v151/yuan22a.html" target="_blank" rel="noopener">
-              Proceedings
-           </a>
-      </p>
-    </div>	
-	  
-  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-    <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-    <span itemprop="author">
-      Jiabin Chen, Rui Yuan, Guillaume Garrigos,  R. M. G.</span>
-      <em>SAN: Stochastic Average Newton Algorithm for Minimizing Finite Sums</em>,  AISTATS  2022.
-      <p>
-        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2106.10520" target="_blank" rel="noopener">
-          Preprint </a>
-  <!-- <a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9226504" target="_blank" rel="noopener">
-            Journal -->
-         </a>	
-      <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/nathansiae/Stochastic-Average-Newton" target="_blank" rel="noopener">
-          Code
-        </a> 
-	 <a class="btn btn-primary btn-outline btn-xs" href="https://proceedings.mlr.press/v151/chen22a.html" target="_blank" rel="noopener">
-              Proceedings
-           </a>
-      </p>
-    </div>	
-
-
-  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-    <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-    <span itemprop="author">
-      Nidham Gazagnadou, Mark Ibrahim,  R. M. G.</span>
-      <em>RidgeSketch: A Fast sketching based solver for large scale ridge regression</em>,  SIAM Journal of Matrix Analysis,
-	  Vol. 43, Iss. 3, 2022.
-      <p>
-        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2105.05565" target="_blank" rel="noopener">
-          Preprint </a>
-   <a class="btn btn-primary btn-outline btn-xs" href="https://epubs.siam.org/doi/abs/10.1137/21M1422963" target="_blank" rel="noopener">
-            Journal 
-         </a>	
-      <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/facebookresearch/RidgeSketch" target="_blank" rel="noopener">
-          Code
-        </a> 
-      </p>
-    </div>	
-
-	  
-    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-        R. M. G., Mark Schmidt, Francis Bach, Peter Richtarik</span>
-        <em>Variance-Reduced Methods for Machine Learning</em>,  Proceedings of the IEEE, vol. 108, no. 11, pp. 1968-1983, Nov. 2020.
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2010.00892" target="_blank" rel="noopener">
-            Preprint </a>
-	  <a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/9226504" target="_blank" rel="noopener">
-              Journal
-           </a>	
-       <!--     <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-            Code
-          </a> -->
-        </p>
-      </div>	  
-	  
-
-    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-         Rui Yuan, Alessandro Lazaric,  R. M. G.</span>
-        <em>  Sketched Newton-Raphson</em>, SIAM Journal of Optimization, Vol. 32, Iss. 3, 2022.
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2006.12120" target="_blank" rel="noopener">
-            Preprint </a>
-	<a class="btn btn-primary btn-outline btn-xs" href="https://epubs.siam.org/doi/10.1137/21M139788X" target="_blank" rel="noopener">
-              Journal
-           </a>	
-	
-       <!--     <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-            Code
-          </a> -->
-        </p>
+    <section class="section split" id="news">
+      <div class="section-heading">
+        <p class="eyebrow">Updates</p>
+        <h2>Recent News</h2>
       </div>
-
-    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-         Ahmed Khaled, Othmane Sebbouh, Nicolas Loizou, R. M. G., Peter Richtárik.</span>
-        <em>  Unified Analysis of Stochastic Gradient Methods for Composite Convex and Smooth Optimization</em>,  2020.
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2006.11573" target="_blank" rel="noopener">
-            Preprint </a>
-       <!--     <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-            Code
-          </a> -->
-        </p>
-      </div>
-
-    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-          R. M. G., Othmane Sebbouh, Nicolas Loizou</span>
-        <em>  SGD for Structured Nonconvex Functions: Learning Rates, Minibatching and Interpolation</em>, AISTATS 2021.
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2006.10311" target="_blank" rel="noopener">
-            Preprint </a>
-	 <a class="btn btn-primary btn-outline btn-xs" href="https://proceedings.mlr.press/v130/gower21a.html" target="_blank" rel="noopener">
-              Proceedings
-            </a>
-       <!--     <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-            Code
-          </a> -->
-        </p>
-      </div>
-
-
-    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-         Aaron Defazio, R. M. G.</span>
-        <em>  Factorial Powers for Stochastic Optimization</em>, Asian Conference on Machine Learning, 2021.
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2006.01244" target="_blank" rel="noopener">
-            Preprint </a>
-	 <a class="btn btn-primary btn-outline btn-xs" href="https://proceedings.mlr.press/v157/defazio21a.html" target="_blank" rel="noopener">
-              Proceedings
-            </a>
-       <!--     <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-            Code
-          </a> -->
-        </p>
-      </div>
-
-
-    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-        Othmane Sebbouh, R. M. G., Aaron Defazio.</span>
-        <em> Almost sure convergence rates for Stochastic Gradient Descent and
-Stochastic Heavy Ball</em>, COLT 2021.
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/2006.07867.pdf" target="_blank" rel="noopener">
-            Preprint </a>
-	 <a class="btn btn-primary btn-outline btn-xs" href="https://proceedings.mlr.press/v134/sebbouh21a.html" target="_blank" rel="noopener">
-              Proceedings
-            </a>		
-       <!--     <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-            Code
-          </a> -->
-        </p>
-      </div>
-
-
-    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-        Dmitry Kovalev, R. M. G., Peter Richtárik, Alexander Rogozin.</span>
-        <em>  Fast Linear Convergence of Randomized BFGS</em>, 2020.
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/2002.11337.pdf" target="_blank" rel="noopener">
-            Preprint </a>
-       <!--     <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-            Code
-          </a> -->
-        </p>
-      </div>
-
-    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-         R. M. G., Denali Molitor, Jacob Moorman, Deanna Needell.</span>
-        <em>  Adaptive Sketch-and-Project Methods for Solving Linear Systems</em>, SIAM Journal on Matrix Analysis and Applications, 2019.
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1909.03604" target="_blank" rel="noopener">
-            Preprint </a>
-	<a class="btn btn-primary btn-outline btn-xs" href="https://epubs.siam.org/doi/10.1137/19M1285846" target="_blank" rel="noopener">
-              Journal
-            </a>
-       <!--     <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-            Code
-          </a> -->
-        </p>
-      </div>
-
-
-
-    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-         O. Sebbouh, N. Gazagnadou, S. Jelassi, F. Bach, R. M. G.</span>
-        <em> Towards closing the gap between the theory and practice of SVRG</em>, Neurips 2019.
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1908.02725" target="_blank" rel="noopener">
-            Preprint
-          </a>
-          <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-            Code
-          </a>
-	  <a class="btn btn-primary btn-outline btn-xs" href="./pdf/posters/svrg_poster_neurips.pdf" target="_blank" rel="noopener">
-              Poster
-          </a>
-	 <a class="btn btn-primary btn-outline btn-xs" href="https://papers.nips.cc/paper/2019/hash/cd00692c3bfe59267d5ecfac5310286c-Abstract.html" target="_blank" rel="noopener">
-              Proceedings
-            </a>
-        </p>
-      </div>
-
-
-    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-        R. M. G., D. Kovalev, <a href ="http://www.opt.uni-duesseldorf.de/~lieder/de/inhalt.php"> F. Lieder</a>,  P.  Richt&aacute;rik</span>.
-        <em> RSN: Randomized Subspace Newton</em>, Neurips 2019.
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1905.10874" target="_blank" rel="noopener">
-            Preprint
-          </a>
-         <a class="btn btn-primary btn-outline btn-xs" href="./pdf/posters/RSN_neurips_poster.pdf" target="_blank" rel="noopener">
-              Poster
-            </a>
-       <!--   <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-            Code
-          </a> -->
-           <a class="btn btn-primary btn-outline btn-xs" href="https://papers.nips.cc/paper/8351-rsn-randomized-subspace-newton" target="_blank" rel="noopener">
-              Proceedings
-            </a>
-        </p>
-      </div>
-
-
-    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-        N. Gazagnadou, R. M. G., <a href="http://josephsalmon.eu/">J. Salmon</a></span>.
-        <em> Optimal mini-batch and step sizes for SAGA</em>, ICML 2019.
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1902.00071" target="_blank" rel="noopener">
-            Preprint
-          </a>
-          <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-            Code
-          </a>
-           <a class="btn btn-primary btn-outline btn-xs" href="http://proceedings.mlr.press/v97/gazagnadou19a/gazagnadou19a.pdf" target="_blank" rel="noopener">
-              Proceedings
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./pdf/posters/svrg_poster_neurips.pdf" target="_blank" rel="noopener">
-              Poster
-            </a>
-        </p>
-      </div>
-
-      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-        <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-        <span itemprop="author">
-          R. M. G., N. Loizou, X. Qian, A. Sailanbayev, E. Shulgin, P.  Richt&aacute;rik.
-        </span>
-        <em>   SGD: general analysis and improved rates</em>,  (extended oral presentation) ICML 2019.
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1901.09401" target="_blank" rel="noopener">
-            Preprint
-          </a>
-           <a class="btn btn-primary btn-outline btn-xs" href="http://proceedings.mlr.press/v97/qian19b/qian19b.pdf" target="_blank" rel="noopener">
-              Proceedings
-            </a>
-          <!-- <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-          Code
-        </a> -->
-      </p>
-    </div>
-
-
-    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-        A. L. Gower, R. M. G., J. Deakin, W. J. Parnell, I. D. Abrahams</span>.
-        <a href="https://arturgower.github.io/publication/learning_backscattering/" itemprop="name">
-          <em>Characterising particulate random media from near-surface backscattering: A machine learning approach to predict particle size and concentration </em></a>.
-          EPL (Europhysics Letters),&nbsp;2018.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1801.05490" target="_blank" rel="noopener">
-              Preprint
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./project/multiple-scattering/">
-              Project
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arturgower.github.io/pdf/Gower_2018_EPL.pdf" target="_blank" rel="noopener">
-              Paper
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="http://iopscience.iop.org/article/10.1209/0295-5075/122/54001/meta" target="_blank" rel="noopener">
-              Journal
-            </a>
-          </p>
-        </div>
-
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-          <span itemprop="author">
-            A. Bibi, A. Sailanbayev, B. Ghanem, R. M. G. and P. Richt&aacute;rik.
-          </span>
-          <em> Improving SAGA via a probabilistic interpolation with gradient descent,</em> 2018.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1806.05633" target="_blank" rel="noopener">
-              Preprint
-            </a>
-          </p>
-        </div>
-
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-          <span itemprop="author">
-            R. M. G.,  <a href="http://www.maths.ed.ac.uk/~prichtar/"> P. Richt&aacute;rik</a> and <a href="http://www.di.ens.fr/~fbach/">F. Bach.</a>
-          </span>
-          <em> Stochastic quasi-gradient methods: variance reduction via Jacobian sketching, </em>  Mathematical Programming 2020.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1805.02632" target="_blank" rel="noopener">
-              Preprint
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-              Code
-            </a>
-	    <a class="btn btn-primary btn-outline btn-xs" href="https://link.springer.com/epdf/10.1007/s10107-020-01506-0?sharing_token=KjZNeNiKXJAYFD0A8PUsCve4RwlQNchNByi7wbcMAY7FxZfgUoDTHySyNaRyf-0XrkGpTNGirR83QXvIAu7Xtx8WyZ2vWrFFXWl3b1VFF_BbvWr4x2Fia0nFRWv5BSR9h_1v8bJqDihbjvXYDs1zk3-GShhL5GeYnMwss8CaDWU%3D" target="_blank" rel="noopener">
-              Journal
-            </a>
-          </p>
-        </div>
-
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-          <span itemprop="author">
-            R. M. G., F. Hanzely, <a href="http://www.maths.ed.ac.uk/~prichtar/"> P. Richt&aacute;rik</a> and <a href="http://sstich.ch/">S. Stich.</a>
-          </span>
-          <em> Accelerated stochastic matrix inversion: general theory and speeding up BFGS rules for faster second-order optimization,</em>  NIPS, 2018.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1802.04079" target="_blank" rel="noopener">
-              Preprint
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-              Code
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://papers.nips.cc/paper/7434-accelerated-stochastic-matrix-inversion-general-theory-and-speeding-up-bfgs-rules-for-faster-second-order-optimization" target="_blank" rel="noopener">
-              Proceedings
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./pdf/posters/ABFGSposter.pdf" target="_blank" rel="noopener">
-              Poster
-            </a>
-          </p>
-        </div>
-
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-          <span itemprop="author">
-            B. K. Abid and R. M. G..
-          </span>
-          <em> Greedy stochastic algorithms for entropy-regularized optimal transport problems,</em>  AISTATS, 2018.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1803.01347" target="_blank" rel="noopener">
-              Preprint
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="http://proceedings.mlr.press/v84/abid18a/abid18a.pdf" target="_blank" rel="noopener">
-              Proceedings
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./pdf/posters/greedy_stoch_poster.pdf" target="_blank" rel="noopener">
-              Poster
-            </a>
-          </p>
-        </div>
-
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-          <span itemprop="author">
-            R. M. G., <a href="http://nicolas.le-roux.name/">  N. Le Roux</a> and <a href="http://www.di.ens.fr/~fbach/">F. Bach</a>.
-          </span>
-          <em>Tracking the gradients using the Hessian: A new look at variance reducing stochastic methods,</em>  AISTATS (Oral presenation), 2018.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1710.07462" target="_blank" rel="noopener">
-              Preprint
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-              Code
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="http://proceedings.mlr.press/v84/gower18a/gower18a.pdf" target="_blank" rel="noopener">
-              Proceedings
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./pdf/talks/tracking_grad-expanded.pdf" target="_blank" rel="noopener">
-              Slides
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./pdf/posters/hunt_grad.pdf" target="_blank" rel="noopener">
-              Poster
-            </a>
-          </p>
-        </div>
-
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-          <span itemprop="author">
-            R. M. G. and <a href="http://www.maths.ed.ac.uk/~prichtar/">P. Richt&aacute;rik</a>.
-          </span>
-          <em>Randomized quasi-Newton updates are linearly convergent matrix inversion algorithms,</em>  SIAM Journal on Matrix Analysis and Applications, 2017.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1602.01768" target="_blank" rel="noopener">
-              Preprint
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOptMatlab" target="_blank" rel="noopener">
-              Code
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://epubs.siam.org/doi/abs/10.1137/16M1062053" target="_blank" rel="noopener">
-              Journal
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./pdf/talks/TALK-inverse_quasi_newton-best.pdf" target="_blank" rel="noopener">
-              Slides
-            </a>
-          </p>
-        </div>
-
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-          <span itemprop="author">
-            R. M. G. and <a href="http://www.maths.ed.ac.uk/~prichtar/">P. Richt&aacute;rik</a>.
-          </span>
-          <em>Linearly Convergent Randomized Iterative Methods for Computing the Pseudoinverse,</em>   2016.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1612.06255" target="_blank" rel="noopener">
-              Preprint
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/Pseudoinverse" target="_blank" rel="noopener">
-              Code
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./pdf/talks/pseudoinverse-expanded.pdf" target="_blank" rel="noopener">
-              Slides
-            </a>
-          </p>
-        </div>
-
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-          <span itemprop="author">
-            R. M. G.
-          </span>
-          <em>Sketch and Project: Randomized Iterative Methods for Linear Systems and Inverting Matrices,</em>     PhD Dissertation,  School of Mathematics, The University of Edinburgh, 2016.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1612.06013.pdf" target="_blank" rel="noopener">
-              Preprint
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./code/RandomLinearLab-0.0.tar.gz" target="_blank" rel="noopener">
-              Code
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./pdf/talks/TALK-Linear_Systems_inverse.pdf" target="_blank" rel="noopener">
-              Slides
-            </a>
-          </p>
-        </div>
-
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-          <span itemprop="author">
-            R. M. G., <a href="http://www.columbia.edu/~goldfarb/">D. Goldfarb</a> and <a href="http://www.maths.ed.ac.uk/~prichtar/"> P. Richt&aacute;rik</a>.
-          </span>
-          <em>Stochastic Block BFGS: Squeezing More Curvature out of Data,</em>     ICML, 2016.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1603.09649" target="_blank" rel="noopener">
-              Preprint
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOptMatlab" target="_blank" rel="noopener">
-              Code
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="http://proceedings.mlr.press/v48/gower16.pdf" target="_blank" rel="noopener">
-              Proceedings
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./pdf/talks/ICML2016_talk.pdf" target="_blank" rel="noopener">
-              Slides
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./pdf/posters/ICML2016_poster.pdf" target="_blank" rel="noopener">
-              Poster
-            </a>
-          </p>
-        </div>
-
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-          <span itemprop="author">
-            R. M. G. and <a href="http://www.maths.ed.ac.uk/~prichtar/"> P. Richt&aacute;rik</a>.
-          </span>
-          <em>Stochastic dual ascent for solving linear systems,</em>     2015.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1512.06890" target="_blank" rel="noopener">
-              Preprint
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./code/RandomLinearLab-0.0.tar.gz" target="_blank" rel="noopener">
-              Code
-            </a>
-          </p>
-        </div>
-
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-          <span itemprop="author">
-            R. M. G. and <a href="http://www.maths.ed.ac.uk/~prichtar/"> P. Richt&aacute;rik</a>.
-          </span>
-          <em>Randomized iterative methods for linear systems,</em>  SIAM Journal on Matrix Analysis and Applications,   2015.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1506.03296" target="_blank" rel="noopener">
-              Preprint
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="http://epubs.siam.org/doi/abs/10.1137/15M1025487" target="_blank" rel="noopener">
-              Journal
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./pdf/talks/Gower_LeslieFox_Rand_linear_systems.pdf" target="_blank" rel="noopener">
-              Slides
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./code/RandomLinearLab-0.0.tar.gz" target="_blank" rel="noopener">
-              Code
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://epubs.siam.org/action/showMostReadArticles?journalCode=sjmael" target="_blank" rel="noopener">
-              Most downloaded on SIMAX
-            </a>
-          </p>
-        </div>
-
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-          <span itemprop="author">
-            R. M. G. and <a href="https://arturgower.github.io">A. L. Gower </a>.
-          </span>
-          <em>High order reverse automatic differentiation with emphasis on the third order,</em>  Mathematical Programming,   2014.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1309.5479.pdf" target="_blank" rel="noopener">
-              Preprint
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="http://link.springer.com/article/10.1007%2Fs10107-014-0827-4" target="_blank" rel="noopener">
-              Journal
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./pdf/talks/halley3DOrder.pdf" target="_blank" rel="noopener">
-              Slides
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./code/ADOL-C_2.5.0_HighOrderReverse-1.0.tar.gz" target="_blank" rel="noopener">
-              Code
-            </a>
-          </p>
-        </div>
-
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-          <span itemprop="author">
-            R. M. G. and M. P. Mello.
-          </span>
-          <em>Computing the sparsity pattern of Hessians using automatic differentiation,</em> ACM Transactions on Mathematical Software,   2014.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="./pdf/reports/Hessian_sparsity.pdf" target="_blank" rel="noopener">
-              Preprint
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="http://dl.acm.org/citation.cfm?doid=2594412.2490254" target="_blank" rel="noopener">
-              Journal
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./code/ADOL-C_2.5.0_HighOrderReverse-1.0.tar.gz" target="_blank" rel="noopener">
-              Code
-            </a>
-          </p>
-        </div>
-
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-          <span itemprop="author">
-            R. M. G. and M. P. Mello.
-          </span>
-          <em>A new framework for Hessian automatic differentiation,</em> Optimization Methods and Software,   2012.
-          <p>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2007.15040" target="_blank" rel="noopener">
-              Preprint
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="http://www.tandfonline.com/doi/full/10.1080/10556788.2011.580098#.UayxfkKPXGg" target="_blank" rel="noopener">
-              Journal
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./pdf/talks/EP.pdf" target="_blank" rel="noopener">
-              Slides
-            </a>
-            <a class="btn btn-primary btn-outline btn-xs" href="./code/ADOL-C_2.5.0_HighOrderReverse-1.0.tar.gz" target="_blank" rel="noopener">
-              Code
-            </a>
-          </p>
-        </div>
-
-
-      </div>  <!--- END OF two column class --->
-    </section> <!--- END OF PUBLICATIONS --->
-
-
-
-
-
-<section id="papers" class="home-section">
-  <div class="container">
-
-
-    <div class="row">
-      <div class="col-xs-12 col-md-4 section-heading">
-        <h1>Reports and Notes</h1>
-
-
-        <!-- <p class="view-all">
-        <a href="./publication/">
-        More Papers
-        <i class="fa fa-angle-double-right"></i>
-      </a>
-    </p> -->
-
-  </div>
-  <div class="col-xs-12 col-md-8">
-
-	
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-         R. M. G. </span>
-        <em> A Very Simple Introduction to Diffusion Models and The Standard Loss Function</em>
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="pdf/reports/Simple_Diffusion_Model_Loss.pdf" target="_blank" rel="noopener">
-            Notes </a>
-       <!--     <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-            Code
-          </a> -->
-        </p>
-      </div> <!-- end of paper -->
-	  
-	  
-    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-         R. M. G., R. Whittaker, M.D. Wykes, J. Christmas, P. Browne, J. Van lent,  A.L. Gower and S. Ghosh. </span>
-        <em>  Train Positioning Using Video Odometry</em>, 2014.
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="http://www.maths-in-industry.org/miis/672/" target="_blank" rel="noopener">
-            Report </a>
-       <!--     <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-            Code
-          </a> -->
-        </p>
-      </div> <!-- end of paper -->
-
-	  	<!--- <a href="http://www.maths-in-industry.org/miis/672/">Train Positioning Using Video Odometry </a><br>
-		RMG, R. Whittaker, M.D. Wykes, J. Christmas, P. Browne, J. Van lent, <br> A.L. Gower and S. Ghosh <br>
-		The MIIS Eprints Archive, 2014 -->
-
-
-    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-         R. M. G.and <a href="http://www.maths.ed.ac.uk/~gondzio/">J. Gondzio</a>. <br></span>
-        <em> Action constrained quasi-Newton methods</em>, Technical Report ERGO 14-020, 2014
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="http://arxiv.org/abs/1412.8045" target="_blank" rel="noopener">
-            Report </a>
-         <a class="btn btn-primary btn-outline btn-xs" href="code/quNac-0.0.tar.gz" target="_blank" rel="noopener">
-            Code
-          </a>
-        </p>
-      </div> <!-- end of paper -->
-
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-         R. M. G. </span>
-        <em> Conjugate Gradients: The short and painful explanation with oblique projections</em>
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="pdf/reports/GowerR_Painful_PCG_projections.pdf" target="_blank" rel="noopener">
-            Notes </a>
-       <!--     <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/gowerrobert/StochOpt.jl" target="_blank" rel="noopener">
-            Code
-          </a> -->
-        </p>
-      </div> <!-- end of paper -->
-
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-         R. M. G.  and M.P. Mello  </span>
-        <em> Hessian matrices via automatic differentiation</em>, State University of Campinas technical report and Msc Thesis 2011
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="http://www.ime.unicamp.br/sites/default/files/pesquisa/relatorios/rp-2010-16.pdf" target="_blank" rel="noopener">
-            Report </a>
-	<a class="btn btn-primary btn-outline btn-xs" href="pdf/reports/RobertGowerTeseMestrado.pdf" target="_blank" rel="noopener">
-            Master's thesis </a>
-
-        </p>
-      </div> <!-- end of paper -->
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-      <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-      <span itemprop="author">
-         R. M. G.  and M.P. Mello  </span>
-        <em>  Efficient calculation of derivatives through graph coloring</em>, State University of Campinas technical report, undergraduate project 2009
-        <p>
-          <a class="btn btn-primary btn-outline btn-xs" href="pdf/reports/R1.pdf" target="_blank" rel="noopener">
-            Report I</a>
-          <a class="btn btn-primary btn-outline btn-xs" href="pdf/reports/R2.pdf" target="_blank" rel="noopener">
-            Report II</a>
-
-        </p>
-      </div> <!-- end of paper -->
-
-
-
-      </div>  <!--- END OF two column class --->
-    </section> <!--- END OF REPORTS AND NOTES --->
-
-
-    <section id="talks" class="home-section">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-xs-12 col-md-4 section-heading">
-            <h1>Recent &amp; Upcoming Talks</h1>
-
-
-          </div>
-          <div class="col-xs-12 col-md-8">
-
-
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
-              <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
-              <span itemprop="name"><a href="https://iccopt2019.berlin/">ICCOPT 2019</a></span>
-              <div itemprop="startDate">
-                Aug 5, 2019
-              </div>
-              <em>Expected smoothness is the key to understanding the mini-batch complexity of stochastic gradient methods </em>
-	 <a class="btn btn-primary btn-outline btn-xs" href="./pdf/talks/expected_smoothness.pdf" target="_blank" rel="noopener">
-              Slides
-            </a>
-              <!-- <div class="talk-metadata">
-              Lists of slides
-            </div>
-            <div class="talk-links">
-            <a class="btn btn-primary btn-outline btn-xs" href="https://docs.google.com/presentation/d/1Lhy9H96IomGetDlMd75jKN8-7zlYmnI49utfEE39zhI/edit?usp=sharing">
-            The dynamics of multiple scattering - 2019
-          </a>
-        </div> -->
-      </div>
-    </div>
-  </div>
-
-</div>
-</section>
-
-
-
-
-
-<!-- <section id="posts" class="home-section">
-<div class="container">
-
-
-
-</div>
-</section> -->
-
-<section id="teaching" class="home-section">
-  <div class="container">
-
-
-    <div class="row">
-
-      <div class="col-xs-12 col-md-4 section-heading">
-        <h1>Teaching</h1>
-
-      </div>
-      <div class="col-xs-12 col-md-8">
-        <!-- <h2> <span style="color:darkblue">Teaching 2018/2019</span></h2>
-        <br>
-        <br> -->
-  <h3> Flatiron:  Machine Learning X Science Summer School (Spring 2022)</h3>
-      <!--  In case you need it, here is a short <a href="./pdf/teaching/revision_probability.pdf">probability revision</a>.<br> -->
-        1) <a href="./pdf/teaching/Flatiron_summer_school/Flatiron_summer_school.pdf"> Lecture slides</a>.<br>
-	2) Jupiter notebook for generating (most) of figures in slides  <a href="./pdf/teaching/Flatiron_summer_school/Gower_lectures_SGD_figures.ipynb"> SGD_figure.ipynb</a>, 
-	      and <a href="./pdf/teaching/Flatiron_summer_school/Gradient_momentum.ipynb"> Gradient_momentum.ipynb </a><br>
-	3) Exercises on <a href="./pdf/M2_statistique_optimisation/exe_convexity_smoothness.pdf"> convexity and smoothness</a>, 
-<!-- <a href="./pdf/M2_statistique_optimisation/exe_convexity_smoothness_solution.pdf"> (solutions)</a><br> -->
-        <a href="./pdf/M2_statistique_optimisation/complexity_rates_exe.pdf">complexity and convergence rates</a>, 
-<!-- <a href="./pdf/M2_statistique_optimisation/complexity_rates_exe_solution.pdf"> (solutions)</a> <br> -->
-   <!--     2)  Lecture I: <a href="./pdf/M2_statistique_optimisation/lecture1.pdf"> intro to ML, convexity, smoothness and gradient descent </a><br> -->
-         <a href="./pdf/M2_statistique_optimisation/ridge_reg_exe.pdf"> ridge regression and gradient descent</a>,
-<!-- <a href="./pdf/M2_statistique_optimisation/ridge_reg_exe_solution.pdf">(solutions)</a> <br> -->
-	 <a href="./pdf/M2_statistique_optimisation/stoch_ridge_reg_exe.pdf"> stochastc methods for ridge regression</a>, 
-<!-- <a href="./pdf/M2_statistique_optimisation/stoch_ridge_reg_exe_solution.pdf"> (solutions)</a> <br> -->
-	<a href="./pdf/M2_statistique_optimisation/SGD_proof_exe.pdf">SGD proof</a>
-<!-- <a href="./pdf/M2_statistique_optimisation/SGD_proof_exe_solution.pdf"> (solutions)</a> <br> -->
-		
-
-	      
-     <h3> Cornell lecture: Optimization for Machine Learning (Spring 2020)</h3>
-        In case you need it, here is a short <a href="./pdf/teaching/revision_probability.pdf">probability revision</a>.<br>
-        1) <a href="./pdf/teaching/cornell/Syllabus.md"> Details of the course</a>. <br>
-        2) <a href="./pdf/teaching/cornell/lectures_cornell.pdf"> Lecture slides for SGD</a>.<br>
-        3) Exercises on <a href="./pdf/teaching/stoch_ridge_reg_exe.pdf">stochastc methods for ridge regression</a> <a href="./pdf/M2_statistique_optimisation/stoch_ridge_reg_exe_solution.pdf"> (solutions)</a> and
-        <a href="./pdf/M2_statistique_optimisation/SGD_proof_exe.pdf"> SGD convergence proof</a> (<a href="./pdf/teaching/IASD/SGD_proof_exe_solutions.pdf">solutions</a>).<br>
-        4) <a href="./pdf/teaching/cornell/optimization_IV_variance_reduced.pdf"> Lecture slides for Variance Reduction</a>.<br>
-
-     <h3> Master IASD: AI Systems and Data Science  (Fall 2019)</h3>
-For prerequisites see  <a href="./pdf/prerequisites.txt">  here </a>. For revision of vector calculus see <a href="http://people.reed.edu/~wieting/essays/DPMath211.pdf">  here </a>.<br>
-     The course information can be found <a href = "https://docs.google.com/document/d/17HcvFN17gjjfUKtnx_xXpmPrCoWzW9OGyrpdxqhca0I/edit">  here </a>   <br>
-
-
-      1) Slides on <a href="./pdf/teaching/IASD/Intro-IASD.pdf">introduction to SGD and ERM</a>   <br>
-      2) Lecture notes on <a href="./pdf/teaching/revision_probability.pdf">probability revision</a><br>
-      3) Exercise list on <a href="./pdf/teaching/stoch_ridge_reg_exe.pdf">stochastc methods for ridge regression</a>  <a href="./pdf/M2_statistique_optimisation/stoch_ridge_reg_exe_solution.pdf"> (solutions)</a>  <br>
-      4) Slides on <a href="./pdf/teaching/IASD/SGD-variants_IASD.pdf">SGD and variants</a>   <br>
-      5) <a href="./pdf/M2_statistique_optimisation/SGD_proof_exe.pdf"> Exercise on SGD proof</a> (<a href="./pdf/teaching/IASD/SGD_proof_exe_solutions.pdf">solutions</a>)
-      <br>
-      6) Python notebook on <a href="./pdf/teaching/IASD/SGD.ipynb">  SGD  </a> (<a href="./pdf/teaching/IASD/SGD_solution.ipynb">solutions</a>)
-
-
-
-     <h3> Telecom Paris IA317: Large scale machine learning  (Fall 2019)</h3>
-
-     The course information can be found <a href = "./pdf/teaching/IA317/plan_2019.pdf">here</a>.<br>
-For prerequisites and revision material see <a href="./pdf/prerequisites.txt">here</a>. <br>
-
-      1) Lecture notes on <a href="./pdf/teaching/IA317/dimension_reduction.pdf">dimension reduction tools and sparse matrices</a><br>
-      2) Exercise list on <a href="./pdf/teaching/IA317/exe_dimension_reduction_LA.pdf">dimension reduction tools and sparse matrices</a>   <br>
-      3) Python Notebook graded homework on <a href="./pdf/teaching/IA317/Rand_Proj.ipynb">dimension reduction tools and sparse matrices</a>. Data sets needed for homework:
-<a href="./pdf/teaching/IA317/colon-cancer">colon-cancer</a>,  <a href="./pdf/teaching/IA317/phpCLGrjq.arff">anthracyclineTaxaneChemotherapy</a> and <a href="./pdf/teaching/IA317/sector.scale">sector.scale</a>.
-  <br>
-      <br>
-
-
-
-        <h3> MDI210 Optimization et Analise n&uacute;meric  (Fall 2020)</h3>
-      The complete lectures notes with examples and exercises (by Irene Charon
-Olivier Hudry) <a href="./pdf/teaching/MDI210/MaitreMDI210_English.pdf">are here</a>.  Here are my notes and slides (WARNING: these are a work in progress!)  <br>
-
-
-      1) Lecture notes on <a href="./pdf/teaching/MDI210/NA_notes_MDI210.pdf">numerical linear algebra</a>   <br>
-      2) Lecture notes on <a href="./pdf/teaching/MDI210/optimization_notes_MDI210.pdf">linear and nonlinear optimization</a> (Updated 12/10/2020)<br>
-      3) Slides on <a href="./pdf/teaching/MDI210/NA_slides.pdf">Linear systems and Eigenvalues</a>   <br>
-      4) Slides on <a href="./pdf/teaching/MDI210/LP.pdf">Linear Programming</a>   <br>
-      5) Slides on <a href="./pdf/teaching/MDI210/NLP_slides.pdf">Nonlinear Linear Programming</a> (Updated 12/10/2020)  <br>
-      <br>
-
-      <h3>Master2 Optimization for Data Science (Fall 2019)</h3>
-
-For prerequisites see  <a href="./pdf/prerequisites.txt">  here </a>. For revision of vector calculus see <a href="http://people.reed.edu/~wieting/essays/DPMath211.pdf">  here </a>.<br>
-Lecture notes on <a href="./pdf/M2_statistique_optimisation/grad_conv.pdf">gradient descent proofs</a>.   <br> <br>
-
-	0) <a href="./pdf/M2_statistique_optimisation/exe_convexity_smoothness.pdf"> Exercises on convexity and smoothness</a>
-<a href="./pdf/M2_statistique_optimisation/exe_convexity_smoothness_solution.pdf"> (solutions)</a><br>
-	1) <a href="./pdf/M2_statistique_optimisation/complexity_rates_exe.pdf"> Exercises on complexity and convergence rates</a>
-<a href="./pdf/M2_statistique_optimisation/complexity_rates_exe_solution.pdf"> (solutions)</a> <br>
-        2)  Lecture I: <a href="./pdf/M2_statistique_optimisation/lecture1.pdf"> intro to ML, convexity, smoothness and gradient descent </a><br>
-        3) <a href="./pdf/M2_statistique_optimisation/ridge_reg_exe.pdf"> Exercises ridge regression and gradient descent</a>
-<a href="./pdf/M2_statistique_optimisation/ridge_reg_exe_solution.pdf">(solutions)</a> <br>
-        4) <a href="./pdf/M2_statistique_optimisation/optimization_II_prox_LASSO-expanded.pdf""> Lecture II: proximal gradient methods</a> <br>
-	5) <a href="./pdf/M2_statistique_optimisation/exe_prox.pdf"> Exercises on proximal operator</a>
-<a href="./pdf/M2_statistique_optimisation/exe_prox_solution.pdf"> (solutions)</a> <br>
-	6) <a href="./pdf/M2_statistique_optimisation/Lab1.ipynb"> Lab1: Proximal gradient methods</a> <br>
-        7) <a href="./pdf/M2_statistique_optimisation/optimization_III_SGD-expanded.pdf"> Lecture III: Stochastic gradient descent</a> <br>
-	8) <a href="./pdf/M2_statistique_optimisation/stoch_ridge_reg_exe.pdf"> Exercises on stochastc methods for ridge regression</a>
-<a href="./pdf/M2_statistique_optimisation/stoch_ridge_reg_exe_solution.pdf"> (solutions)</a> <br>
-	9) <a href="./pdf/M2_statistique_optimisation/SGD_proof_exe.pdf"> Exercise on SGD proof</a>
-<a href="./pdf/M2_statistique_optimisation/SGD_proof_exe_solution.pdf"> (solutions)</a> <br>
-	10) <a href="./pdf/M2_statistique_optimisation/optimization_IV_variance_reduced-expanded.pdf"> Lecture IV: Stochastic variance reduced gradient methods</a> <br>
-	11) <a href="./pdf/M2_statistique_optimisation/variance_reduced_exe.pdf"> Exercise on variance reduction</a>, <a href="./pdf/M2_statistique_optimisation/notes_variance_reduction.pdf"> proof of convergence of SVRG</a> <br>
-	12) <a href="./pdf/M2_statistique_optimisation/Lecture_slides_sampling_momentum.pdf"> Lecture V: Sampling and momentum</a> <br>
-	13) <a href="./pdf/M2_statistique_optimisation/sampling_exe.pdf"> Exercise on sampling and momentum</a> <br>
-	14) <a href="./pdf/M2_statistique_optimisation/Gradient_momentum.ipynb"> Python notebook on momentum</a> <br>
-<!--<a href="./pdf/M2_statistique_optimisation/SGD_proof_exe_solution.pdf"> (solutions)</a> <br>
-        <br>
-
- <!--
-
-      Lecture slides: <br>
-      1) <a href="./pdf/M2_statistique_optimisation/Intro-ML-expanded.pdf">intro ML</a> <br>
-      2) <a href="./pdf/M2_statistique_optimisation/optimization_I_conv_smooth_grad-expanded.pdf"> convexity, smoothness and gradient descent</a> <br>
-      3) <a href="./pdf/M2_statistique_optimisation/optimization_II_prox_LASSO-expanded.pdf"> proximity operator, ISTA and FISTA.</a> <br>  <br>
-
-      Lecture notes on <a href="./pdf/M2_statistique_optimisation/grad_conv.pdf">gradient descent proofs</a>.   <br> <br>
-
-      Exercises:  <br>
-      1) <a href="./pdf/M2_statistique_optimisation/exe_convexity_smoothness.pdf">convexity and smoothness</a>, <a href="./pdf/M2_statistique_optimisation/exe_convexity_smoothness_answers.pdf">(with answers)</a>  <br>
-      3) <a href="./pdf/M2_statistique_optimisation/exe_grad_least_squares.pdf">GD and SGD on linear least squares</a>,
-      <a href="./pdf/M2_statistique_optimisation/exe_grad_least_squares_solutions.pdf">(with answers)</a>  <br>
-      4) <a href="./pdf/M2_statistique_optimisation/ridge_reg_exe.pdf">gradient descent and Ridge Regression</a>,
-      <a href="./pdf/M2_statistique_optimisation/ridge_reg_exe_solutions.pdf">(with answers)</a>  <br>
-      5) <a href="./pdf/M2_statistique_optimisation/exe_prox.pdf">proximity operator</a>,
-      <a href="./pdf/M2_statistique_optimisation/exe_prox_solutions.pdf">(with answers)</a> <br /> <br />
-
-     <h2> <span style="color:darkblue">Teaching 2015&#8212;2018</span></h2>
-      <br>
-      <br> -->
-
-   <h3> <a href ="https://aimsammi.org/about-ammi/"> African Masters of Machine Intelligence (AMMI) </a>  (Winter 2019)</h3>
-
-        1) <a href="./pdf/AMMI/ammi.pdf"> Lecture I: Introduction into ML and optimization</a> <br>
-        2) <a href="./pdf/AMMI/TD1.pdf"> Exercises on convexity, smoothness and gradient descent</a> <br>
-        3) <a href="./pdf/AMMI/optimization_II_prox_LASSO.pdf"> Lecture II: proximal gradient methods</a> <br>
-	4) <a href="./pdf/AMMI/exe_prox.pdf"> Exercises on proximal operator</a> <br>
-	5) <a href="./pdf/AMMI/optimization_III_SGD.pdf"> Lecture III: Stochastic gradient descent</a> <br>
-	6) <a href="./pdf/AMMI/TD2.pdf"> Exercises on stochastc methods</a> <br>
-	7) <a href="./pdf/AMMI/optimization_IV_variance_reduced-expanded.pdf"> Lecture IV: Stochastic variance reduced gradient methods</a> <br>
-	8) <a href="./pdf/AMMI/notes_variance_reduction.pdf"> Notes on stochastic variance reduced methods</a> <br>
-        <br>
-
-    <!--  <b>Mathematics Revision for M.Sc. OR (Fall 2014, 2015).</b>  <a href="./pdf/teaching/RevisionSlides.pdf"> Revision Slides </a> <br /><br />
-
-      <b>Support Calculus Workshop (Spring 2013)</b>  Exercises:
-      <a href="./pdf/teaching/sequences_series.pdf">Sequences and Series </a> <a href="./pdf/teachin/sequences_series_sol.pdf">(solutions)</a>,
-      <a href="./pdf/teaching/limits_quotient_derivatives.pdf">Limits and quotient derivatives</a> <a href="./pdf/teaching/limits_quotient_derivatives_sol.pdf">(solutions)</a>,
-      <a href="./pdf/teaching/differentiation_review.pdf">Differentiation Review </a>,
-      <a href="./pdf/teaching/antiderivatives.pdf">Anti-derivatives</a> <a href="./pdf/teaching/antiderivatives_sol.pdf">(solutions)</a>,
-      <a href="./pdf/teaching/substitution_integral_by_parts.pdf">Substitution and Integration by parts</a> <a href="./pdf/teaching/substitution_integral_by_parts_sol.pdf">(solutions)</a>,
-      <a href="./pdf/teaching/poly_partial_frac_trig_integral_sub.pdf">Partial Fractions and Trigonometric Substitution</a> <a href="./pdf/teaching/poly_partial_frac_trig_integral_sub_sol.pdf">(solutions)</a>,
-      <a href="./pdf/teaching/odes.pdf">Ordinary Differential Equations</a> <a href="./pdf/teaching/odes_sol.pdf">(solutions)</a>,
-      <br /> <br />
-
-      <b>Introduction to Machine Learning and Stochastic Gradient Methods:</b>   <a href="./pdf/Intro-expanded.pdf">part I</a>, <a href="./pdf/optimization_I-expanded.pdf">part II</a> and <a href="./pdf/SGD_LS_exe.pdf"> an exercise</a>. Part of the  <a href="http://www.optdata-springschool.com/index.php/en/">Spring School on Optimization and Data Science</a>.
-      <!--University of Novi Sad, Serbia. Lectures (4.5 hours) on an introduction to machine learning and stochastic gradient methods, -->
-      <!-- <br />
-
-      <table width="100%" cellpadding="0" cellspacing="10" border="0">
-      <tr>
-      <td width="60%" valign="top">
-
-
-      <h3>Tutorials</h3>
-      Advanced Computing for Operational Research (Fall 2015)<br />
-      Calculus and its Applications (Spring 2013, 2014)<br />
-      Credit Scoring (Fall 2014)<br />
-      Fundamentals of Operational Research (Fall 2013, 2015)<br />
-      Fundamentals of Optimization (Fall 2012, 2015)<br />
-      Introduction to Linear Algebra (Fall 2012, 2013, 2014)<br />
-      Optimization Methods in Finance (Spring 2013, 2015)<br />
-      Proofs and Problem Solving (Spring 2013)<br />
-    </td> <!-- End right column-->
-    <!-- <td width="40%" valign="top">
-    <div id="contentbar" class="contentbar4">
-    <img style="width: 210px; height: 180px; float:left" alt="Fuel" src="figuras/dr1.gif" title="Darth teaching dance" id="fac_photo" />
-  </div>
-</td>
-</tr>
-</table> -->
-
-</div>
-
-</div>
-
-</div>
-</section>
-
-
-
-<section id="contact" class="home-section">
-  <div class="container">
-
-    <div class="row">
-      <div class="col-xs-12 col-md-4 section-heading">
-        <h1>Contact</h1>
-
-      </div>
-      <div class="col-xs-12 col-md-8">
-        <p><img style="width: 100px; height: 100px; float: right;" alt="Nerv Symbol" src="./img/gifs/nerv_sym.png" hspace="2" /></p>
-
-        <ul class="fa-ul" itemscope>
-
+      <div class="section-body">
+        <ol class="timeline">
           <li>
-            <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
-            <span id="person-email" itemprop="email"><a href="mailto:gowerrobert$@$gmail.com">gowerrobert$@$gmail.com</a></span>
+            <time datetime="2026-06-02">Upcoming</time>
+            <span><strong>Next talk:</strong> <a href="https://www.siam.org/conferences-events/siam-conferences/op26/" target="_blank" rel="noopener">SIAM Conference on Optimization (OP26)</a>, June 2-5, 2026.</span>
           </li>
           <li>
-            <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
-            <span id="person-address" itemprop="address">Flatiron Institute, 162 5th Ave, New York, NY 10010, United States.
-              Office: 411</span>
-            </li>
+            <time datetime="2026">2026</time>
+            <span><a href="https://arxiv.org/abs/2505.16932" target="_blank" rel="noopener">The Polar Express</a> received the <span><a href="https://blog.iclr.cc/2026/04/23/announcing-the-iclr-2026-outstanding-papers/" target="_blank" rel="noopener"><strong>ICLR 2026 Outstanding Paper Honorable Mention</strong></a>  and was presented as an oral.</span>
+          </li>
+          <li>
+            <time datetime="2025">2025</time>
+            <span><a href="https://neurips.cc/virtual/2025/loc/mexico-city/oral/130313" target="_blank" rel="noopener"><strong>In Search of Adam's Secret Sauce</strong></a> was an oral presentation at NeurIPS 2025.</span>
+          </li>
+        </ol>
+      </div>
+    </section>
 
-            <li>
-              <i class="fa-li fa fa-clock-o fa-2x" aria-hidden="true"></i>
-              <span>email for appointment</span>
-            </li>
-
-
-          </ul>
-
-
-
+    <section class="section split" id="mentoring">
+      <div class="section-heading">
+        <p class="eyebrow">People</p>
+        <h2>People & Mentoring</h2>
+      </div>
+      <div class="section-body">
+        <div class="people-grid">
+          <p><strong><a href="https://sjelassi.github.io/" target="_blank" rel="noopener">Samy Jelassi</a></strong><span>Intern, 2017</span><span class="placement">&rarr; PhD, Princeton</span></p>
+          <p><strong><a href="https://ngazagna.github.io/" target="_blank" rel="noopener">Nidham Gazagnadou</a></strong><span>PhD student, 2018-2021</span><span class="placement">&rarr; Research Scientist, Sony AI</span></p>
+          <p><strong><a href="https://rui-yuan91.github.io/" target="_blank" rel="noopener">Rui Yuan</a></strong><span>PhD student, 2019-2023</span><span class="placement">&rarr; AI Research Scientist, Stellantis</span></p>
+          <p><strong><a href="https://www.cs.cornell.edu/~siyimeng/" target="_blank" rel="noopener">Si Yi Meng (Cathy)</a></strong><span>Intern, 2022 and 2023</span></p>
+          <p><strong><a href="https://fabian-sp.github.io/" target="_blank" rel="noopener">Fabian Schaipp</a></strong><span>Guest researcher, 2022 & 2023</span></p>
+          <p><strong><a href="https://cispa.de/en/people/c01slha" target="_blank" rel="noopener">Slavom&iacute;r Hanzely</a></strong><span>Intern, 2022</span><span class="placement">&rarr; Researcher, CISPA</span></p>
+          <p><strong><a href="https://cs.stanford.edu/~amishkin/" target="_blank" rel="noopener">Aaron Mishkin</a></strong><span>Intern, 2023</span><span class="placement">&rarr; Postdoc, EPFL</span></p>
+          <p><strong><a href="https://davpersson.github.io/" target="_blank" rel="noopener">David Persson</a></strong><span>Flatiron Fellow, 2024-</span></p>
+          <p><strong><a href="https://mtcrawshaw.github.io/" target="_blank" rel="noopener">Michael Crawshaw</a></strong><span>Intern, 2025</span><span class="placement">&rarr; Flatiron Fellow, 2026</span></p>
+          <p><strong><a href="https://parshakova.github.io/" target="_blank" rel="noopener">Tetiana Parshakova</a></strong><span>Flatiron Fellow, 2025-</span></p>
         </div>
       </div>
+    </section>
 
-    </div>
-  </section>
+    <section class="section papers-section" id="papers">
+      <div class="papers-top">
+        <div>
+          <p class="eyebrow">Bibliography powered</p>
+          <h2>Papers</h2>
+          <!-- <p class="muted">This list is generated from <code>rob_papers.bib</code>. Update the BibTeX file, reload the page, and the papers refresh automatically.</p> -->
+        </div>
+        <div class="paper-controls" aria-label="Paper controls">
+          <label class="search-label" for="paperSearch">Search papers</label>
+          <input id="paperSearch" type="search" placeholder="Search by title, author, venue, year...">
+          <select id="yearFilter" aria-label="Filter papers by year">
+            <option value="">All years</option>
+          </select>
+          <select id="typeFilter" aria-label="Filter papers by type">
+            <option value="">All types</option>
+          </select>
+        </div>
+      </div>
+      <div id="paperStats" class="paper-stats" aria-live="polite">Loading papers...</div>
+      <div id="paperList" class="paper-list"></div>
+      <noscript>
+        <p class="notice">Enable JavaScript to render the bibliography from <code>rob_papers.bib</code>.</p>
+      </noscript>
+    </section>
 
+    <section class="section split" id="talks">
+      <div class="section-heading">
+        <p class="eyebrow">Recorded</p>
+        <h2>Talks</h2>
+      </div>
+      <div class="section-body">
+        <div class="talk-list">
+          <article class="talk-item featured-talk">
+            <div class="video-wrap">
+              <iframe src="https://www.youtube.com/embed/phM8GzT7ZV4" title="The Polar Express talk at Instituto de Matematica Pura e Aplicada" allowfullscreen></iframe>
+            </div>
+            <div>
+              <h3>The Polar Express</h3>
+              <p>Instituto de Matematica Pura e Aplicada</p>
+              <a class="paper-button" href="https://www.youtube.com/live/phM8GzT7ZV4?si=Dv4XyzO7LiEOs6oy" target="_blank" rel="noopener">Watch</a>
+            </div>
+          </article>
+          <article class="talk-item featured-talk">
+            <div class="video-wrap">
+              <iframe src="https://www.youtube.com/embed/7lY-SQKslwk" title="New viewpoints, variants and convergence theory for stochastic Polyak step-sizes" allowfullscreen></iframe>
+            </div>
+            <div>
+              <h3>New Viewpoints, Variants and Convergence Theory for Stochastic Polyak Step-Sizes</h3>
+              <p>MTL MLOpt</p>
+              <a class="paper-button" href="https://www.youtube.com/watch?v=7lY-SQKslwk" target="_blank" rel="noopener">Watch</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-
+    <section class="section split" id="notes">
+      <div class="section-heading">
+        <p class="eyebrow">Unpublished</p>
+        <h2>Notes</h2>
+      </div>
+      <div class="section-body">
+        <ul class="notes-list">
+          <li>
+            <a href="pdf/reports/Simple_Diffusion_Model_Loss.pdf">A Very Simple Introduction to Diffusion Models and The Standard Loss Function</a>
+            <span>Short note, 2023</span>
+          </li>
+          <li>
+            <a href="pdf/reports/GowerThesis_online_version.pdf">PhD Thesis</a>
+            <span>University of Edinburgh, 2016</span>
+          </li>
+          <li>
+            <a href="pdf/reports/HalleyChebyChallenge.pdf">Halley-Chebyshev Challenge</a>
+            <span>Technical note, 2014</span>
+          </li>
+          <li>
+            <a href="pdf/reports/GowerR_Painful_PCG_projections.pdf">Conjugate Gradients: The Short and Painful Explanation with Oblique Projections</a>
+            <span>Expository note, 2014</span>
+          </li>
+          <li>
+            <a href="pdf/reports/RobertGowerTeseMestrado.pdf">Hessian Matrices via Automatic Differentiation</a>
+            <span>MSc thesis / technical report, 2011</span>
+          </li>
+          <li>
+            <a href="pdf/reports/R2.pdf">Efficient Calculation of Derivatives Through Graph Coloring (Portuguese))</a>
+            <span>Undergraduate project / technical report, 2009</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <p class="powered-by">
-
-        &copy; 2017 Robert M. Gower &middot;
-
-        Powered by the
-        <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-        <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
-        <span class="pull-right" aria-hidden="true">
-          <a href="#" id="back_to_top">
-            <span class="button_icon">
-              <i class="fa fa-chevron-up fa-2x"></i>
-            </span>
-          </a>
-        </span>
-
-      </p>
-    </div>
+    <p>Robert M. Gower</p>
+    <p>Built as a static page. Papers are loaded from <code>rob_papers.bib</code>.</p>
   </footer>
 
-
-  <div id="modal" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Cite</h4>
-        </div>
-        <div>
-          <pre><code class="modal-body tex"></code></pre>
-        </div>
-        <div class="modal-footer">
-          <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
-            <i class="fa fa-copy"></i> Copy
-          </a>
-          <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
-            <i class="fa fa-download"></i> Download
-          </a>
-          <div id="modal-error"></div>
-        </div>
+  <dialog id="bibDialog">
+    <form method="dialog">
+      <div class="dialog-top">
+        <h2>BibTeX</h2>
+        <button class="icon-button" value="close" aria-label="Close citation">x</button>
       </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
-
-
-  <script src="./js/hugo-academic.js"></script>
-
-
-
-
-
-
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-
-
-
-
-
-
-  <script>hljs.initHighlightingOnLoad();</script>
-
-
-
-
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
-</script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
-
-
-
+      <pre><code id="bibText"></code></pre>
+      <button class="small-button" id="copyBib" type="button">Copy BibTeX</button>
+    </form>
+  </dialog>
 </body>
 </html>

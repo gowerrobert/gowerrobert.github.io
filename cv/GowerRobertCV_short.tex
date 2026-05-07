@@ -1,0 +1,118 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[letterpaper,margin=0.54in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{tabularx}
+
+\definecolor{ink}{HTML}{24211D}
+\definecolor{muted}{HTML}{6B6259}
+\definecolor{accent}{HTML}{176B7A}
+\definecolor{rule}{HTML}{D8D0C5}
+\definecolor{soft}{HTML}{F5F1EA}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent,
+  citecolor=accent,
+  pdfauthor={Robert M. Gower},
+  pdftitle={Robert M. Gower -- Short Curriculum Vitae}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=1.05em,itemsep=0.08em,topsep=0.12em,parsep=0pt}
+\renewcommand{\arraystretch}{1.02}
+
+\titleformat{\section}
+  {\large\bfseries\color{ink}}
+  {}
+  {0pt}
+  {}
+  [\vspace{0.12em}{\color{rule}\titlerule}]
+\titlespacing*{\section}{0pt}{0.68em}{0.28em}
+
+\newcommand{\cvtag}[1]{%
+  \begingroup
+  \setlength{\fboxsep}{2.4pt}%
+  \colorbox{soft}{\textcolor{accent}{\scriptsize\bfseries #1}}%
+  \endgroup
+}
+
+\newcommand{\entry}[4]{%
+  \begin{tabularx}{\textwidth}{@{}p{0.17\textwidth}X@{}}
+    \textcolor{muted}{#1} & \textbf{#2} #3\\[-0.05em]
+    & {\footnotesize\textcolor{muted}{#4}}
+  \end{tabularx}\vspace{0.15em}
+}
+
+\newcommand{\simpleentry}[2]{%
+  \begin{tabularx}{\textwidth}{@{}p{0.17\textwidth}X@{}}
+    \textcolor{muted}{#1} & #2
+  \end{tabularx}\vspace{0.08em}
+}
+
+\begin{document}
+
+{\huge\bfseries Robert M. Gower}\\[-0.18em]
+{\large\color{muted}Research Scientist, Center for Computational Mathematics, Flatiron Institute}\\[0.45em]
+{\color{rule}\hrule}
+\vspace{0.45em}
+
+\begin{tabularx}{\textwidth}{@{}X@{}}
+\href{mailto:gowerrobert@gmail.com}{gowerrobert@gmail.com} \quad
+\href{https://gowerrobert.github.io}{gowerrobert.github.io} \quad
+\href{https://scholar.google.com/citations?user=okKw87MAAAAJ\&hl=en}{Google Scholar} \quad
+\href{https://github.com/gowerrobert}{GitHub} \quad
+\href{https://www.linkedin.com/in/robert-mansel-gower-a27bba23}{LinkedIn}
+\end{tabularx}
+
+\vspace{0.45em}
+\cvtag{modern optimization}
+\cvtag{adaptive methods}
+\cvtag{stochastic optimization}
+\cvtag{machine learning}
+\cvtag{randomized numerical linear algebra}
+
+\section{Profile}
+I work on the mathematics of modern optimization, especially Adam, Muon, Polyak step-sizes, and non-Euclidean gradient descent. My research sits between optimization theory and machine-learning practice, with an emphasis on simple algorithms that exploit structure.
+
+\section{Appointments and Education}
+\entry{2021--present}{Research Scientist}{, Flatiron Institute}{Center for Computational Mathematics, New York}
+\entry{2017--2021}{Assistant Professor}{, Telecom Paris, Institut Polytechnique de Paris}{Machine learning and optimization}
+\entry{2021}{Visiting Scientist}{, Google Research}{New York}
+\entry{2020}{Visiting Scientist}{, Facebook Research}{New York}
+\entry{2016--2017}{Laureate Fellow}{, Fondation Sciences Mathematiques de Paris}{ENS and Inria, Paris}
+\entry{2016}{Ph.D.}{, University of Edinburgh}{Optimization and Operations Research}
+\entry{2011}{M.Sc.}{, University of Campinas}{Applied Mathematics}
+
+\section{Recent Highlights}
+\simpleentry{2026}{\href{https://blog.iclr.cc/2026/04/23/announcing-the-iclr-2026-outstanding-papers/}{\emph{The Polar Express}} received the ICLR Outstanding Paper Honorable Mention and was presented as an oral.}
+\simpleentry{2026}{Upcoming talk at the \href{https://www.siam.org/conferences-events/siam-conferences/op26/}{SIAM Conference on Optimization (OP26)}, June 2--5.}
+\simpleentry{2025}{\href{https://neurips.cc/virtual/2025/loc/mexico-city/oral/130313}{\emph{In Search of Adam's Secret Sauce}} was an oral presentation at NeurIPS.}
+
+\section{Selected Papers}
+\begin{itemize}
+\item N. Amsel, D. Persson, C. Musco, \textbf{R. M. Gower}. \href{https://openreview.net/forum?id=yRtgZ1K8hO}{\emph{The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm}}. ICLR 2026, oral; Outstanding Paper Honorable Mention.
+\item A. Orvieto, \textbf{R. M. Gower}. \href{https://openreview.net/forum?id=CH72XyZs4y}{\emph{In Search of Adam's Secret Sauce}}. NeurIPS 2025, oral.
+\item F. Schaipp, R. Ohana, M. Eickenberg, A. Defazio, \textbf{R. M. Gower}. \href{https://proceedings.mlr.press/v235/schaipp24a.html}{\emph{MoMo: Momentum Models for Adaptive Learning Rates}}. ICML 2024.
+\item \textbf{R. M. Gower}, D. Goldfarb, P. Richtarik. \href{https://proceedings.mlr.press/v48/gower16.html}{\emph{Stochastic Block BFGS: Squeezing More Curvature out of Data}}. ICML 2016.
+\item \textbf{R. M. Gower}, P. Richtarik. \href{https://doi.org/10.1137/15M1025487}{\emph{Randomized Iterative Methods for Linear Systems}}. SIAM J. Matrix Anal. Appl., 2015; Leslie Fox Prize, 2nd place.
+\end{itemize}
+
+\section{Honors, Service, and Mentoring}
+\begin{itemize}
+\item ICLR Outstanding Paper Honorable Mention, 2026; Leslie Fox Prize, 2nd place, 2017; FSMP Laureate Fellowship, 2016; reviewer awards at ICML and NeurIPS.
+\item Area chair for NeurIPS and TMLR; reviewer for ICML, JMLR, SISC, SIOPT, Mathematical Programming, and related venues.
+\item Mentored Ph.D. students and interns including Nidham Gazagnadou, Rui Yuan, Samy Jelassi, Si Yi Meng, Fabian Schaipp, Slavomir Hanzely, Aaron Mishkin, David Persson, Michael Crawshaw, and Tetiana Parshakova.
+\end{itemize}
+
+\end{document}
