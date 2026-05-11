@@ -52,10 +52,10 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{International Conference on Learning Representations}
+      \field{booktitle}{International Conference on Learning Representations (ICLR)}
       \field{eprintclass}{cs.LG}
       \field{eprinttype}{arXiv}
-      \field{note}{Oral presentation}
+      \field{note}{Oral presentation and Outstanding Paper Honorable Mention}
       \field{title}{The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm}
       \field{year}{2026}
       \true{nocite}
@@ -102,7 +102,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{International Conference on Machine Learning}
+      \field{booktitle}{International Conference on Machine Learning (ICML)}
       \field{eprintclass}{cs.LG}
       \field{eprinttype}{arXiv}
       \field{title}{An Exploration of Non-Euclidean Gradient Descent: Muon and its Many Variants}
@@ -151,7 +151,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{International Conference on Machine Learning}
+      \field{booktitle}{International Conference on Machine Learning (ICML)}
       \field{eprintclass}{cs.LG}
       \field{eprinttype}{arXiv}
       \field{note}{Spotlight presentation}
@@ -196,7 +196,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{International Conference on Machine Learning}
+      \field{booktitle}{International Conference on Machine Learning (ICML)}
       \field{eprintclass}{math.OC}
       \field{eprinttype}{arXiv}
       \field{title}{Step-Size Stability in Stochastic Optimization: A Theoretical Perspective}
@@ -246,7 +246,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{booktitle}{Conference on Neural Information Processing Systems (NeurIPS)}
       \field{eprintclass}{stat.ML}
       \field{eprinttype}{arXiv}
       \field{note}{Spotlight presentation}
@@ -353,7 +353,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of The 28th International Conference on Artificial Intelligence and Statistics}
+      \field{booktitle}{International Conference on Artificial Intelligence and Statistics (AISTATS)}
       \field{eprinttype}{arXiv}
       \field{series}{Proceedings of Machine Learning Research}
       \field{title}{Level Set Teleportation: An Optimization Perspective}
@@ -395,7 +395,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{booktitle}{Conference on Neural Information Processing Systems (NeurIPS)}
       \field{eprintclass}{cs.LG}
       \field{eprinttype}{arXiv}
       \field{note}{Oral presentation}
@@ -491,7 +491,7 @@
       \field{labeltitlesource}{title}
       \field{eprintclass}{cs.LG}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{Transactions on Machine Learning Research}
+      \field{journaltitle}{Transactions on Machine Learning Research (TMLR)}
       \field{title}{Tracking the Median of Gradients with a Stochastic Proximal Point Method}
       \field{year}{2025}
       \true{nocite}
@@ -549,7 +549,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{booktitle}{Conference on Neural Information Processing Systems (NeurIPS)}
       \field{eprinttype}{arXiv}
       \field{note}{Spotlight presentation}
       \field{title}{EigenVI: Score-Based Variational Inference with Orthogonal Function Expansions}
@@ -618,7 +618,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 41st International Conference on Machine Learning}
+      \field{booktitle}{International Conference on Machine Learning (ICML)}
       \field{eprinttype}{arXiv}
       \field{note}{Spotlight presentation}
       \field{series}{Proceedings of Machine Learning Research}
@@ -667,7 +667,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{Computational Optimization and Applications}
+      \field{journaltitle}{Computational Optimization and Applications (COAP)}
       \field{number}{3}
       \field{title}{A Bregman-Kaczmarz Method for Nonlinear Systems of Equations}
       \field{volume}{87}
@@ -790,7 +790,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{booktitle}{Conference on Neural Information Processing Systems (NeurIPS)}
       \field{eprinttype}{arXiv}
       \field{title}{Directional Smoothness and Gradient Methods: Convergence and Adaptivity}
       \field{volume}{37}
@@ -848,7 +848,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 41st International Conference on Machine Learning}
+      \field{booktitle}{International Conference on Machine Learning (ICML)}
       \field{eprinttype}{arXiv}
       \field{series}{Proceedings of Machine Learning Research}
       \field{title}{MoMo: Momentum Models for Adaptive Learning Rates}
@@ -900,7 +900,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{International Conference on Learning Representations}
+      \field{booktitle}{International Conference on Learning Representations (ICLR)}
       \field{eprintclass}{cs.LG}
       \field{eprinttype}{arXiv}
       \field{title}{Improving Convergence and Generalization Using Parameter Symmetries}
@@ -944,7 +944,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{booktitle}{Conference on Neural Information Processing Systems (NeurIPS)}
       \field{title}{Provable Convergence Guarantees for Black-Box Variational Inference}
       \field{volume}{36}
       \field{year}{2023}
@@ -1033,7 +1033,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{Journal of Optimization Theory and Applications}
+      \field{journaltitle}{Journal of Optimization Theory and Applications (JOTA)}
       \field{number}{2}
       \field{title}{Unified Analysis of Stochastic Gradient Methods for Composite Convex and Smooth Optimization}
       \field{volume}{199}
@@ -1093,7 +1093,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{International Conference on Learning Representations}
+      \field{booktitle}{International Conference on Learning Representations (ICLR)}
       \field{title}{{SP2}: A Second Order Stochastic Polyak Method}
       \field{year}{2023}
       \true{nocite}
@@ -1130,7 +1130,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 40th International Conference on Machine Learning}
+      \field{booktitle}{International Conference on Machine Learning (ICML)}
       \field{series}{Proceedings of Machine Learning Research}
       \field{title}{A Model-Based Method for Minimizing {CVaR} and Beyond}
       \field{volume}{202}
@@ -1226,7 +1226,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{booktitle}{Conference on Neural Information Processing Systems (NeurIPS)}
       \field{title}{Variational Inference with Gaussian Score Matching}
       \field{volume}{36}
       \field{year}{2023}
@@ -1269,7 +1269,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{Transactions on Machine Learning Research}
+      \field{journaltitle}{Transactions on Machine Learning Research (TMLR)}
       \field{title}{A Stochastic Proximal Polyak Step Size}
       \field{year}{2023}
       \true{nocite}
@@ -1321,7 +1321,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{International Conference on Learning Representations}
+      \field{booktitle}{International Conference on Learning Representations (ICLR)}
       \field{title}{Linear Convergence of Natural Policy Gradient Methods with Log-Linear Policies}
       \field{year}{2023}
       \true{nocite}
@@ -1368,7 +1368,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of The 25th International Conference on Artificial Intelligence and Statistics}
+      \field{booktitle}{International Conference on Artificial Intelligence and Statistics (AISTATS)}
       \field{eprinttype}{arXiv}
       \field{series}{Proceedings of Machine Learning Research}
       \field{title}{{SAN}: Stochastic Average Newton Algorithm for Minimizing Finite Sums}
@@ -1416,7 +1416,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{SIAM Journal on Matrix Analysis and Applications}
+      \field{journaltitle}{SIAM Journal on Matrix Analysis and Applications (SIMAX)}
       \field{number}{3}
       \field{title}{RidgeSketch: A Fast Sketching Based Solver for Large Scale Ridge Regression}
       \field{volume}{43}
@@ -1525,7 +1525,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Signal Processing}
+      \field{journaltitle}{IEEE Transactions on Signal Processing (TSP)}
       \field{title}{Randomized Iterative Methods for Low-Complexity Large-Scale {MIMO} Detection}
       \field{volume}{70}
       \field{year}{2022}
@@ -1586,7 +1586,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Wireless Communications}
+      \field{journaltitle}{IEEE Transactions on Wireless Communications (TWC)}
       \field{number}{12}
       \field{title}{A Statistical Linear Precoding Scheme Based on Random Iterative Method for Massive {MIMO} Systems}
       \field{volume}{21}
@@ -1635,7 +1635,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of The 25th International Conference on Artificial Intelligence and Statistics}
+      \field{booktitle}{International Conference on Artificial Intelligence and Statistics (AISTATS)}
       \field{eprinttype}{arXiv}
       \field{series}{Proceedings of Machine Learning Research}
       \field{title}{A General Sample Complexity Analysis of Vanilla Policy Gradient}
@@ -1683,7 +1683,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{SIAM Journal on Optimization}
+      \field{journaltitle}{SIAM Journal on Optimization (SIOPT)}
       \field{number}{3}
       \field{title}{Sketched Newton-Raphson}
       \field{volume}{32}
@@ -1730,7 +1730,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of The 13th Asian Conference on Machine Learning}
+      \field{booktitle}{Asian Conference on Machine Learning (ACML)}
       \field{eprinttype}{arXiv}
       \field{series}{Proceedings of Machine Learning Research}
       \field{title}{The Power of Factorial Powers: New Parameter Settings for (Stochastic) Optimization}
@@ -1821,7 +1821,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{Mathematical Programming}
+      \field{journaltitle}{Mathematical Programming (Math. Program.)}
       \field{number}{1}
       \field{title}{Stochastic Quasi-Gradient Methods: Variance Reduction via Jacobian Sketching}
       \field{volume}{188}
@@ -1873,7 +1873,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of The 24th International Conference on Artificial Intelligence and Statistics}
+      \field{booktitle}{International Conference on Artificial Intelligence and Statistics (AISTATS)}
       \field{eprinttype}{arXiv}
       \field{series}{Proceedings of Machine Learning Research}
       \field{title}{{SGD} for Structured Nonconvex Functions: Learning Rates, Minibatching and Interpolation}
@@ -1923,7 +1923,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of Thirty Fourth Conference on Learning Theory}
+      \field{booktitle}{Conference on Learning Theory (COLT)}
       \field{eprinttype}{arXiv}
       \field{series}{Proceedings of Machine Learning Research}
       \field{title}{Almost Sure Convergence Rates for Stochastic Gradient Descent and Stochastic Heavy Ball}
@@ -1977,7 +1977,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{Proceedings of the IEEE}
+      \field{journaltitle}{Proceedings of the IEEE (Proc. IEEE)}
       \field{number}{11}
       \field{title}{Variance-Reduced Methods for Machine Learning}
       \field{volume}{108}
@@ -2077,7 +2077,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 36th International Conference on Machine Learning}
+      \field{booktitle}{International Conference on Machine Learning (ICML)}
       \field{eprinttype}{arXiv}
       \field{series}{Proceedings of Machine Learning Research}
       \field{title}{Optimal Mini-Batch and Step Sizes for {SAGA}}
@@ -2130,7 +2130,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{booktitle}{Conference on Neural Information Processing Systems (NeurIPS)}
       \field{eprinttype}{arXiv}
       \field{title}{{RSN}: Randomized Subspace Newton}
       \field{volume}{32}
@@ -2183,7 +2183,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{SIAM Journal on Matrix Analysis and Applications}
+      \field{journaltitle}{SIAM Journal on Matrix Analysis and Applications (SIMAX)}
       \field{number}{3}
       \field{title}{On Adaptive Sketch-and-Project for Solving Linear Systems}
       \field{volume}{40}
@@ -2250,7 +2250,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 36th International Conference on Machine Learning}
+      \field{booktitle}{International Conference on Machine Learning (ICML)}
       \field{eprinttype}{arXiv}
       \field{note}{Oral presentation}
       \field{series}{Proceedings of Machine Learning Research}
@@ -2308,7 +2308,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{booktitle}{Conference on Neural Information Processing Systems (NeurIPS)}
       \field{eprinttype}{arXiv}
       \field{title}{Towards Closing the Gap Between the Theory and Practice of {SVRG}}
       \field{volume}{32}
@@ -2350,7 +2350,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 21st International Conference on Artificial Intelligence and Statistics}
+      \field{booktitle}{International Conference on Artificial Intelligence and Statistics (AISTATS)}
       \field{eprinttype}{arXiv}
       \field{series}{Proceedings of Machine Learning Research}
       \field{title}{Stochastic Algorithms for Entropy-Regularized Optimal Transport Problems}
@@ -2462,7 +2462,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{EPL (Europhysics Letters)}
+      \field{journaltitle}{Europhysics Letters (EPL)}
       \field{number}{5}
       \field{title}{Characterising Particulate Random Media from Near-Surface Backscattering: A Machine Learning Approach to Predict Particle Size and Concentration}
       \field{volume}{124}
@@ -2517,7 +2517,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{booktitle}{Conference on Neural Information Processing Systems (NeurIPS)}
       \field{eprinttype}{arXiv}
       \field{title}{Accelerated Stochastic Matrix Inversion: General Theory and Speeding up {BFGS} Rules for Faster Second-Order Optimization}
       \field{volume}{31}
@@ -2566,7 +2566,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 21st International Conference on Artificial Intelligence and Statistics}
+      \field{booktitle}{International Conference on Artificial Intelligence and Statistics (AISTATS)}
       \field{eprinttype}{arXiv}
       \field{note}{Oral presentation}
       \field{series}{Proceedings of Machine Learning Research}
@@ -2611,7 +2611,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{SIAM Journal on Matrix Analysis and Applications}
+      \field{journaltitle}{SIAM Journal on Matrix Analysis and Applications (SIMAX)}
       \field{number}{4}
       \field{title}{Randomized Quasi-Newton Updates Are Linearly Convergent Matrix Inversion Algorithms}
       \field{volume}{38}
@@ -2695,7 +2695,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 33rd International Conference on Machine Learning}
+      \field{booktitle}{International Conference on Machine Learning (ICML)}
       \field{eprinttype}{arXiv}
       \field{series}{Proceedings of Machine Learning Research}
       \field{title}{Stochastic Block {BFGS}: Squeezing More Curvature out of Data}
@@ -2777,7 +2777,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{Mathematical Programming}
+      \field{journaltitle}{Mathematical Programming (Math. Program.)}
       \field{number}{1--2}
       \field{title}{Higher-Order Reverse Automatic Differentiation with Emphasis on the Third-Order}
       \field{volume}{155}
@@ -2951,7 +2951,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{ACM Transactions on Mathematical Software}
+      \field{journaltitle}{ACM Transactions on Mathematical Software (TOMS)}
       \field{number}{2}
       \field{title}{Computing the Sparsity Pattern of Hessians Using Automatic Differentiation}
       \field{volume}{40}
@@ -3062,7 +3062,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{Optimization Methods and Software}
+      \field{journaltitle}{Optimization Methods and Software (OMS)}
       \field{number}{2}
       \field{title}{A New Framework for the Computation of Hessians}
       \field{volume}{27}
