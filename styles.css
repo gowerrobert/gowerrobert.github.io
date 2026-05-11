@@ -138,7 +138,7 @@ main,
 
 .portrait {
   display: block;
-  width: min(100%, 280px);
+  width: min(100%, 224px);
   height: auto;
   border-radius: 8px;
   box-shadow: var(--shadow);

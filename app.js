@@ -129,7 +129,7 @@
   function renderPaper(paper) {
     const fields = paper.fields;
     const title = cleanLatex(fields.title || "Untitled");
-    const authors = cleanLatex(fields.author || "").replaceAll(" and ", ", ");
+    const authors = renderAuthors(fields.author || "");
     const venue = cleanLatex(fields.booktitle || fields.journal || fields.publisher || paper.type);
     const meta = [fields.year, venue].filter(Boolean).join(" / ");
     const note = fields.note ? `<div class="paper-note">${escapeHtml(cleanLatex(fields.note))}</div>` : "";
@@ -139,7 +139,7 @@
       <article class="paper-item">
         <div>
           <h3 class="paper-title">${primaryUrl ? `<a href="${escapeAttr(primaryUrl)}" target="_blank" rel="noopener">${escapeHtml(title)}</a>` : escapeHtml(title)}</h3>
-          <span class="paper-authors">${escapeHtml(authors)}</span>
+          <span class="paper-authors">${authors}</span>
           <span class="paper-meta">${escapeHtml(meta)}</span>
           ${note}
           <div class="paper-actions">
@@ -166,6 +166,21 @@
     addAction(actions, used, "Data", fields.data);
 
     return actions.join("");
+  }
+
+  function renderAuthors(authorField) {
+    return authorField
+      .split(/\s+and\s+/)
+      .map((author) => {
+        const name = cleanLatex(author);
+        const escapedName = escapeHtml(name);
+        return isRobertGower(name) ? `<strong>${escapedName}</strong>` : escapedName;
+      })
+      .join(", ");
+  }
+
+  function isRobertGower(name) {
+    return /^(Robert M\. Gower|Robert Mansel Gower|Gower,\s*Robert M\.)$/.test(name);
   }
 
   function addAction(actions, used, label, url) {
