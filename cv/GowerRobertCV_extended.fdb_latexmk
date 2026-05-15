@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber GowerRobertCV_extended"] 1778518214 "GowerRobertCV_extended.bcf" "GowerRobertCV_extended.bbl" "GowerRobertCV_extended" 1778518221
-  "../rob_papers.bib" 1778518214 32651 3b0051ec5a942582ae749aea70b7803d ""
-  "GowerRobertCV_extended.bcf" 1778518221 106862 b3a740d5b83badfb1bd8b26a76d3e85a "pdflatex"
+["biber GowerRobertCV_extended"] 1778871461 "GowerRobertCV_extended.bcf" "GowerRobertCV_extended.bbl" "GowerRobertCV_extended" 1778871471
+  "../rob_papers.bib" 1778871460 33061 4c0bd4739a45fa56e1f8e7d3311884f4 ""
+  "GowerRobertCV_extended.bcf" 1778871470 106862 b3a740d5b83badfb1bd8b26a76d3e85a "pdflatex"
   (generated)
-  "GowerRobertCV_extended.blg"
   "GowerRobertCV_extended.bbl"
-["pdflatex"] 1778518219 "/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.tex" "/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.pdf" "GowerRobertCV_extended" 1778518221
-  "/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.aux" 1778518221 12221 aee6fddf059ea56d021ccbd46f746e72 ""
+  "GowerRobertCV_extended.blg"
+["pdflatex"] 1778871469 "/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.tex" "/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.pdf" "GowerRobertCV_extended" 1778871471
+  "/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.aux" 1778871470 12374 c63c972e22c126d95149987f07a89471 ""
   "/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.tex" 1778172174 8725 096f52f3ef85fd641aab4169b0dfceb9 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1254269338 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
@@ -126,19 +126,19 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1635969349 2724739 4fbfec268697d548c481e473a17866d4 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "GowerRobertCV_extended.aux" 1778518221 12221 aee6fddf059ea56d021ccbd46f746e72 "pdflatex"
-  "GowerRobertCV_extended.bbl" 1778518216 119925 a05872487f60e241624a6fac6ae6bd7f "biber GowerRobertCV_extended"
-  "GowerRobertCV_extended.out" 1778518221 1283 bb64e48ef8be299e3dbf26a11fb60d85 "pdflatex"
-  "GowerRobertCV_extended.run.xml" 1778518221 2434 bd2a9aa3e777c70c1f454a9c43abddeb "pdflatex"
+  "GowerRobertCV_extended.aux" 1778871470 12374 c63c972e22c126d95149987f07a89471 "pdflatex"
+  "GowerRobertCV_extended.bbl" 1778871465 122271 e73feb211ce1b57fee561b739dacf201 "biber GowerRobertCV_extended"
+  "GowerRobertCV_extended.out" 1778871470 1283 bb64e48ef8be299e3dbf26a11fb60d85 "pdflatex"
+  "GowerRobertCV_extended.run.xml" 1778871470 2434 bd2a9aa3e777c70c1f454a9c43abddeb "pdflatex"
   "GowerRobertCV_extended.tex" 1778172174 8725 096f52f3ef85fd641aab4169b0dfceb9 ""
   "reviewer.tex" 1778171437 1242 c8674070fab19ecc28cb175832a16665 ""
   "talk_posters.tex" 1568290854 5162 0f8f67aa5fcfed72ca900864954f7ddf ""
   (generated)
-  "/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.pdf"
   "GowerRobertCV_extended.pdf"
-  "GowerRobertCV_extended.out"
   "GowerRobertCV_extended.log"
-  "/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.log"
-  "GowerRobertCV_extended.run.xml"
-  "GowerRobertCV_extended.aux"
   "GowerRobertCV_extended.bcf"
+  "GowerRobertCV_extended.run.xml"
+  "/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.pdf"
+  "/Users/rgower/Documents/gowerrobert.github.io/cv/GowerRobertCV_extended.log"
+  "GowerRobertCV_extended.aux"
+  "GowerRobertCV_extended.out"

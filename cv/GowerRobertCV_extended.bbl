@@ -55,7 +55,7 @@
       \field{booktitle}{International Conference on Learning Representations (ICLR)}
       \field{eprintclass}{cs.LG}
       \field{eprinttype}{arXiv}
-      \field{note}{Oral presentation and Outstanding Paper Honorable Mention}
+      \field{note}{Oral presentation; Outstanding Paper Honorable Mention}
       \field{title}{The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm}
       \field{year}{2026}
       \true{nocite}
@@ -166,6 +166,59 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/2603.05002
+      \endverb
+    \endentry
+    \entry{parshakova2026muon}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=0a7a605738d0f528719bc20c191e2fc4}{%
+           family={Parshakova},
+           familyi={P\bibinitperiod},
+           given={Tetiana},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7ad80c3c71f267c65e1ffc105a5b4cc4}{%
+           family={Khaled},
+           familyi={K\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d2f59d71533b4402d867c0e65d97171f}{%
+           family={Crawshaw},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ff14600907cfc90cbd0b1d13ad91c45f}{%
+           family={Garrigos},
+           familyi={G\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{35762b5f8d300bcbe24c01928a95983c}
+      \strng{fullhash}{1335a64c2c5a254cc847a9d510321ab4}
+      \strng{bibnamehash}{1335a64c2c5a254cc847a9d510321ab4}
+      \strng{authorbibnamehash}{1335a64c2c5a254cc847a9d510321ab4}
+      \strng{authornamehash}{35762b5f8d300bcbe24c01928a95983c}
+      \strng{authorfullhash}{1335a64c2c5a254cc847a9d510321ab4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Muon Does Not Converge on Convex Lipschitz Functions}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2605.08980
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2605.08980
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2605.08980
       \endverb
     \endentry
     \entry{schaipp2026stepsizestability}{inproceedings}{}
@@ -372,6 +425,59 @@
       \verb https://proceedings.mlr.press/v258/mishkin25a.html
       \endverb
     \endentry
+    \entry{pun2025schedulefree}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=6f31d35c2fe951c8424aa57730c2f0d6}{%
+           family={Oikonomou},
+           familyi={O\bibinitperiod},
+           given={Dimitris},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0f7cdb20f1f6aa2b59537e241b96b178}{%
+           family={Buchholz},
+           familyi={B\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=11da1dacf32ad78ede51b5f06f59a7c0}{%
+           family={Pun},
+           familyi={P\bibinitperiod},
+           given={Yuen-Man},
+           giveni={Y\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=086c9622489669fe60b7a4364d1e8a7c}{%
+           family={Loizou},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d8a7836fdda11a0b3bb04605c5b2f26}
+      \strng{fullhash}{a1c77f117a946a8d2a012c67ef5ff1b8}
+      \strng{bibnamehash}{a1c77f117a946a8d2a012c67ef5ff1b8}
+      \strng{authorbibnamehash}{a1c77f117a946a8d2a012c67ef5ff1b8}
+      \strng{authornamehash}{8d8a7836fdda11a0b3bb04605c5b2f26}
+      \strng{authorfullhash}{a1c77f117a946a8d2a012c67ef5ff1b8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Taking the Road Less Scheduled with Adaptive Polyak Steps}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2511.07767
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2511.07767
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2511.07767
+      \endverb
+    \endentry
     \entry{orvieto2025adamsecretsauce}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=2f21353bc83b17d4a8d8a69c17d06fe2}{%
@@ -410,49 +516,6 @@
       \endverb
       \verb{url}
       \verb https://openreview.net/forum?id=CH72XyZs4y
-      \endverb
-    \endentry
-    \entry{pun2025schedulefree}{misc}{}
-      \name{author}{3}{}{%
-        {{hash=11da1dacf32ad78ede51b5f06f59a7c0}{%
-           family={Pun},
-           familyi={P\bibinitperiod},
-           given={Yuen-Man},
-           giveni={Y\bibinithyphendelim M\bibinitperiod}}}%
-        {{hash=0f7cdb20f1f6aa2b59537e241b96b178}{%
-           family={Buchholz},
-           familyi={B\bibinitperiod},
-           given={Matthew},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
-           family={Gower},
-           familyi={G\bibinitperiod},
-           given={Robert\bibnamedelima M.},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{6bd41355630217cbd6e506c8863a9158}
-      \strng{fullhash}{6bd41355630217cbd6e506c8863a9158}
-      \strng{bibnamehash}{6bd41355630217cbd6e506c8863a9158}
-      \strng{authorbibnamehash}{6bd41355630217cbd6e506c8863a9158}
-      \strng{authornamehash}{6bd41355630217cbd6e506c8863a9158}
-      \strng{authorfullhash}{6bd41355630217cbd6e506c8863a9158}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{cs.LG}
-      \field{eprinttype}{arXiv}
-      \field{title}{Schedulers for Schedule-free: Theoretically Inspired Hyperparameters}
-      \field{year}{2025}
-      \true{nocite}
-      \verb{eprint}
-      \verb 2511.07767
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2511.07767
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2511.07767
       \endverb
     \endentry
     \entry{schaipp2025median}{article}{}

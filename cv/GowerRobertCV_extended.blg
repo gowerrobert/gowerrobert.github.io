@@ -1,15 +1,15 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
-[3] Config.pm:314> INFO - Logfile is 'GowerRobertCV_extended.blg'
-[137] biber-darwin:340> INFO - === Mon May 11, 2026, 12:50:16
-[154] Biber.pm:415> INFO - Reading 'GowerRobertCV_extended.bcf'
-[247] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[263] Biber.pm:4340> INFO - Processing section 0
-[290] Biber.pm:4531> INFO - Looking for bibtex format file '../rob_papers.bib' for section 0
-[296] bibtex.pm:1689> INFO - LaTeX decoding ...
-[410] bibtex.pm:1494> INFO - Found BibTeX data source '../rob_papers.bib'
-[877] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[877] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[877] Biber.pm:4168> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[878] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[942] bbl.pm:654> INFO - Writing 'GowerRobertCV_extended.bbl' with encoding 'UTF-8'
-[982] bbl.pm:757> INFO - Output to GowerRobertCV_extended.bbl
+[0] Config.pm:314> INFO - Logfile is 'GowerRobertCV_extended.blg'
+[76] biber-darwin:340> INFO - === Fri May 15, 2026, 14:57:44
+[95] Biber.pm:415> INFO - Reading 'GowerRobertCV_extended.bcf'
+[184] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[197] Biber.pm:4340> INFO - Processing section 0
+[209] Biber.pm:4531> INFO - Looking for bibtex format file '../rob_papers.bib' for section 0
+[213] bibtex.pm:1689> INFO - LaTeX decoding ...
+[284] bibtex.pm:1494> INFO - Found BibTeX data source '../rob_papers.bib'
+[705] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[705] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[705] Biber.pm:4168> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[705] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[773] bbl.pm:654> INFO - Writing 'GowerRobertCV_extended.bbl' with encoding 'UTF-8'
+[813] bbl.pm:757> INFO - Output to GowerRobertCV_extended.bbl
