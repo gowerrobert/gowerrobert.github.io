@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# LaTeX build files (sources and PDFs are tracked)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
