@@ -1,0 +1,1044 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{datedesc/global//global/global}
+    \entry{talk2026nyu}{misc}{}
+      \list{location}{1}{%
+        {New York, USA}%
+      }
+      \list{organization}{1}{%
+        {Courant Institute, New York University}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{eventtitle}{Computational Mathematics and Scientific Computing Seminar}
+      \field{month}{11}
+      \field{title}{The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm}
+      \field{type}{seminar}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://cims.nyu.edu/dynamic/calendars/seminars/computational-mathematics-and-scientific-computing-seminar/4553/
+      \endverb
+      \verb{url}
+      \verb https://cims.nyu.edu/dynamic/calendars/seminars/computational-mathematics-and-scientific-computing-seminar/4553/
+      \endverb
+      \keyw{upcoming}
+    \endentry
+    \entry{talk2026jhu}{misc}{}
+      \list{location}{1}{%
+        {Baltimore, USA}%
+      }
+      \list{organization}{1}{%
+        {Mathematical Institute for Data Science, Johns Hopkins University}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{day}{13}
+      \field{eventtitle}{MINDS Seminar}
+      \field{month}{10}
+      \field{type}{seminar}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.minds.jhu.edu/events/calendar/
+      \endverb
+      \verb{url}
+      \verb https://www.minds.jhu.edu/events/calendar/
+      \endverb
+      \keyw{upcoming}
+    \endentry
+    \entry{talk2026icml}{misc}{}
+      \list{location}{1}{%
+        {Seoul, South Korea}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{eventtitle}{International Conference on Machine Learning (ICML 2026), Oral}
+      \field{month}{7}
+      \field{title}{Non-Euclidean Gradient Descent Operates at the Edge of Stability}
+      \field{type}{conference-oral}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://icml.cc/virtual/2026/day/7/9
+      \endverb
+      \verb{url}
+      \verb https://icml.cc/virtual/2026/day/7/9
+      \endverb
+      \keyw{highlight}
+    \endentry
+    \entry{talk2026siamop}{misc}{}
+      \list{location}{1}{%
+        {Edinburgh, UK}%
+      }
+      \list{organization}{1}{%
+        {SIAM}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{eventtitle}{SIAM Conference on Optimization (OP26), minisymposium ``Learning \& Optimization''}
+      \field{month}{6}
+      \field{title}{An Exploration of Non-Euclidean Gradient Descent: Muon and its Many Variants}
+      \field{type}{conference-invited-session}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.siam.org/conferences-events/siam-conferences/op26/
+      \endverb
+      \verb{url}
+      \verb https://www.siam.org/conferences-events/siam-conferences/op26/
+      \endverb
+      \keyw{highlight}
+    \endentry
+    \entry{talk2026impa}{misc}{}
+      \list{location}{1}{%
+        {Rio de Janeiro, Brazil}%
+      }
+      \list{organization}{1}{%
+        {Instituto de Matemática Pura e Aplicada (IMPA)}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{eventtitle}{Seminários Centro Pi}
+      \field{month}{4}
+      \field{title}{The Polar Express}
+      \field{type}{seminar}
+      \field{usera}{https://www.youtube.com/live/phM8GzT7ZV4}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.youtube.com/live/phM8GzT7ZV4
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/live/phM8GzT7ZV4
+      \endverb
+      \keyw{highlight}
+    \endentry
+    \entry{talk2026iclr}{misc}{}
+      \list{location}{1}{%
+        {Rio de Janeiro, Brazil}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{eventtitle}{International Conference on Learning Representations (ICLR 2026), Oral}
+      \field{month}{4}
+      \field{note}{Outstanding Paper Honorable Mention.}
+      \field{title}{The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm}
+      \field{type}{conference-oral}
+      \field{usera}{https://iclr.cc/virtual/2026/oral/10006554}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://iclr.cc/virtual/2026/oral/10006554
+      \endverb
+      \verb{url}
+      \verb https://iclr.cc/virtual/2026/oral/10006554
+      \endverb
+      \keyw{highlight}
+    \endentry
+    \entry{talk2026bpl}{misc}{}
+      \list{location}{1}{%
+        {Brooklyn, New York, USA}%
+      }
+      \list{organization}{1}{%
+        {Brooklyn Public Library}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{eventtitle}{Night in the Library}
+      \field{month}{3}
+      \field{title}{The History of Mathematical Optimization in Blood and Booze}
+      \field{type}{public-talk}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.bklynlibrary.org/calendar/history-mathematical-central-library-20260314-0800pm
+      \endverb
+      \verb{url}
+      \verb https://www.bklynlibrary.org/calendar/history-mathematical-central-library-20260314-0800pm
+      \endverb
+    \endentry
+    \entry{talk2026icerm}{misc}{}
+      \list{location}{1}{%
+        {Providence, USA}%
+      }
+      \list{organization}{1}{%
+        {ICERM, Brown University}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{eventtitle}{Workshop on Randomized Numerical Linear Algebra}
+      \field{month}{2}
+      \field{title}{The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm}
+      \field{type}{workshop-invited}
+      \field{usera}{https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a002820e-08cd-43e2-aac9-b3e000fa92b2}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://icerm.brown.edu/program/semester_program_workshop/sp-s26-w1
+      \endverb
+      \verb{url}
+      \verb https://icerm.brown.edu/program/semester_program_workshop/sp-s26-w1
+      \endverb
+      \keyw{highlight}
+    \endentry
+    \entry{talk2025neurips}{misc}{}
+      \list{location}{1}{%
+        {San Diego, USA}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{eventtitle}{Conference on Neural Information Processing Systems (NeurIPS 2025), Oral}
+      \field{month}{12}
+      \field{title}{In Search of Adam's Secret Sauce}
+      \field{type}{conference-oral}
+      \field{usera}{https://neurips.cc/virtual/2025/loc/san-diego/oral/119298}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://neurips.cc/virtual/2025/loc/san-diego/oral/119298
+      \endverb
+      \verb{url}
+      \verb https://neurips.cc/virtual/2025/loc/san-diego/oral/119298
+      \endverb
+      \keyw{highlight}
+    \endentry
+    \entry{talk2022fwam}{misc}{}
+      \list{location}{1}{%
+        {New York, USA}%
+      }
+      \list{organization}{1}{%
+        {Flatiron Institute}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{eventtitle}{Flatiron Wide Algorithms and Mathematics (FWAM)}
+      \field{month}{10}
+      \field{note}{Video available on the event page.}
+      \field{title}{Practical Tools for Machine Learning and Data Science: Stochastic Gradient Descent, Tricks, Learning Rates, and Momentum}
+      \field{type}{lecture-series}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.simonsfoundation.org/event/2022-flatiron-wide-algorithms-and-mathematics/
+      \endverb
+      \verb{url}
+      \verb https://www.simonsfoundation.org/event/2022-flatiron-wide-algorithms-and-mathematics/
+      \endverb
+    \endentry
+    \entry{talk2022cirm}{misc}{}
+      \list{location}{1}{%
+        {Marseille, France}%
+      }
+      \list{organization}{1}{%
+        {CIRM}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{eventtitle}{Learning and Optimization in Luminy (LOL 2022)}
+      \field{month}{10}
+      \field{title}{Cutting Some Slack for SGD with Adaptive Polyak Stepsizes}
+      \field{type}{workshop-invited}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://conferences.cirm-math.fr/wp-content/uploads/2024/01/LOL_2022_program.pdf
+      \endverb
+      \verb{url}
+      \verb https://conferences.cirm-math.fr/wp-content/uploads/2024/01/LOL_2022_program.pdf
+      \endverb
+    \endentry
+    \entry{talk2022mlxs}{misc}{}
+      \list{location}{1}{%
+        {New York, USA}%
+      }
+      \list{organization}{1}{%
+        {Flatiron Institute}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{eventtitle}{Machine Learning X Science Summer School}
+      \field{month}{6}
+      \field{note}{Two lectures, June 6--7, 2022.}
+      \field{title}{Optimization for ML: First-Order Methods; Optimization for ML: Stochastic Gradient Descent}
+      \field{type}{lecture-series}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://indico.flatironinstitute.org/event/3192/timetable/?view=standard
+      \endverb
+      \verb{url}
+      \verb https://indico.flatironinstitute.org/event/3192/timetable/?view=standard
+      \endverb
+    \endentry
+    \entry{talk2022princeton}{misc}{}
+      \list{location}{1}{%
+        {Princeton, USA}%
+      }
+      \list{organization}{2}{%
+        {Operations Research}%
+        {Financial Engineering, Princeton University}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{29}
+      \field{eventtitle}{ORFE Seminar}
+      \field{month}{4}
+      \field{title}{Cutting Some Slack for SGD with Adaptive Polyak Stepsizes}
+      \field{type}{seminar}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://orfe.princeton.edu/events/2022/robert-gower-flatiron-institute
+      \endverb
+      \verb{url}
+      \verb https://orfe.princeton.edu/events/2022/robert-gower-flatiron-institute
+      \endverb
+    \endentry
+    \entry{talk2021mtlmlopt}{misc}{}
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{organization}{2}{%
+        {Montreal Machine Learning}%
+        {Optimization}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{eventtitle}{MTL MLOpt Seminar}
+      \field{month}{1}
+      \field{title}{New Viewpoints, Variants and Convergence Theory for Stochastic Polyak Stepsizes}
+      \field{type}{seminar}
+      \field{usera}{https://www.youtube.com/watch?v=7lY-SQKslwk}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://mtl-mlopt.github.io/talks_entries/2021/2021_01_27_Gower.html
+      \endverb
+      \verb{url}
+      \verb https://mtl-mlopt.github.io/talks_entries/2021/2021_01_27_Gower.html
+      \endverb
+      \keyw{highlight}
+    \endentry
+    \entry{talk2020cornell}{misc}{}
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{organization}{1}{%
+        {Cornell University}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{eventtitle}{Mini-lecture series}
+      \field{month}{4}
+      \field{note}{Three 50-minute lectures, April 28 -- May 5, 2020.}
+      \field{title}{Optimization for Machine Learning}
+      \field{type}{lecture-series}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://gowerrobert.github.io/pdf/teaching/cornell/lectures_cornell.pdf
+      \endverb
+      \verb{url}
+      \verb https://gowerrobert.github.io/pdf/teaching/cornell/lectures_cornell.pdf
+      \endverb
+    \endentry
+    \entry{talk2019ihes}{misc}{}
+      \list{location}{1}{%
+        {Bures-sur-Yvette, France}%
+      }
+      \list{organization}{1}{%
+        {Institut des Hautes Études Scientifiques (IHÉS)}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{eventtitle}{Journée Statistique et Apprentissage}
+      \field{type}{workshop-invited}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2019parietal}{misc}{}
+      \list{location}{1}{%
+        {Saclay, France}%
+      }
+      \list{organization}{1}{%
+        {Inria Saclay}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{eventtitle}{Parietal Team Seminar}
+      \field{type}{seminar}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2019iccopt}{misc}{}
+      \list{location}{1}{%
+        {Berlin, Germany}%
+      }
+      \list{organization}{1}{%
+        {Mathematical Optimization Society}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{eventtitle}{International Conference on Continuous Optimization (ICCOPT 2019), invited session}
+      \field{month}{8}
+      \field{title}{Expected Smoothness is the Key to Understanding the Mini-Batch Complexity of Stochastic Gradient Methods}
+      \field{type}{conference-invited-session}
+      \field{userb}{https://gowerrobert.github.io/pdf/talks/expected_smoothness.pdf}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://iccopt2019.berlin/
+      \endverb
+      \verb{url}
+      \verb https://iccopt2019.berlin/
+      \endverb
+    \endentry
+    \entry{talk2019icml}{misc}{}
+      \list{location}{1}{%
+        {Long Beach, USA}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{International Conference on Machine Learning (ICML 2019), Oral}
+      \field{month}{6}
+      \field{title}{SGD: General Analysis and Improved Rates}
+      \field{type}{conference-oral}
+      \field{usera}{https://slideslive.com/38916681/convex-optimization?t=2409}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://icml.cc/virtual/2019/oral/4669
+      \endverb
+      \verb{url}
+      \verb https://icml.cc/virtual/2019/oral/4669
+      \endverb
+      \keyw{highlight}
+    \endentry
+    \entry{talk2018ihp}{misc}{}
+      \list{location}{1}{%
+        {Paris, France}%
+      }
+      \list{organization}{1}{%
+        {Institut Henri Poincaré}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{eventtitle}{Séminaire Parisien d'Optimisation}
+      \field{type}{seminar}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \true{nocite}
+      \keyw{highlight}
+    \endentry
+    \entry{talk2018ismp}{misc}{}
+      \list{location}{1}{%
+        {Bordeaux, France}%
+      }
+      \list{organization}{1}{%
+        {Mathematical Optimization Society}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{eventtitle}{International Symposium on Mathematical Programming (ISMP 2018), invited session on Fast Converging Stochastic Optimization Algorithms}
+      \field{month}{7}
+      \field{type}{conference-invited-session}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2018epfl}{misc}{}
+      \list{location}{1}{%
+        {Lausanne, Switzerland}%
+      }
+      \list{organization}{1}{%
+        {EPFL}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{day}{26}
+      \field{eventtitle}{Machine Learning and Optimization Group Seminar}
+      \field{month}{6}
+      \field{type}{seminar}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2018aistats}{misc}{}
+      \list{location}{1}{%
+        {Lanzarote, Spain}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{International Conference on Artificial Intelligence and Statistics (AISTATS 2018), semi-plenary oral}
+      \field{month}{4}
+      \field{title}{Tracking the Gradients Using the Hessian: A New Look at Variance Reducing Stochastic Methods}
+      \field{type}{conference-oral}
+      \field{userb}{https://gowerrobert.github.io/pdf/talks/tracking_grad-expanded.pdf}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \true{nocite}
+      \keyw{highlight}
+    \endentry
+    \entry{talk2017pgmo}{misc}{}
+      \list{location}{1}{%
+        {Paris, France}%
+      }
+      \list{organization}{1}{%
+        {EDF Lab Paris-Saclay}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{eventtitle}{PGMO Days}
+      \field{type}{workshop-invited}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.fondation-hadamard.fr/fr/pgmo/pgmodays
+      \endverb
+      \verb{url}
+      \verb https://www.fondation-hadamard.fr/fr/pgmo/pgmodays
+      \endverb
+    \endentry
+    \entry{talk2017lisbon}{misc}{}
+      \list{location}{1}{%
+        {Lisbon, Portugal}%
+      }
+      \list{organization}{1}{%
+        {Faculdade de Ciências, Universidade de Lisboa}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{eventtitle}{Optimization 2017}
+      \field{type}{conference-invited-session}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://optimization2017.fc.ul.pt/
+      \endverb
+      \verb{url}
+      \verb http://optimization2017.fc.ul.pt/
+      \endverb
+    \endentry
+    \entry{talk2017fjml}{misc}{}
+      \list{location}{1}{%
+        {Paris, France}%
+      }
+      \list{organization}{1}{%
+        {École Normale Supérieure}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{eventtitle}{France/Japan Machine Learning Workshop}
+      \field{type}{workshop-invited}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://fjml.marcocuturi.net/speakers/
+      \endverb
+      \verb{url}
+      \verb http://fjml.marcocuturi.net/speakers/
+      \endverb
+    \endentry
+    \entry{talk2017tubingen}{misc}{}
+      \list{location}{1}{%
+        {Tübingen, Germany}%
+      }
+      \list{organization}{1}{%
+        {Max Planck Institute for Intelligent Systems}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{eventtitle}{Probabilistic Numerics Seminar}
+      \field{type}{seminar}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2017core}{misc}{}
+      \list{location}{1}{%
+        {Louvain-la-Neuve, Belgium}%
+      }
+      \list{organization}{1}{%
+        {CORE, Université catholique de Louvain}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{eventtitle}{Operations Research Seminar}
+      \field{type}{seminar}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2017grenoble}{misc}{}
+      \list{location}{1}{%
+        {Grenoble, France}%
+      }
+      \list{organization}{1}{%
+        {Inria Grenoble Rhône-Alpes}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{day}{21}
+      \field{eventtitle}{Optimization, Machine Learning, and Pluri-Disciplinarity Workshop}
+      \field{month}{9}
+      \field{type}{workshop-invited}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://thoth.inrialpes.fr/people/mairal/macaron/workshop2017/
+      \endverb
+      \verb{url}
+      \verb https://thoth.inrialpes.fr/people/mairal/macaron/workshop2017/
+      \endverb
+    \endentry
+    \entry{talk2017nacpinv}{misc}{}
+      \list{location}{1}{%
+        {Glasgow, UK}%
+      }
+      \list{organization}{1}{%
+        {University of Strathclyde}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{27th Biennial Numerical Analysis Conference}
+      \field{month}{6}
+      \field{title}{Randomized Iterative Methods for Computing the Pseudoinverse}
+      \field{type}{conference-invited-session}
+      \field{userb}{https://gowerrobert.github.io/pdf/talks/pseudoinverse-expanded.pdf}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://numericalanalysisconference.org.uk/meetings/2017
+      \endverb
+      \verb{url}
+      \verb https://numericalanalysisconference.org.uk/meetings/2017
+      \endverb
+    \endentry
+    \entry{talk2017lesliefox}{misc}{}
+      \list{location}{1}{%
+        {Glasgow, UK}%
+      }
+      \list{organization}{2}{%
+        {Institute of Mathematics}%
+        {its Applications, University of Strathclyde}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{18th IMA Leslie Fox Prize Meeting in Numerical Analysis}
+      \field{month}{6}
+      \field{note}{Leslie Fox Prize, 2nd place.}
+      \field{title}{Randomized Iterative Methods for Linear Systems}
+      \field{type}{prize-talk}
+      \field{userb}{https://gowerrobert.github.io/pdf/talks/Gower_LeslieFox_Rand_linear_systems.pdf}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://people.maths.ox.ac.uk/wathen/fox/prize.php
+      \endverb
+      \verb{url}
+      \verb http://people.maths.ox.ac.uk/wathen/fox/prize.php
+      \endverb
+      \keyw{highlight}
+    \endentry
+    \entry{talk2016ral}{misc}{}
+      \list{location}{1}{%
+        {Oxfordshire, UK}%
+      }
+      \list{organization}{1}{%
+        {Rutherford Appleton Laboratory}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{eventtitle}{Computational Mathematics and Applications Seminar}
+      \field{type}{seminar}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2016telecom}{misc}{}
+      \list{location}{1}{%
+        {Paris, France}%
+      }
+      \list{organization}{1}{%
+        {Télécom ParisTech}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{eventtitle}{Machine Learning and Statistics Seminar}
+      \field{type}{seminar}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2016ima}{misc}{}
+      \list{location}{1}{%
+        {Birmingham, UK}%
+      }
+      \list{organization}{1}{%
+        {University of Birmingham}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{eventtitle}{5th IMA Conference on Numerical Linear Algebra and Optimization}
+      \field{type}{conference-invited-session}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2016cambridge}{misc}{}
+      \list{location}{1}{%
+        {Cambridge, UK}%
+      }
+      \list{organization}{1}{%
+        {University of Cambridge}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{Cambridge Image Analysis Group Seminar}
+      \field{title}{Randomized Iterative Methods for Linear Systems}
+      \field{type}{seminar}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2016sierra}{misc}{}
+      \list{location}{1}{%
+        {Paris, France}%
+      }
+      \list{organization}{1}{%
+        {Inria}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{SIERRA Team Seminar}
+      \field{title}{Randomized Iterative Methods for Linear Systems and Inverting Matrices}
+      \field{type}{seminar}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2016iccopt}{misc}{}
+      \list{location}{1}{%
+        {Tokyo, Japan}%
+      }
+      \list{organization}{1}{%
+        {Mathematical Optimization Society}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{eventtitle}{International Conference on Continuous Optimization (ICCOPT 2016)}
+      \field{month}{8}
+      \field{type}{conference-invited-session}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2016icml}{misc}{}
+      \list{location}{1}{%
+        {New York, USA}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{International Conference on Machine Learning (ICML 2016)}
+      \field{month}{6}
+      \field{title}{Stochastic Block BFGS: Squeezing More Curvature out of Data}
+      \field{type}{conference-oral}
+      \field{userb}{https://gowerrobert.github.io/pdf/talks/ICML2016_talk.pdf}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2015turing}{misc}{}
+      \list{location}{1}{%
+        {Edinburgh, UK}%
+      }
+      \list{organization}{1}{%
+        {ICMS}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{Distributed Machine Learning and Optimization, Alan Turing Institute Scoping Workshop}
+      \field{title}{Distributed Randomized Iterative Methods for Linear Systems}
+      \field{type}{workshop-invited}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://www.icms.org.uk/workshop.php?id=367
+      \endverb
+      \verb{url}
+      \verb http://www.icms.org.uk/workshop.php?id=367
+      \endverb
+    \endentry
+    \entry{talk2015obd}{misc}{}
+      \list{location}{1}{%
+        {Edinburgh, UK}%
+      }
+      \list{organization}{1}{%
+        {University of Edinburgh}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{Optimization and Big Data 2015}
+      \field{title}{Randomized Iterative Methods for Linear Systems and Inverting Matrices}
+      \field{type}{workshop-invited}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2015ismp}{misc}{}
+      \list{location}{1}{%
+        {Pittsburgh, USA}%
+      }
+      \list{organization}{1}{%
+        {Mathematical Optimization Society}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{International Symposium on Mathematical Programming (ISMP 2015)}
+      \field{month}{7}
+      \field{title}{Action Constrained Quasi-Newton Methods}
+      \field{type}{conference-invited-session}
+      \field{userb}{https://gowerrobert.github.io/pdf/talks/quNac_ISMP.pdf}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2014europt}{misc}{}
+      \list{location}{1}{%
+        {Perpignan, France}%
+      }
+      \list{organization}{1}{%
+        {EUROPT}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{European Workshop on Advances in Continuous Optimization (EUROPT 2014)}
+      \field{title}{Generalizations of the Quasi-Newton Methods Using an Image Constraint}
+      \field{type}{conference-invited-session}
+      \field{userb}{https://gowerrobert.github.io/pdf/talks/quNacEuropt.pdf}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://europt2014.univ-perp.fr/
+      \endverb
+      \verb{url}
+      \verb http://europt2014.univ-perp.fr/
+      \endverb
+    \endentry
+    \entry{talk2014galway}{misc}{}
+      \list{location}{1}{%
+        {Galway, Ireland}%
+      }
+      \list{organization}{1}{%
+        {SIAM Student Chapter, NUI Galway}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{Irish Applied Mathematics Research Students' Meeting}
+      \field{note}{Best Talk Prize.}
+      \field{title}{Hunting Inverses of Matrix Fields}
+      \field{type}{prize-talk}
+      \field{userb}{https://gowerrobert.github.io/pdf/talks/Hunting_inverse_matrices.pdf}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://www.maths.nuigalway.ie/SIAM-Galway/PG-Conf-14/
+      \endverb
+      \verb{url}
+      \verb http://www.maths.nuigalway.ie/SIAM-Galway/PG-Conf-14/
+      \endverb
+    \endentry
+    \entry{talk2014edcolloq}{misc}{}
+      \list{location}{1}{%
+        {Edinburgh, UK}%
+      }
+      \list{organization}{1}{%
+        {University of Edinburgh}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{Postgraduate Mathematics Colloquium}
+      \field{title}{The History of Optimization in Blood and Booze}
+      \field{type}{colloquium}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://info.maths.ed.ac.uk/pg-pages/colloquium/colloquium_1415_1.html
+      \endverb
+      \verb{url}
+      \verb https://info.maths.ed.ac.uk/pg-pages/colloquium/colloquium_1415_1.html
+      \endverb
+    \endentry
+    \entry{talk2014cambridge}{misc}{}
+      \list{location}{1}{%
+        {Cambridge, UK}%
+      }
+      \list{organization}{1}{%
+        {Cambridge University Mathematics Society}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{Research in the UK Afternoon}
+      \field{title}{Unconstrained Optimization Methods}
+      \field{type}{seminar}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2013iccopt}{misc}{}
+      \list{location}{1}{%
+        {Lisbon, Portugal}%
+      }
+      \list{organization}{1}{%
+        {Mathematical Optimization Society}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{International Conference on Continuous Optimization (ICCOPT 2013)}
+      \field{month}{7}
+      \field{title}{Third Order Methods and Third Order Derivatives}
+      \field{type}{conference-invited-session}
+      \field{userb}{https://gowerrobert.github.io/pdf/talks/halley3DOrder.pdf}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://www.norg.uminho.pt/iccopt2013-SP-contents/wed_b_23.htm
+      \endverb
+      \verb{url}
+      \verb http://www.norg.uminho.pt/iccopt2013-SP-contents/wed_b_23.htm
+      \endverb
+    \endentry
+    \entry{talk2013euroinforms}{misc}{}
+      \list{location}{1}{%
+        {Rome, Italy}%
+      }
+      \list{organization}{1}{%
+        {EURO / INFORMS}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{EURO-INFORMS Joint International Meeting}
+      \field{month}{7}
+      \field{title}{Third Order Methods Using Slices of the Tensor and AD Developments}
+      \field{type}{conference-invited-session}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{talk2011impa}{misc}{}
+      \list{location}{1}{%
+        {Rio de Janeiro, Brazil}%
+      }
+      \list{organization}{1}{%
+        {IMPA}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{28th Brazilian Colloquium on Mathematics}
+      \field{month}{7}
+      \field{title}{Automatic Differentiation of Hessian Matrices}
+      \field{type}{conference-invited-session}
+      \field{userb}{https://gowerrobert.github.io/pdf/talks/HessianReverseGraph.pdf}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

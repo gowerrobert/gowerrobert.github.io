@@ -1,0 +1,107 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[letterpaper,margin=0.72in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage[backend=biber,date=iso,seconds=true,sorting=datedesc]{biblatex}
+
+\addbibresource{../talks.bib}
+
+\definecolor{ink}{HTML}{24211D}
+\definecolor{muted}{HTML}{6B6259}
+\definecolor{accent}{HTML}{176B7A}
+\definecolor{rule}{HTML}{D8D0C5}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent,
+  pdfauthor={Robert M. Gower},
+  pdftitle={Robert M. Gower -- Talks}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}
+  {\Large\bfseries\color{ink}}
+  {}
+  {0pt}
+  {}
+  [\vspace{0.25em}{\color{rule}\titlerule}]
+\titlespacing*{\section}{0pt}{1.25em}{0.55em}
+
+% Keep the custom fields of talks.bib (biber drops unknown fields).
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map{\step[fieldsource=video, fieldtarget=usera]}
+    \map{\step[fieldsource=slides, fieldtarget=userb]}
+  }
+}
+
+% Newest first.
+\DeclareSortingTemplate{datedesc}{
+  \sort[direction=descending]{\field{year}}
+  \sort[direction=descending]{\field{month}}
+  \sort[direction=descending]{\field{day}}
+  \sort{\field{title}}
+}
+
+\DeclareFieldFormat{usera}{\href{#1}{video}}
+\DeclareFieldFormat{userb}{\href{#1}{slides}}
+\DeclareFieldFormat[misc]{url}{\href{#1}{event}}
+\DeclareFieldFormat[misc]{title}{\textbf{#1}}
+
+% One talk: Title. Event, Host, Location. Note. [event | slides | video]
+\DeclareBibliographyDriver{misc}{%
+  \printfield{title}%
+  \newunit\newblock
+  \printfield{eventtitle}%
+  \setunit{\addcomma\space}%
+  \printlist{organization}%
+  \setunit{\addcomma\space}%
+  \printlist{location}%
+  \newunit\newblock
+  \printfield{note}%
+  \newunit\newblock
+  \ifboolexpr{test {\iffieldundef{url}} and test {\iffieldundef{userb}} and test {\iffieldundef{usera}}}
+    {}
+    {\printtext[brackets]{%
+       \printfield{url}%
+       \setunit{\addspace\textbar\addspace}%
+       \printfield{userb}%
+       \setunit{\addspace\textbar\addspace}%
+       \printfield{usera}}}%
+  \finentry}
+
+\defbibenvironment{talklist}
+  {\list{\textcolor{muted}{\printdate}}
+    {\setlength{\leftmargin}{6.2em}%
+     \setlength{\labelwidth}{5.7em}%
+     \setlength{\labelsep}{0.5em}%
+     \setlength{\itemsep}{0.3em}%
+     \setlength{\parsep}{0pt}%
+     \renewcommand*{\makelabel}[1]{##1\hfil}}}
+  {\endlist}
+  {\item}
+
+\begin{document}
+
+{\Huge\bfseries Robert M. Gower}\\[0.4em]
+{\Large\color{muted}Talks}\\[0.65em]
+{\color{rule}\hrule}
+\vspace{0.7em}
+
+This is a complete list of the talks I have given at conferences, workshops, seminars, and summer schools, newest first. It is generated from \href{https://github.com/gowerrobert/gowerrobert.github.io/blob/master/talks.bib}{\texttt{talks.bib}}. More information at \href{https://gowerrobert.github.io}{gowerrobert.github.io}.
+
+\nocite{*}
+
+\printbibliography[env=talklist,keyword=upcoming,title={Upcoming}]
+\printbibliography[env=talklist,notkeyword=upcoming,title={Past Talks}]
+
+\end{document}

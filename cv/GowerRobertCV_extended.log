@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.3)  1 OCT 2026 11:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.3)  1 OCT 2026 11:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -696,29 +696,19 @@ Overfull \hbox (23.09842pt too wide) in paragraph at lines 96--101
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--120
+Underfull \hbox (badness 10000) in paragraph at lines 106--115
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-23.
+18.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 153--156
-
- []
-
-(./talk_posters.tex [2] [3]) (./reviewer.tex)
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-76.
+43.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -727,26 +717,31 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--153
+
+ []
+
+[2] (./reviewer.tex)
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
- [4] [5] [6]
-[7] [8] (./GowerRobertCV_extended.aux)
+ [3] [4] [5] [6] [7] (./GowerRobertCV_extended.aux)
 Package rerunfilecheck Info: File `GowerRobertCV_extended.out' has not changed.
 
-(rerunfilecheck)             Checksum: BB64E48EF8BE299E3DBF26A11FB60D85;1283.
+(rerunfilecheck)             Checksum: 1A84D32E90EECEF9DADDECC3C861A54C;1016.
 Package logreq Info: Writing requests to 'GowerRobertCV_extended.run.xml'.
 \openout1 = `GowerRobertCV_extended.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18848 strings out of 478994
- 328706 string characters out of 5858184
- 1093540 words of memory out of 5000000
- 35846 multiletter control sequences out of 15000+600000
- 463744 words of font info for 148 fonts, out of 8000000 for 9000
+ 18852 strings out of 478994
+ 328699 string characters out of 5858184
+ 1095539 words of memory out of 5000000
+ 35840 multiletter control sequences out of 15000+600000
+ 464474 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,9n,74p,1147b,1337s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,9n,74p,1147b,1340s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2021/texmf-dist
@@ -758,10 +753,10 @@ cal/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/
 2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2021/texmf
 -dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2021/texmf-dist/fonts
 /type1/public/lm/lmtt10.pfb>
-Output written on GowerRobertCV_extended.pdf (8 pages, 299922 bytes).
+Output written on GowerRobertCV_extended.pdf (7 pages, 294887 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
- 379 compressed objects within 4 object streams
- 81 named destinations out of 1000 (max. 500000)
- 33361 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 402 PDF objects out of 1000 (max. 8388607)
+ 357 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 33345 words of extra memory for PDF output out of 35830 (max. 10000000)
 

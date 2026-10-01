@@ -1,0 +1,15 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'talks.blg'
+[73] biber-darwin:340> INFO - === Thu Oct  1, 2026, 11:45:13
+[88] Biber.pm:415> INFO - Reading 'talks.bcf'
+[178] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[192] Biber.pm:4340> INFO - Processing section 0
+[202] Biber.pm:4531> INFO - Looking for bibtex format file '../talks.bib' for section 0
+[205] bibtex.pm:1689> INFO - LaTeX decoding ...
+[251] bibtex.pm:1494> INFO - Found BibTeX data source '../talks.bib'
+[342] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[342] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[342] Biber.pm:4168> INFO - Sorting list 'datedesc/global//global/global' of type 'entry' with template 'datedesc' and locale 'en-US'
+[342] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[371] bbl.pm:654> INFO - Writing 'talks.bbl' with encoding 'UTF-8'
+[378] bbl.pm:757> INFO - Output to talks.bbl
