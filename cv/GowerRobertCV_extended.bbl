@@ -118,6 +118,109 @@
       \verb https://arxiv.org/abs/2510.09827
       \endverb
     \endentry
+    \entry{ghosh2026polora}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=e5febcadab2da2172d2a8df9be8936f4}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Nikhil},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0a7a605738d0f528719bc20c191e2fc4}{%
+           family={Parshakova},
+           familyi={P\bibinitperiod},
+           given={Tetiana},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ab1fc5a88d8b641a5e10d40df24f357}
+      \strng{fullhash}{4ab1fc5a88d8b641a5e10d40df24f357}
+      \strng{bibnamehash}{4ab1fc5a88d8b641a5e10d40df24f357}
+      \strng{authorbibnamehash}{4ab1fc5a88d8b641a5e10d40df24f357}
+      \strng{authornamehash}{4ab1fc5a88d8b641a5e10d40df24f357}
+      \strng{authorfullhash}{4ab1fc5a88d8b641a5e10d40df24f357}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{PoLoRA: A Preconditioned Orthogonalized LoRA Optimizer}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2607.17620
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2607.17620
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2607.17620
+      \endverb
+    \endentry
+    \entry{gower2025idealizedsps}{article}{}
+      \name{author}{6}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ff14600907cfc90cbd0b1d13ad91c45f}{%
+           family={Garrigos},
+           familyi={G\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=086c9622489669fe60b7a4364d1e8a7c}{%
+           family={Loizou},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6f31d35c2fe951c8424aa57730c2f0d6}{%
+           family={Oikonomou},
+           familyi={O\bibinitperiod},
+           given={Dimitris},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dbe35b250bff9f2ca1bdf7d01177b0d9}{%
+           family={Mishchenko},
+           familyi={M\bibinitperiod},
+           given={Konstantin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b2809282e8effe7219cfd96104f22db7}{%
+           family={Schaipp},
+           familyi={S\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{fullhash}{dedc9dfff74ac6fc7777e52da045adfa}
+      \strng{bibnamehash}{dedc9dfff74ac6fc7777e52da045adfa}
+      \strng{authorbibnamehash}{dedc9dfff74ac6fc7777e52da045adfa}
+      \strng{authornamehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{authorfullhash}{dedc9dfff74ac6fc7777e52da045adfa}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Transactions on Machine Learning Research (TMLR)}
+      \field{title}{Analysis of an Idealized Stochastic Polyak Method and its Application to Black-Box Model Distillation}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2504.01898
+      \endverb
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=lNRBJekTFX
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=lNRBJekTFX
+      \endverb
+    \endentry
     \entry{islamov2026edgeofstability}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=78bf2c91643ed6b7628b8e883c1791ae}{%
@@ -154,7 +257,7 @@
       \field{booktitle}{International Conference on Machine Learning (ICML)}
       \field{eprintclass}{cs.LG}
       \field{eprinttype}{arXiv}
-      \field{note}{Spotlight presentation}
+      \field{note}{Oral presentation}
       \field{title}{Non-Euclidean Gradient Descent Operates at the Edge of Stability}
       \field{year}{2026}
       \true{nocite}
@@ -168,7 +271,61 @@
       \verb https://arxiv.org/abs/2603.05002
       \endverb
     \endentry
-    \entry{parshakova2026muon}{misc}{}
+    \entry{pun2025schedulefree}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=6f31d35c2fe951c8424aa57730c2f0d6}{%
+           family={Oikonomou},
+           familyi={O\bibinitperiod},
+           given={Dimitris},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0f7cdb20f1f6aa2b59537e241b96b178}{%
+           family={Buchholz},
+           familyi={B\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=11da1dacf32ad78ede51b5f06f59a7c0}{%
+           family={Pun},
+           familyi={P\bibinitperiod},
+           given={Yuen-Man},
+           giveni={Y\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=086c9622489669fe60b7a4364d1e8a7c}{%
+           family={Loizou},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d8a7836fdda11a0b3bb04605c5b2f26}
+      \strng{fullhash}{a1c77f117a946a8d2a012c67ef5ff1b8}
+      \strng{bibnamehash}{a1c77f117a946a8d2a012c67ef5ff1b8}
+      \strng{authorbibnamehash}{a1c77f117a946a8d2a012c67ef5ff1b8}
+      \strng{authornamehash}{8d8a7836fdda11a0b3bb04605c5b2f26}
+      \strng{authorfullhash}{a1c77f117a946a8d2a012c67ef5ff1b8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference on Neural Information Processing Systems (NeurIPS)}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Taking the Road Less Scheduled with Adaptive Polyak Steps}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2511.07767
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2511.07767
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2511.07767
+      \endverb
+    \endentry
+    \entry{parshakova2026muon}{inproceedings}{}
       \name{author}{5}{}{%
         {{hash=0a7a605738d0f528719bc20c191e2fc4}{%
            family={Parshakova},
@@ -206,6 +363,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{booktitle}{Conference on Neural Information Processing Systems (NeurIPS)}
       \field{eprintclass}{cs.LG}
       \field{eprinttype}{arXiv}
       \field{title}{Muon Does Not Converge on Convex Lipschitz Functions}
@@ -316,65 +474,6 @@
       \verb https://arxiv.org/abs/2510.21598
       \endverb
     \endentry
-    \entry{gower2025idealizedsps}{misc}{}
-      \name{author}{6}{}{%
-        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
-           family={Gower},
-           familyi={G\bibinitperiod},
-           given={Robert\bibnamedelima M.},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=ff14600907cfc90cbd0b1d13ad91c45f}{%
-           family={Garrigos},
-           familyi={G\bibinitperiod},
-           given={Guillaume},
-           giveni={G\bibinitperiod}}}%
-        {{hash=086c9622489669fe60b7a4364d1e8a7c}{%
-           family={Loizou},
-           familyi={L\bibinitperiod},
-           given={Nicolas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=6f31d35c2fe951c8424aa57730c2f0d6}{%
-           family={Oikonomou},
-           familyi={O\bibinitperiod},
-           given={Dimitris},
-           giveni={D\bibinitperiod}}}%
-        {{hash=dbe35b250bff9f2ca1bdf7d01177b0d9}{%
-           family={Mishchenko},
-           familyi={M\bibinitperiod},
-           given={Konstantin},
-           giveni={K\bibinitperiod}}}%
-        {{hash=b2809282e8effe7219cfd96104f22db7}{%
-           family={Schaipp},
-           familyi={S\bibinitperiod},
-           given={Fabian},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{2120abee5efcf5d49d7d29ecd4124526}
-      \strng{fullhash}{dedc9dfff74ac6fc7777e52da045adfa}
-      \strng{bibnamehash}{dedc9dfff74ac6fc7777e52da045adfa}
-      \strng{authorbibnamehash}{dedc9dfff74ac6fc7777e52da045adfa}
-      \strng{authornamehash}{2120abee5efcf5d49d7d29ecd4124526}
-      \strng{authorfullhash}{dedc9dfff74ac6fc7777e52da045adfa}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{cs.LG}
-      \field{eprinttype}{arXiv}
-      \field{title}{Analysis of an Idealized Stochastic Polyak Method and its Application to Black-Box Model Distillation}
-      \field{year}{2025}
-      \true{nocite}
-      \verb{eprint}
-      \verb 2504.01898
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2504.01898
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2504.01898
-      \endverb
-    \endentry
     \entry{mishkin2025teleportation}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=1aa95c31f528fc007e7b0e789363afe3}{%
@@ -423,59 +522,6 @@
       \endverb
       \verb{url}
       \verb https://proceedings.mlr.press/v258/mishkin25a.html
-      \endverb
-    \endentry
-    \entry{pun2025schedulefree}{misc}{}
-      \name{author}{5}{}{%
-        {{hash=6f31d35c2fe951c8424aa57730c2f0d6}{%
-           family={Oikonomou},
-           familyi={O\bibinitperiod},
-           given={Dimitris},
-           giveni={D\bibinitperiod}}}%
-        {{hash=0f7cdb20f1f6aa2b59537e241b96b178}{%
-           family={Buchholz},
-           familyi={B\bibinitperiod},
-           given={Matthew},
-           giveni={M\bibinitperiod}}}%
-        {{hash=11da1dacf32ad78ede51b5f06f59a7c0}{%
-           family={Pun},
-           familyi={P\bibinitperiod},
-           given={Yuen-Man},
-           giveni={Y\bibinithyphendelim M\bibinitperiod}}}%
-        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
-           family={Gower},
-           familyi={G\bibinitperiod},
-           given={Robert\bibnamedelima M.},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=086c9622489669fe60b7a4364d1e8a7c}{%
-           family={Loizou},
-           familyi={L\bibinitperiod},
-           given={Nicolas},
-           giveni={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{8d8a7836fdda11a0b3bb04605c5b2f26}
-      \strng{fullhash}{a1c77f117a946a8d2a012c67ef5ff1b8}
-      \strng{bibnamehash}{a1c77f117a946a8d2a012c67ef5ff1b8}
-      \strng{authorbibnamehash}{a1c77f117a946a8d2a012c67ef5ff1b8}
-      \strng{authornamehash}{8d8a7836fdda11a0b3bb04605c5b2f26}
-      \strng{authorfullhash}{a1c77f117a946a8d2a012c67ef5ff1b8}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{cs.LG}
-      \field{eprinttype}{arXiv}
-      \field{title}{Taking the Road Less Scheduled with Adaptive Polyak Steps}
-      \field{year}{2025}
-      \true{nocite}
-      \verb{eprint}
-      \verb 2511.07767
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2511.07767
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2511.07767
       \endverb
     \endentry
     \entry{orvieto2025adamsecretsauce}{inproceedings}{}
@@ -2211,6 +2257,73 @@
       \verb https://papers.nips.cc/paper/8351-rsn-randomized-subspace-newton
       \endverb
     \endentry
+    \entry{qian2019sgd}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=086c9622489669fe60b7a4364d1e8a7c}{%
+           family={Loizou},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ef0d49292bf94cd9765f8db932e59522}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Xun},
+           giveni={X\bibinitperiod}}}%
+        {{hash=b8083cc5779ee9892f1e8bb6d7c37f07}{%
+           family={Sailanbayev},
+           familyi={S\bibinitperiod},
+           given={Alibek},
+           giveni={A\bibinitperiod}}}%
+        {{hash=db2bb4d75c559da2eb3acb8f376d94b8}{%
+           family={Shulgin},
+           familyi={S\bibinitperiod},
+           given={Egor},
+           giveni={E\bibinitperiod}}}%
+        {{hash=972f2a6c228c82719a54368d49838fd7}{%
+           family={Richtárik},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{fullhash}{3703487e1dad7f932b6cf0bc76960a89}
+      \strng{bibnamehash}{3703487e1dad7f932b6cf0bc76960a89}
+      \strng{authorbibnamehash}{3703487e1dad7f932b6cf0bc76960a89}
+      \strng{authornamehash}{2120abee5efcf5d49d7d29ecd4124526}
+      \strng{authorfullhash}{3703487e1dad7f932b6cf0bc76960a89}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Machine Learning (ICML)}
+      \field{eprinttype}{arXiv}
+      \field{note}{Oral presentation}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{{SGD}: General Analysis and Improved Rates}
+      \field{volume}{97}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{5200\bibrangedash 5209}
+      \range{pages}{10}
+      \verb{eprint}
+      \verb 1901.09401
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v97/qian19b.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v97/qian19b.html
+      \endverb
+    \endentry
     \entry{gower2019adaptivesketch}{article}{}
       \name{author}{4}{}{%
         {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
@@ -2240,7 +2353,7 @@
       \strng{authorbibnamehash}{83c4405721e0801d24143ab254fd0b13}
       \strng{authornamehash}{2120abee5efcf5d49d7d29ecd4124526}
       \strng{authorfullhash}{83c4405721e0801d24143ab254fd0b13}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -2265,72 +2378,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1137/19M1285846
-      \endverb
-    \endentry
-    \entry{qian2019sgd}{inproceedings}{}
-      \name{author}{6}{}{%
-        {{hash=ef0d49292bf94cd9765f8db932e59522}{%
-           family={Qian},
-           familyi={Q\bibinitperiod},
-           given={Xun},
-           giveni={X\bibinitperiod}}}%
-        {{hash=972f2a6c228c82719a54368d49838fd7}{%
-           family={Richtárik},
-           familyi={R\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-        {{hash=d740b920ee7b92aaa73e3450f6a6e085}{%
-           family={Gower},
-           familyi={G\bibinitperiod},
-           given={Robert\bibnamedelima M.},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=b8083cc5779ee9892f1e8bb6d7c37f07}{%
-           family={Sailanbayev},
-           familyi={S\bibinitperiod},
-           given={Alibek},
-           giveni={A\bibinitperiod}}}%
-        {{hash=db2bb4d75c559da2eb3acb8f376d94b8}{%
-           family={Shulgin},
-           familyi={S\bibinitperiod},
-           given={Egor},
-           giveni={E\bibinitperiod}}}%
-        {{hash=086c9622489669fe60b7a4364d1e8a7c}{%
-           family={Loizou},
-           familyi={L\bibinitperiod},
-           given={Nicolas},
-           giveni={N\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {PMLR}%
-      }
-      \strng{namehash}{638401d24c55ea542938ede1e58e6bea}
-      \strng{fullhash}{76a44ef7d58704ddcd7d38d42f66c089}
-      \strng{bibnamehash}{76a44ef7d58704ddcd7d38d42f66c089}
-      \strng{authorbibnamehash}{76a44ef7d58704ddcd7d38d42f66c089}
-      \strng{authornamehash}{638401d24c55ea542938ede1e58e6bea}
-      \strng{authorfullhash}{76a44ef7d58704ddcd7d38d42f66c089}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{International Conference on Machine Learning (ICML)}
-      \field{eprinttype}{arXiv}
-      \field{note}{Oral presentation}
-      \field{series}{Proceedings of Machine Learning Research}
-      \field{title}{{SGD}: General Analysis and Improved Rates}
-      \field{volume}{97}
-      \field{year}{2019}
-      \true{nocite}
-      \field{pages}{5200\bibrangedash 5209}
-      \range{pages}{10}
-      \verb{eprint}
-      \verb 1901.09401
-      \endverb
-      \verb{urlraw}
-      \verb https://proceedings.mlr.press/v97/qian19b.html
-      \endverb
-      \verb{url}
-      \verb https://proceedings.mlr.press/v97/qian19b.html
       \endverb
     \endentry
     \entry{sebbouh2019svrg}{inproceedings}{}
@@ -2519,7 +2566,7 @@
       \strng{authorbibnamehash}{ae2adf0b71450a7c1ca5e9c9c98f80d5}
       \strng{authornamehash}{bc54cd4ff26be75d2395afefc1e30ea2}
       \strng{authorfullhash}{ae2adf0b71450a7c1ca5e9c9c98f80d5}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -2575,7 +2622,7 @@
       \strng{authorbibnamehash}{8e89b2d6a36b55aa394205fea0e582fa}
       \strng{authornamehash}{2120abee5efcf5d49d7d29ecd4124526}
       \strng{authorfullhash}{8e89b2d6a36b55aa394205fea0e582fa}
-      \field{extraname}{7}
+      \field{extraname}{8}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -3084,7 +3131,7 @@
       \strng{authorbibnamehash}{f7f73fb8f1b2f3b2bb809bd4d5ca9ed6}
       \strng{authornamehash}{2120abee5efcf5d49d7d29ecd4124526}
       \strng{authorfullhash}{f7f73fb8f1b2f3b2bb809bd4d5ca9ed6}
-      \field{extraname}{8}
+      \field{extraname}{9}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}

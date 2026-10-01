@@ -14,6 +14,7 @@ Optional fields create buttons:
 - `correction = {https://...}`
 - `proceedings = {https://...}`
 - `code = {https://...}`
+- `website = {https://...}` (shown as "Project page")
 - `slides = {https://...}`
 - `poster = {https://...}`
 - `data = {https://...}`

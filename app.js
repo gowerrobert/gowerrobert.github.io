@@ -161,6 +161,7 @@
     addAction(actions, used, "DOI", doiUrl(fields.doi));
     addAction(actions, used, "Correction", fields.correction);
     addAction(actions, used, "Code", fields.code);
+    addAction(actions, used, "Project page", fields.website);
     addAction(actions, used, "Slides", fields.slides);
     addAction(actions, used, "Poster", fields.poster);
     addAction(actions, used, "Data", fields.data);

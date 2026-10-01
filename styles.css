@@ -289,6 +289,32 @@ main,
   color: var(--accent-2);
 }
 
+.upcoming-talks {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.upcoming-talks li {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  gap: 12px;
+}
+
+.talk-date {
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+  .upcoming-talks li {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
+
 .people-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
