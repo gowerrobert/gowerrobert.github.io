@@ -23,7 +23,6 @@
   let mode = "convergence";
   let sweepCache;
   let framePending = false;
-  let announceTimer;
 
   function number(value, digits = 3) {
     if (!Number.isFinite(value)) return "diverged";
@@ -134,10 +133,10 @@
       ? (v) => left + (Math.log10(v) - logMinX) / (logMaxX - logMinX) * (right - left)
       : (v) => left + v / STEPS * (right - left);
     const allPoints = methods.flat();
-    const minY = Math.max(1e-12, Math.min(...allPoints.map((p) => p.low)));
+    const minY = 0.01;
     const maxY = Math.max(minY * 10, ...allPoints.map((p) => p.high));
     const logMin = Math.floor(Math.log10(minY)), logMax = Math.ceil(Math.log10(maxY));
-    const y = (v) => bottom - (Math.log10(Math.max(v, 10 ** logMin)) - logMin) / (logMax - logMin) * (bottom - top);
+    const y = (v) => bottom - (Math.log10(Math.max(v, 1e-300)) - logMin) / (logMax - logMin) * (bottom - top);
     const tickStep = Math.max(1, Math.ceil((logMax - logMin) / 5));
     for (let power = logMin; power <= logMax; power += tickStep) {
       svg.appendChild(element("line", { x1: left, y1: y(10 ** power), x2: right, y2: y(10 ** power), class: "plot-grid" }));
@@ -149,15 +148,22 @@
       svg.appendChild(element("line", { x1: x(v), y1: top, x2: x(v), y2: bottom, class: "plot-grid" }));
       label(svg, x(v), bottom + 21, number(v));
     });
+    const definitions = element("defs");
+    const clip = element("clipPath", { id: "loss-plot-area" });
+    clip.appendChild(element("rect", { x: left, y: top, width: right - left, height: bottom - top }));
+    definitions.appendChild(clip);
+    svg.appendChild(definitions);
+    const curves = element("g", { "clip-path": "url(#loss-plot-area)" });
+    svg.appendChild(curves);
     methods.forEach((points, methodIndex) => {
       const method = methodIndex === 0 ? "sgd" : "white";
       const forward = points.map((p, i) => `${x(xs[i]).toFixed(2)},${y(p.high).toFixed(2)}`);
       const backward = points.map((p, i) => `${x(xs[i]).toFixed(2)},${y(p.low).toFixed(2)}`).reverse();
-      svg.appendChild(element("polygon", { points: [...forward, ...backward].join(" "), class: `${method}-fill`, "fill-opacity": 0.12 }));
+      curves.appendChild(element("polygon", { points: [...forward, ...backward].join(" "), class: `${method}-fill`, "fill-opacity": 0.12 }));
       const d = points.map((p, i) => `${i === 0 ? "M" : "L"}${x(xs[i]).toFixed(2)},${y(p.mean).toFixed(2)}`).join(" ");
-      svg.appendChild(element("path", { d, class: method, fill: "none", "stroke-width": 2.3, "stroke-linejoin": "round" }));
+      curves.appendChild(element("path", { d, class: method, fill: "none", "stroke-width": 2.3, "stroke-linejoin": "round" }));
       if (isSweep) points.forEach((p, i) => {
-        svg.appendChild(element("circle", { cx: x(xs[i]), cy: y(p.mean), r: 3, class: `${method}-fill` }));
+        curves.appendChild(element("circle", { cx: x(xs[i]), cy: y(p.mean), r: 3, class: `${method}-fill` }));
       });
     });
     if (isSweep) {
@@ -169,14 +175,13 @@
     label(svg, 18, (top + bottom) / 2, isSweep ? "Final loss" : "Loss", {
       class: "axis-title", transform: `rotate(-90 18 ${(top + bottom) / 2})` });
     byId("loss-title").textContent = isSweep ? "Final loss versus learning rate" : "Loss over iterations";
-    byId("loss-desc").textContent = `Mean ${isSweep ? "final loss after 300 steps at fourteen learning rates" : "loss over 300 iterations"} over seeds 7–11, with minimum–maximum shading. ${isSweep ? "Both axes are logarithmic. The dashed line marks the selected rate." : "The loss axis is logarithmic."} Exact numerical results are in the table below.`;
+    byId("loss-desc").textContent = `Mean ${isSweep ? "final loss after 300 steps at fourteen learning rates" : "loss over 300 iterations"} over seeds 7–11, with minimum–maximum shading. ${isSweep ? "Both axes are logarithmic; the loss axis starts at 0.01. The dashed line marks the selected rate." : "The loss axis is logarithmic and starts at 0.01."} Exact numerical results are in the table below.`;
   }
 
   function render() {
     const variance = 10 ** Number(varianceInput.value);
     const rate = 10 ** Number(rateInput.value);
     byId("variance-value").textContent = number(variance);
-    byId("covariance-value").textContent = number(variance);
     byId("rate-value").textContent = number(rate);
     varianceInput.setAttribute("aria-valuetext", `${number(variance)} variance`);
     rateInput.setAttribute("aria-valuetext", `${number(rate)} base learning rate`);
@@ -195,14 +200,8 @@
     byId("show-convergence").setAttribute("aria-pressed", String(!isSweep));
     byId("show-sweep").setAttribute("aria-pressed", String(isSweep));
     byId("loss-heading").textContent = isSweep ? "Final loss versus learning rate" : "Loss over iterations";
-    byId("loss-caption").textContent = `Lines show mean ${isSweep ? "final loss after 300 steps" : "loss"} over five seeds; shading shows their minimum–maximum range. ${isSweep ? "Both axes are logarithmic; the dashed line marks the selected rate." : "Loss axis is logarithmic."}`;
+    byId("loss-caption").textContent = `Lines show mean ${isSweep ? "final loss after 300 steps" : "loss"} over five seeds; shading shows their minimum–maximum range. ${isSweep ? "Both axes are logarithmic; the loss axis starts at 0.01. The dashed line marks the selected rate." : "Loss axis is logarithmic and starts at 0.01."}`;
     const finalLosses = convergence.map((method) => method[STEPS].mean);
-    const winner = finalLosses[1] < finalLosses[0] ? "Whitened SGD" : "SGD";
-    const factor = Math.max(...finalLosses) / Math.min(...finalLosses);
-    const status = `At η₀ = ${number(rate)}, final mean loss: SGD ${number(finalLosses[0])}; Whitened SGD ${number(finalLosses[1])}. ${winner} is ${number(factor)}× lower at this setting.`;
-    // Debounce announcements while a keyboard or pointer moves a slider.
-    clearTimeout(announceTimer);
-    announceTimer = setTimeout(() => { byId("experiment-status").textContent = status; }, 180);
     const table = byId("results-table");
     table.replaceChildren();
     ["SGD", "Whitened SGD"].forEach((name, i) => {
@@ -239,9 +238,9 @@
         }
       });
       normals = data;
+      byId("interactive-experiment").hidden = false;
       render();
       byId("experiment-fallback").hidden = true;
-      byId("interactive-experiment").hidden = false;
       [varianceInput, rateInput].forEach((input) => input.addEventListener("input", scheduleRender));
       window.addEventListener("resize", scheduleRender);
       byId("show-convergence").addEventListener("click", () => { mode = "convergence"; render(); });
@@ -252,8 +251,11 @@
         mode = "convergence";
         render();
       });
+      window.dispatchEvent(new Event("whitening-ready"));
     })
     .catch(() => {
+      byId("interactive-experiment").hidden = true;
+      byId("experiment-fallback").hidden = false;
       byId("experiment-loading").textContent = "The interactive experiment could not load. The original static comparison is shown below.";
     });
 }());
