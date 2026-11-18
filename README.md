@@ -30,3 +30,11 @@ python3 -m http.server 8000
 ```
 
 Then open `http://127.0.0.1:8000/`.
+
+## Random Search blog
+
+The blog index is `blog-random-search/index.html`. Each entry is a standalone HTML page; add its title, description, date, and relative link to the index when adding a post. Blog styles live in `blog-random-search/blog.css` and inherit the homepage palette and dark mode. Equations use native MathML, with no math-rendering service or build step.
+
+The first series lives in `blog-random-search/stats-whitening/`. Its first entry, `whiten-out-variance.html`, loads the browser experiment from `whitening.js`. The controls adjust the second noise variance and the shared base learning rate. The sweep uses the same fourteen rates and seeds 7–11 as `code-plots/sgd_precon_lr_compare.py`; trajectories use seed 42. Loss curves show five-seed means with minimum–maximum bands. Both methods use the exact covariance and paired noise, with 300 updates and the original decaying learning-rate schedule.
+
+`gradient-noise.json` stores standard-normal draws from NumPy's `default_rng(seed).standard_normal((300, 2))` for seeds 42 and 7–11, rounded to ten decimal places. Changing controls reruns the simulation in the browser. The original PNG is a fallback when JavaScript or the data request is unavailable. Preview through the local server above so the JSON request can load; the first entry is at `/blog-random-search/stats-whitening/whiten-out-variance.html`.

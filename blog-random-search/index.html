@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Robert M. Gower">
+  <meta name="description" content="Random Search: short posts on optimization and machine learning by Robert M. Gower, with interactive experiments.">
+  <meta property="og:title" content="Random Search — Robert M. Gower">
+  <meta property="og:description" content="Notes on optimization, machine learning, and ideas worth trying.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://gowerrobert.github.io/blog-random-search/">
+  <title>Random Search — Robert M. Gower</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750&family=Source+Serif+4:wght@500;650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="blog.css">
+  <script defer src="../app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="../index.html">Robert M. Gower</a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#papers">Papers</a>
+      <a href="../index.html#notes">Notes</a>
+      <a href="../just_for_fun.html">Fun</a>
+      <a href="./" aria-current="page">Random Search</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">Dark Mode</button>
+    </nav>
+  </header>
+  <main class="blog-main">
+    <header class="blog-masthead">
+      <p class="eyebrow">A blog by Robert M. Gower</p>
+      <h1>Random Search</h1>
+      <p class="dek">Notes on optimization, machine learning, and ideas worth trying. A little theory, a little experimentation.</p>
+    </header>
+    <section class="blog-series" aria-labelledby="whitening-series">
+      <p class="eyebrow">A series of short posts</p>
+      <h2 id="whitening-series">Stochastic optimization methods through statistical whitening</h2>
+      <p class="series-description">What can the statistics of a gradient tell us about how to take a step? Starting with variance, we explore a statistical viewpoint on modern optimizers.</p>
+      <p class="small-note">Based on <a href="https://arxiv.org/abs/2610.24839">our paper</a> with Tetiana Parshakova and Paulo Orenstein.</p>
+      <ol class="post-list">
+        <li class="post-preview">
+          <span class="post-number" aria-hidden="true">01</span>
+          <div>
+            <h3><a href="stats-whitening/whiten-out-variance.html">Whiten out variance <span aria-hidden="true">↗</span></a></h3>
+            <p>Even a round quadratic can be hard for SGD. Change the gradient noise, try a learning rate, and see what whitening does.</p>
+          </div>
+          <time datetime="2026-11-17">November 17, 2026</time>
+        </li>
+      </ol>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>Random Search · Robert M. Gower</p>
+    <p><a href="../index.html">Back to the homepage</a></p>
+  </footer>
+</body>
+</html>

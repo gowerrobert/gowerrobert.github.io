@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Robert M. Gower">
+  <meta name="description" content="Why gradient variance can slow down SGD, an interactive whitening experiment, and two ways to derive online full-covariance momentum.">
+  <meta property="og:title" content="Whiten out variance — Random Search">
+  <meta property="og:description" content="An interactive look at gradient noise, covariance whitening, and full-matrix Adam.">
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2026-11-17">
+  <link rel="canonical" href="https://gowerrobert.github.io/blog-random-search/stats-whitening/whiten-out-variance.html">
+  <title>Whiten out variance — Random Search</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750&family=Source+Serif+4:wght@500;650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="../blog.css">
+  <script defer src="../../app.js"></script>
+  <script defer src="whitening.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="../../index.html">Robert M. Gower</a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="../../index.html#about">About</a>
+      <a href="../../index.html#papers">Papers</a>
+      <a href="../../index.html#notes">Notes</a>
+      <a href="../../just_for_fun.html">Fun</a>
+      <a href="../" aria-current="location">Random Search</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">Dark Mode</button>
+    </nav>
+  </header>
+  <main class="post-main">
+    <article>
+      <header class="post-header">
+        <a class="back-link" href="../">← Random Search</a>
+        <div class="series-label"><a href="../#whitening-series">Stochastic optimization methods through statistical whitening</a> · Part 1</div>
+        <h1>Whiten out variance</h1>
+        <p class="post-dek">Curvature is only part of the story. Even on the simplest quadratic, gradient noise can send stochastic gradient descent in the wrong direction.</p>
+        <p class="post-meta">Robert M. Gower · <time datetime="2026-11-17">November 17, 2026</time> · With an interactive experiment</p>
+      </header>
+      <div class="prose">
+        <p>Consider an objective function that is a perfectly round bowl, but the gradient is corrupted by noise:</p>
+        <div class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>f</mi><mo>(</mo><msub><mi>w</mi><mrow><mi>t</mi></mrow></msub><mo>)</mo><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><msup><mrow><mo>‖</mo><msub><mi>w</mi><mrow><mi>t</mi></mrow></msub><mo>‖</mo></mrow><mrow><mn>2</mn></mrow></msup><mo>,</mo><mspace width="1em"/><msub><mi>g</mi><mrow><mi>t</mi></mrow></msub><mo>=</mo><msub><mi>w</mi><mrow><mi>t</mi></mrow></msub><mo>+</mo><msub><mi>ξ</mi><mrow><mi>t</mi></mrow></msub></math></div>
+        <p>The noise <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>ξ</mi><mrow><mi>t</mi></mrow></msub></math> has mean zero and covariance <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Σ</mi><mo>=</mo><mi>diag</mi><mo>(</mo><mn>0.1</mn><mo>,</mo><mn>100</mn><mo>)</mo></math>. The Hessian is the identity, so the function is perfectly well conditioned. But the gradient has a thousand times more variance in its second coordinate than in its first. SGD spends much of its effort bouncing along that noisy direction.</p>
+        <p>A small learning rate quiets the noise, but also slows progress toward the minimum. Can we treat the two directions differently? The main idea is that we should take cautious and small steps in the direction of low variance, and larger steps in the direction of high variance. We will call this ``whitening the gradient''. Here is a small experiment to illustrate how SGD compares to whitened SGD. </p>
+      </div>
+
+      <section class="experiment" aria-labelledby="experiment-title">
+        <div class="experiment-heading">
+          <h2 id="experiment-title">Same bowl. Different noise.</h2>
+          <span>300 steps · paired noise draws</span>
+        </div>
+        <div id="interactive-experiment" hidden>
+          <div class="experiment-controls">
+            <div>
+              <label class="range-label" for="noise-variance">Variance in direction 2 <output id="variance-value" for="noise-variance">100</output></label>
+              <input id="noise-variance" type="range" min="-1" max="3" step="0.05" value="2" aria-describedby="model-description">
+            </div>
+            <div>
+              <label class="range-label" for="learning-rate">Base learning rate <output id="rate-value" for="learning-rate">0.12</output></label>
+              <input id="learning-rate" type="range" min="-3" max="0.342423" step="0.01" value="-0.920819" aria-describedby="schedule-description">
+            </div>
+            <button id="reset-experiment" type="button">Reset experiment</button>
+          </div>
+          <p class="plot-model" id="model-description">Covariance: diag(0.1, <span id="covariance-value">100</span>). <span id="schedule-description">Both methods use ηₜ = η₀ / √(t + 1), starting at w₀ = (2.4, 0).</span></p>
+          <div class="trajectory-plots">
+            <figure class="plot-panel">
+              <h3 class="sgd-label">SGD</h3>
+              <svg id="sgd-trajectory" viewBox="0 0 430 370" role="img" aria-labelledby="sgd-title sgd-desc"><title id="sgd-title">SGD trajectory</title><desc id="sgd-desc">300 stochastic gradient steps on circular loss contours, using seed 42.</desc></svg>
+            </figure>
+            <figure class="plot-panel">
+              <h3 class="whitened-label">Whitened SGD</h3>
+              <svg id="whitened-trajectory" viewBox="0 0 430 370" role="img" aria-labelledby="white-title white-desc"><title id="white-title">Whitened SGD trajectory</title><desc id="white-desc">300 steps using the exact inverse square root of the noise covariance and the same noise draws as SGD.</desc></svg>
+            </figure>
+          </div>
+          <div class="plot-switch">
+            <h3 id="loss-heading">Loss over iterations</h3>
+            <div class="plot-buttons" role="group" aria-label="Comparison plot">
+              <button type="button" id="show-convergence" aria-pressed="true">Convergence</button>
+              <button type="button" id="show-sweep" aria-pressed="false">Learning-rate sweep</button>
+            </div>
+          </div>
+          <div class="plot-legend" aria-hidden="true"><span class="sgd-label"><i class="legend-line"></i>SGD</span><span class="whitened-label"><i class="legend-line"></i>Whitened SGD</span></div>
+          <figure class="plot-panel">
+            <svg id="loss-plot" viewBox="0 0 900 300" role="img" aria-labelledby="loss-title loss-desc"><title id="loss-title">Loss over iterations</title><desc id="loss-desc">Mean loss over five seeds, with the range between the smallest and largest losses shaded.</desc></svg>
+            <figcaption id="loss-caption">Lines show mean loss over five seeds; shading shows their minimum–maximum range. Loss axis is logarithmic.</figcaption>
+          </figure>
+          <p class="experiment-status" id="experiment-status" role="status" aria-live="polite" aria-atomic="true"></p>
+          <details>
+            <summary>Numerical results</summary>
+            <table>
+              <caption>Final loss after 300 steps, averaged over seeds 7–11</caption>
+              <thead><tr><th scope="col">Method</th><th scope="col">Loss at selected rate</th><th scope="col">Best swept rate</th><th scope="col">Loss at best rate</th></tr></thead>
+              <tbody id="results-table"></tbody>
+            </table>
+          </details>
+        </div>
+        <div id="experiment-fallback">
+          <p id="experiment-loading" class="small-note">Loading the interactive experiment. The original comparison is shown below.</p>
+          <img class="fallback-plot" src="code-plots/sgd_precon_lr_compare.png" alt="Original experiment: SGD has large excursions along the noisy coordinate, while Whitened SGD stays closer to the minimum. A learning-rate sweep compares final loss over five seeds.">
+          <noscript><p>Enable JavaScript to adjust variance and learning rate.</p></noscript>
+        </div>
+        <p class="experiment-caption">Circles mark the start and endpoints and the cross marks the minimum.
+      </section>
+
+      <div class="prose">
+        <h2>Whitened SGD</h2>
+        <p>To whiten the gradient, let's assume for now we know its covariance matrix <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Σ</mi><mo>:=</mo><mi mathvariant="normal">Cov</mi><mo>(</mo><mi>g</mi><mo>)</mo></math>. If we multiply the stochastic gradient by <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mi>Σ</mi></mrow><mrow><mo>−</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></msup></math>, then the resulting covariance will be the identity matrix. This motivates the following whitened SGD method:</p>
+        <div class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msub><mi>w</mi><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msub><mi>w</mi><mrow><mi>t</mi></mrow></msub><mo>−</mo><msub><mi>η</mi><mrow><mi>t</mi></mrow></msub><msup><mrow><mi>Σ</mi></mrow><mrow><mo>−</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></msup><msub><mi>g</mi><mrow><mi>t</mi></mrow></msub></math></div>
+        <p>which is what we tested in the interactive figures above. Though this method seems to work, how could we actually compute this covariance?</p>
+
+        <h2>Track a moving distribution</h2>
+        <p>In practice we do not know the covariance of the gradients. Furthermore, as the parameters <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>w</mi></math> move, the gradient distribution and its covariance changes across iterations. To tackle this, we are going to model the gradients as multivariant Gaussians, and track both its mean and covariance online.</p>
+        <p>Suppose we observe a stochastic gradient <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>g</mi><mrow><mi>t</mi></mrow></msub><mo>∼</mo><mi>𝒩</mi><mrow><mo>(</mo><mi>m</mi><mo>,</mo><mi>Σ</mi><mo>)</mo></mrow></math> with unknown mean <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math> and covariance <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Σ</mi></math>, and have estimates <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>(</mo><msub><mover accent="true"><mi>m</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>,</mo><msub><mover accent="true"><mi>Σ</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>)</mo></mrow></math> computed from past gradients. As the iterates <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>w</mi><mrow><mi>t</mi></mrow></msub></math> change, we assume that the gradient distribution changes slowly.</p>
+        <p>I am going to give two different viewpoints on how to do this, which give the same answer. So you can pick the one you prefer. The first viewpoint, which the "optimizer" would prefer, is using online variational inference. The second viewpoint, is the Bayesian's choice, which tries to approximate the posterior mean and variance.  </p>
+        <h3>1. The optimizer’s viewpoint</h3>
+        <p>To estimate this new mean and variance, we will choose <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Σ</mi></math> that make <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>g</mi><mrow><mi>t</mi></mrow></msub></math> a likely observation. Since we also believe the distribution of gradients changes slowely, we will also choose the mean and variance so that it is close (in distribution) to our previous estimate <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝒩</mi><mrow><mo>(</mo><msub><mover accent="true"><mi>m</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>,</mo><msub><mover accent="true"><mi>Σ</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>)</mo></mrow></math>. We can do this by maximizing the likelihood of observing <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>g</mi><mrow><mi>t</mi></mrow></msub></math> and using a KL regularizer based on our past distribution, that is, we solve:</p>
+        <div class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mo>(</mo><msub><mover accent="true"><mi>m</mi><mo>^</mo></mover><mrow><mi>t</mi></mrow></msub><mo>,</mo><msub><mover accent="true"><mi>Σ</mi><mo>^</mo></mover><mrow><mi>t</mi></mrow></msub><mo>)</mo></mrow><mo>=</mo><munder><mo>arg min</mo><mrow><mi>m</mi><mo>,</mo><mi>Σ</mi><mo>≻</mo><mn>0</mn></mrow></munder><mrow><mo>−</mo><mi mathvariant="normal">log</mi><mi>p</mi><mrow><mo>(</mo><msub><mi>g</mi><mrow><mi>t</mi></mrow></msub><mo>∣</mo><mi>m</mi><mo>,</mo><mi>Σ</mi><mo>)</mo></mrow><mo>+</mo><mfrac><mi>β</mi><mrow><mn>1</mn><mo>−</mo><mi>β</mi></mrow></mfrac><mi mathvariant="normal">KL</mi><mrow><mo>(</mo><mi>𝒩</mi><mrow><mo>(</mo><msub><mover accent="true"><mi>m</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>,</mo><msub><mover accent="true"><mi>Σ</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>)</mo></mrow><mo>‖</mo><mi>𝒩</mi><mrow><mo>(</mo><mi>m</mi><mo>,</mo><mi>Σ</mi><mo>)</mo></mrow><mo>)</mo></mrow></mrow></math></div>
+        <p>Here <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn><mo>&lt;</mo><mi>β</mi><mo>&lt;</mo><mn>1</mn></math> controls how strongly we retain the past. This is the regularized-likelihood, or online variational, viewpoint.</p>
+        <h3>2. The Bayesian viewpoint</h3>
+        <p>A Bayesian would use a prior <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>p</mi><mrow><mtext>prev</mtext></mrow></msub><mrow><mo>(</mo><mi>m</mi><mo>,</mo><mi>Σ</mi><mo>∣</mo><msub><mover accent="true"><mi>m</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>,</mo><msub><mover accent="true"><mi>Σ</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>)</mo></mrow></math> to encode the past information on the unknown mean and covariance. Then, after observing a new gradient, we could (try to) compute the posterior:</p>
+        <div class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>p</mi><mrow><mo>(</mo><mi>m</mi><mo>,</mo><mi>Σ</mi><mo>∣</mo><msub><mi>g</mi><mrow><mi>t</mi></mrow></msub><mo>,</mo><msub><mover accent="true"><mi>m</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>,</mo><msub><mover accent="true"><mi>Σ</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>)</mo></mrow><mo>∝</mo><mi>𝒩</mi><mrow><mo>(</mo><msub><mi>g</mi><mrow><mi>t</mi></mrow></msub><mo>∣</mo><mi>m</mi><mo>,</mo><mi>Σ</mi><mo>)</mo></mrow><msub><mi>p</mi><mrow><mtext>prev</mtext></mrow></msub><mrow><mo>(</mo><mi>m</mi><mo>,</mo><mi>Σ</mi><mo>∣</mo><msub><mover accent="true"><mi>m</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>,</mo><msub><mover accent="true"><mi>Σ</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>)</mo></mrow></math></div>
+        <p>After which we could use the mode of this posterior as our new estimate. In particular, if we use a Normal–Inverse–Wishart prior, calibrated as in <a href="https://arxiv.org/html/2610.24839v2#S2">Section 2 of our paper</a>, both the optimizer and Bayesian viewpoints give the same updates.</p>
+
+        <h2>A full-matrix Adam</h2>
+        <p>Both of the above approaches result in the same closed-form estimates:</p>
+        <div class="update-box">
+          <p class="eyebrow">Online update of mean and covariance</p>
+          <div class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mtable columnalign="right center left" columnspacing="0.3em" rowspacing="0.8em"><mtr><mtd><msub><mover><mi>m</mi><mo>^</mo></mover><mrow><mi>t</mi></mrow></msub></mtd><mtd><mo>=</mo></mtd><mtd><mi>β</mi><msub><mover><mi>m</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mo>(</mo><mn>1</mn><mo>−</mo><mi>β</mi><mo>)</mo><msub><mi>g</mi><mrow><mi>t</mi></mrow></msub></mtd></mtr><mtr><mtd><msub><mover><mi>Σ</mi><mo>^</mo></mover><mrow><mi>t</mi></mrow></msub></mtd><mtd><mo>=</mo></mtd><mtd><mi>β</mi><msub><mover><mi>Σ</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mi>β</mi><mo>(</mo><mn>1</mn><mo>−</mo><mi>β</mi><mo>)</mo><mrow><mo>(</mo><msub><mi>g</mi><mrow><mi>t</mi></mrow></msub><mo>−</mo><msub><mover><mi>m</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>)</mo></mrow><msup><mrow><mrow><mo>(</mo><msub><mi>g</mi><mrow><mi>t</mi></mrow></msub><mo>−</mo><msub><mover><mi>m</mi><mo>^</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>)</mo></mrow></mrow><mrow><mi>⊤</mi></mrow></msup></mtd></mtr></mtable></math></div>
+        </div>
+        <p>In practice, we will use whitened momentum as follows:</p>
+        <div class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msub><mi>w</mi><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msub><mi>w</mi><mrow><mi>t</mi></mrow></msub><mo>−</mo><msub><mi>η</mi><mrow><mi>t</mi></mrow></msub><msup><mrow><mrow><mo>(</mo><msub><mover><mi>Σ</mi><mo>^</mo></mover><mrow><mi>t</mi></mrow></msub><mo>+</mo><mi>ε</mi><mi>I</mi><mo>)</mo></mrow></mrow><mrow><mo>−</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></msup><msub><mover><mi>m</mi><mo>^</mo></mover><mrow><mi>t</mi></mrow></msub></math></div>
+        <p>Initialize the mean, start with <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mover><mi>Σ</mi><mo>^</mo></mover><mrow><mn>0</mn></mrow></msub><mo>≻</mo><mn>0</mn></math>, choose <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn><mo>&lt;</mo><mi>β</mi><mo>&lt;</mo><mn>1</mn></math>, and use a small <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ε</mi><mo>&gt;</mo><mn>0</mn></math> to stabilize the inverse square root. The outer product tracks correlations between gradient coordinates, while exponential forgetting lets the estimates follow a changing distribution.</p>
+        <p>This is a <em>centered</em> full-matrix Adam-like method: it whitens momentum using covariance. Standard Adam uses a diagonal, uncentered second moment instead. Both the centering and the matrix structure matter.</p>
+        <p>The catch is storage: a full covariance needs <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>O</mi><mo>(</mo><msup><mrow><mi>d</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>)</mo></math> entries for <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>d</mi></math> parameters. In the next post, we will look at structured approximations that make this viewpoint practical.</p>
+        <details>
+          <summary>How does this relate to Adam’s second moment?</summary>
+          <p>With a shared decay rate and matching initialization, define <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>V</mi><mrow><mi>t</mi></mrow></msub><mo>=</mo><msub><mover><mi>Σ</mi><mo>^</mo></mover><mrow><mi>t</mi></mrow></msub><mo>+</mo><msub><mover><mi>m</mi><mo>^</mo></mover><mrow><mi>t</mi></mrow></msub><msup><mrow><msub><mover><mi>m</mi><mo>^</mo></mover><mrow><mi>t</mi></mrow></msub></mrow><mrow><mi>⊤</mi></mrow></msup></math>. The updates above imply <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>V</mi><mrow><mi>t</mi></mrow></msub><mo>=</mo><mi>β</mi><msub><mi>V</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><mo>(</mo><mn>1</mn><mo>−</mo><mi>β</mi><mo>)</mo><msub><mi>g</mi><mrow><mi>t</mi></mrow></msub><msup><mrow><msub><mi>g</mi><mrow><mi>t</mi></mrow></msub></mrow><mrow><mi>⊤</mi></mrow></msup></math>. Standard Adam keeps only the diagonal of this second moment. Replacing it by the diagonal of the covariance instead gives Centered Adam. This comparison omits bias correction and damping, and uses the same decay rate for both moments.</p>
+        </details>
+        <aside class="sources" aria-label="Sources">
+          <p>Based on slides 8–15 of <cite>A Statistical Whitening Viewpoint on Pretraining Methods</cite> and <a href="https://arxiv.org/abs/2610.24839"><cite>Stochastic optimization methods through statistical whitening</cite></a>, by Tetiana Parshakova, Robert M. Gower, and Paulo Orenstein, especially Sections 1–2 and 4.</p>
+          <p>Experiment source: <a href="code-plots/sgd_precon_lr_compare.py">learning-rate comparison</a> and <a href="code-plots/optimization_trajectories.py">SGD trajectories</a>. Online covariance reference: <a href="code-plots/momentum_covariance_trajectories.py">whitened momentum</a>.</p>
+        </aside>
+      </div>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <p><a href="../">← All posts on Random Search</a></p>
+    <p><a href="../../index.html">Robert M. Gower</a></p>
+  </footer>
+</body>
+</html>
