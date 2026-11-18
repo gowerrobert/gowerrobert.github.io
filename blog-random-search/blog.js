@@ -35,8 +35,22 @@
   const realignEquation = () => requestAnimationFrame(() => revealEquation(true));
   window.addEventListener("load", realignEquation);
   window.addEventListener("whitening-ready", realignEquation);
+  window.addEventListener("math-rendered", realignEquation);
   if (document.fonts) document.fonts.ready.then(realignEquation);
   revealEquation();
+
+  document.querySelectorAll("[data-figure-switcher]").forEach((group) => {
+    const buttons = [...group.querySelectorAll("[data-figure-target]")];
+    const panels = buttons.map((button) => document.getElementById(button.dataset.figureTarget));
+    if (!buttons.length || panels.some((panel) => !panel)) return;
+    function select(index) {
+      buttons.forEach((button, i) => button.setAttribute("aria-pressed", String(i === index)));
+      panels.forEach((panel, i) => { panel.hidden = i !== index; });
+    }
+    buttons.forEach((button, i) => button.addEventListener("click", () => select(i)));
+    select(0);
+    group.hidden = false;
+  });
 
   document.querySelectorAll("[data-copy-target]").forEach((button) => {
     const code = document.getElementById(button.dataset.copyTarget);

@@ -6,6 +6,13 @@
   font-display: swap;
 }
 
+:root { --math-mean: #185b38; --math-variance: #59307a; }
+:root[data-theme="dark"] { --math-mean: #99d9b0; --math-variance: #c9aceb; }
+.math-mean { color: var(--math-mean); }
+.math-variance { color: var(--math-variance); }
+.math-key { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; font-size: .85rem; color: var(--muted); }
+.math-key .math-mean, .math-key .math-variance { font-weight: 650; }
+
 .blog-main { max-width: 960px; }
 .blog-masthead { padding: 76px 0 52px; border-bottom: 1px solid var(--rule); }
 .blog-masthead h1 { margin: 0 0 12px; font: 500 clamp(3.2rem, 8vw, 5.7rem)/1.1 "Source Serif 4", Georgia, serif; letter-spacing: -.045em; }
@@ -43,9 +50,9 @@ math { font-family: "STIX Two Math", "Cambria Math", math; font-size: 1.12em; }
 .update-box { padding: 22px 25px; margin: 24px 0; background: var(--panel); border: 1px solid var(--rule); border-left: 3px solid var(--accent); }
 .update-box .eyebrow { margin: 0 0 16px; font-size: .76rem; }
 .update-box .equation { margin: 10px 0; padding: 5px 0; }
-.update-box mtd:first-child { text-align: right; }
-.update-box mtd:nth-child(2) { text-align: center; }
-.update-box mtd:nth-child(3) { text-align: left; }
+.equation mtd:first-child { text-align: right; }
+.equation mtd:nth-child(2) { text-align: center; }
+.equation mtd:nth-child(3) { text-align: left; }
 .small-note { font-size: .9rem; color: var(--muted); }
 .prose details { margin: 25px 0; border-block: 1px solid var(--rule); padding: 15px 0; }
 summary { cursor: pointer; font-weight: 500; }
@@ -55,6 +62,24 @@ summary { cursor: pointer; font-weight: 500; }
 .citation-heading button { font-family: inherit; cursor: pointer; }
 .post-citation pre { max-height: none; margin: 16px 0 0; font-size: .82rem; line-height: 1.65; overflow-wrap: anywhere; }
 .citation-status { min-height: 1.5em; color: var(--muted); font-size: .85rem; }
+.structure-table-wrap { overflow-x: auto; margin: 24px 0; }
+.structure-table { width: 100%; border-collapse: collapse; font-size: .9rem; text-align: left; }
+.structure-table th, .structure-table td { padding: 12px 10px; border-bottom: 1px solid var(--rule); vertical-align: middle; }
+.structure-table th:first-child, .structure-table td:first-child { padding-left: 0; }
+.result-figure { margin: 30px auto; max-width: 620px; }
+.result-figure img { display: block; width: 100%; height: auto; background: white; border-radius: 4px; }
+.result-figure figcaption, .results-panel figcaption { margin-top: 14px; color: var(--muted); font-size: .85rem; line-height: 1.7; }
+.warning-detail { border-left: 3px solid var(--accent-2) !important; padding-left: 18px !important; }
+.warning-detail summary { color: var(--accent-2); }
+.results-comparison { margin: 32px 0; padding: 24px; border: 1px solid var(--rule); border-radius: 8px; background: var(--panel); }
+.results-comparison h2 { margin: 0; font: 500 1.5rem "Source Serif 4", Georgia, serif; }
+.results-controls { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 18px 0; }
+.results-controls button { cursor: pointer; font-family: inherit; }
+.results-controls button[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); background: var(--soft); }
+.results-panel { margin: 22px auto 0; max-width: 857px; }
+.results-panel h3 { margin: 0 0 14px; font-size: .95rem; font-weight: 500; }
+.results-panel img { display: block; width: 100%; height: auto; background: white; border-radius: 4px; }
+.post-pagination { margin: 36px 0; padding-top: 22px; border-top: 1px solid var(--rule); }
 .experiment { margin: 32px 0 38px; padding: 25px; background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; }
 .experiment-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 15px; }
 .experiment h2 { margin: 0; font: 500 1.5rem "Source Serif 4", Georgia, serif; }
@@ -62,6 +87,8 @@ summary { cursor: pointer; font-weight: 500; }
 .experiment-controls { display: grid; grid-template-columns: 1fr 1fr auto; align-items: end; gap: 26px; padding: 22px 0 16px; }
 .range-label { display: flex; justify-content: space-between; gap: 10px; font-size: .88rem; }
 .range-label output { font-variant-numeric: tabular-nums; color: var(--accent); font-weight: 650; }
+.range-label.math-variance output { color: var(--math-variance); }
+#noise-variance { accent-color: var(--math-variance); }
 input[type="range"] { width: 100%; margin: 12px 0 0; accent-color: var(--accent); cursor: pointer; }
 .experiment button { border: 1px solid var(--rule); border-radius: 5px; background: var(--bg); color: var(--text); padding: 8px 12px; font: inherit; font-size: .82rem; cursor: pointer; }
 .experiment button:hover { border-color: var(--accent); }
@@ -106,6 +133,7 @@ input[type="range"] { width: 100%; margin: 12px 0 0; accent-color: var(--accent)
   .trajectory-plots { gap: 8px; }
   .range-label { flex-wrap: wrap; gap: 2px; }
   .update-box { padding: 18px 12px; }
+  .results-comparison { padding: 16px; margin-inline: -8px; }
   .numbered-equation { gap: 8px; scroll-margin-top: 190px; }
 }
 @media (max-width: 600px) {
