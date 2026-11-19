@@ -1,0 +1,11 @@
+/* Classic TeX rendering for posts using the latex-math class. */
+.latex-math .equation-scroll {
+  overflow-y: hidden;
+  scrollbar-width: thin;
+}
+.latex-math .equation-scroll mjx-container[display="true"] {
+  min-width: max-content;
+  margin: 0;
+}
+.latex-math mjx-container .math-mean { color: var(--math-mean); }
+.latex-math mjx-container .math-variance { color: var(--math-variance); }
